@@ -5,6 +5,7 @@ import asyncio
 from game import winner, make_move, normalize
 from batch_predictor import BatchPredictor
 
+
 class TreeSearchPredictor:
     def __init__(self, config, model, board, is_first_move):
         self.config = config
