@@ -2,11 +2,14 @@ import numpy
 import sys
 import random
 
+
 def flip_move(move):
     return move[1], move[0]
 
+
 def new_board(size):
     return numpy.zeros((2, size, size))
+
 
 def make_move(board, move):
     '''
@@ -16,11 +19,13 @@ def make_move(board, move):
     board[0,move[0],move[1]] = 1
     return flip(board)
 
+
 def flip(board):
     '''
     Swaps vertical and horizontal players.
     '''
     return numpy.flip(numpy.transpose(board, (0, 2, 1)), 0)
+
 
 def symmetry(board):
     '''
@@ -28,8 +33,10 @@ def symmetry(board):
     '''
     return numpy.flip(numpy.flip(board, 1), 2)
 
+
 def symmetry_probs(probs):
     return numpy.flip(numpy.flip(probs, 0), 1)
+
 
 def dfs(board, x, y, visited):
     size = board.shape[1]
@@ -51,6 +58,7 @@ def dfs(board, x, y, visited):
                 return True
     return False
 
+
 def winner(board):
     '''
     Calculates whether the second/horizontal player has won the game. Note that
@@ -68,6 +76,7 @@ def winner(board):
         if dfs(board, 0, y, visited):
             return True
     return False
+
 
 def print_board(board, move=(-1, -1), file=sys.stdout):
     size = board.shape[1]
@@ -88,8 +97,10 @@ def print_board(board, move=(-1, -1), file=sys.stdout):
             file.write((s + " ") if x < size - 1 else s)
         file.write("\n")
 
+
 def normalize(probabilities):
     return numpy.copy(probabilities) / numpy.sum(probabilities, (0, 1))
+
 
 def fix_probabilities(board, probabilities):
     '''
@@ -108,6 +119,7 @@ def fix_probabilities(board, probabilities):
                 result[x,y] = 0
     return normalize(result)
 
+
 def best_move(probabilities):
     '''
     Selects the move with the highest probability. If tied, selects randomly.
@@ -115,6 +127,7 @@ def best_move(probabilities):
     size = probabilities.shape[0]
     max_probability = max(probabilities[x,y] for x in range(size) for y in range(size))
     return random.choice(list((x, y) for x in range(size) for y in range(size) if probabilities[x,y] == max_probability))
+
 
 def sample_move(probabilities):
     '''
@@ -130,8 +143,10 @@ def sample_move(probabilities):
             r -= prob
     raise Exception('Failed to select move from probability distribution')
 
+
 def write_move(move):
     return chr(ord('a') + move[0]) + str(move[1] + 1)
+
 
 def read_move(move):
     return (ord(move[0]) - ord('a'), int(move[1:]) - 1)

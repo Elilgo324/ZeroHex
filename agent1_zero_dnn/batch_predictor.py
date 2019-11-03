@@ -1,6 +1,7 @@
 import numpy
 import asyncio
 
+
 class BatchPredictor:
     def __init__(self, model):
         self.model = model

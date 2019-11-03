@@ -11,6 +11,7 @@ from serialize import read_record, record_size
 from game import normalize, symmetry, symmetry_probs
 from config import TrainConfig
 
+
 class GameData(Sequence):
     def __init__(self, config, path, is_validation):
         self.record_size = record_size(config.size)
@@ -59,6 +60,7 @@ class GameData(Sequence):
             self.batch_count = raw_batch_count - raw_batch_count // self.config.validation_ratio
         self.batch_count *= 2
 
+
 def train(config, model_file, data_file):
     model = load_model(model_file)
     model.compile(
@@ -81,6 +83,7 @@ def train(config, model_file, data_file):
             EarlyStopping(patience=5),
         ],
     )
+
 
 if __name__ == '__main__':
     train(TrainConfig(), sys.argv[1], sys.argv[2])

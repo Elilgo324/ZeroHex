@@ -6,6 +6,44 @@ from game import winner, make_move, normalize
 from batch_predictor import BatchPredictor
 
 
+"""
+MCTS algo
+
+Selection: In this process, the MCTS algorithm traverses the current 
+tree from the root node using a specific strategy.
+The strategy uses an evaluation function to optimally select nodes
+with the highest estimated value. MCTS uses the Upper Confidence Bound
+(UCB) formula applied to trees as the strategy in the selection 
+process to traverse the tree. It balances the exploration-exploitation
+trade-off. During tree traversal, a node is selected based on some
+parameters that return the maximum value. The parameters are 
+characterized by the formula that is typically used for this purpose 
+is given below.
+
+wi / n1 + c * sqrt( ln(Ni) / ni )
+
+wi = num of wins for the node after the i-th move
+ni = num of simulations for the node after the i-th move
+Ni = total num of simulations ran by the parent node
+C = exploration parameter
+
+When traversing a tree during the selection process, the child node
+that returns the greatest value from the above equation will be one
+that will get selected. During traversal, once a child node is found
+which is also a leaf node, the MCTS jumps into the expansion step.
+Expansion: In this process, a new child node is added to the tree to
+that node which was optimally reached during the selection process.
+Simulation: In this process, a simulation is performed by choosing
+moves or strategies until a result or predefined state is achieved.
+Backpropagation: After determining the value of the newly added node,
+the remaining tree must be updated. So, the backpropagation process
+is performed, where it backpropagates from the new node to the root
+node. During the process, the number of simulation stored in each node
+is incremented. Also, if the new node’s simulation results in a win,
+then the number of wins is also incremented.
+"""
+
+
 class TreeSearchPredictor:
     def __init__(self, config, model, board, is_first_move):
         self.config = config
@@ -48,6 +86,7 @@ class TreeSearchPredictor:
         size = self.board.shape[1]
         self.root = Node(values[0][0], numpy.reshape(probabilities, (size, size)))
 
+
 class Node:
     def __init__(self, value, priors):
         self.visits = 1
@@ -88,6 +127,7 @@ class Node:
             visits[edge.move[0],edge.move[1]] = edge.node.visits if edge.node else 0
         return self.value / self.visits, visits
 
+
 class Edge:
     def __init__(self, config, prior, move):
         self.prior = prior
@@ -105,6 +145,7 @@ class Edge:
             value, priors = await predictor.predict(make_move(board, self.move))
             self.node = Node(value, priors)
         else:
+            # dg of value_priority
             self.value_priority = -(self.node.value + config.virtual_loss) / (self.node.visits + config.virtual_loss)
             value = await self.node.visit(config, predictor, make_move(board, self.move), False)
         board[0,self.move[0],self.move[1]] = 0

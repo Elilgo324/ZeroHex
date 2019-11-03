@@ -6,6 +6,7 @@ from keras.regularizers import l2
 
 from config import ModelConfig
 
+
 def create_model(config, output_file):
     board = Input(shape=(2, config.size, config.size))
 
@@ -41,6 +42,7 @@ def create_model(config, output_file):
     model = Model(inputs=board, outputs=[value, policy])
     print('%d parameters' % model.count_params(), file=sys.stderr)
     model.save(output_file)
+
 
 if __name__ == '__main__':
     create_model(ModelConfig(), sys.argv[1])

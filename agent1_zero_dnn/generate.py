@@ -10,6 +10,7 @@ from serialize import write_record, record_size
 from game import new_board, winner, make_move, print_board, fix_probabilities, sample_move
 from config import GenerateConfig
 
+
 def game_result(config, model, moves):
     last_move_index = len(moves) - 1
     end = random.randint(0, last_move_index)
@@ -19,6 +20,7 @@ def game_result(config, model, moves):
     predictor = TreeSearchPredictor(config.search_config, model, board, end == 0)
     predictor.run(config.iterations)
     return board, last_move_index % 2 == end % 2, predictor.visits()
+
 
 def generate(config, model_file, output_file):
     model = load_model(model_file)
@@ -47,6 +49,7 @@ def generate(config, model_file, output_file):
                     print('Games: %d, Time per game: %.2fs' % (samples, (time.time() - start_time) / samples), file=sys.stderr)
                     game_boards[i] = new_board(config.size)
                     game_moves[i] = []
+
 
 if __name__ == '__main__':
     generate(GenerateConfig(), sys.argv[1], sys.argv[2])
