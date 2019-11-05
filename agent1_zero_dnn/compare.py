@@ -11,13 +11,34 @@ from config import CompareConfig
 import matplotlib.pyplot as plt
 
 
+def multi_compare(config, model_file1, model_file2):
+    #temps = [0.7, 0.8, 0.85, 0.9, 0.95, 1]
+    temps = [0.7, 0.9]
+    num_games = 3
+
+    plt.style.use('seaborn-darkgrid')
+    plt.ylim(0, 1)
+    plt.title("Temperature Modification", loc='left', fontsize=12, fontweight=0, color='orange')
+    plt.xlabel('Games')
+    plt.ylabel('Win Ratio')
+    plt.legend(bbox_to_anchor=(0.,1.02,1.,.102),loc='lower left',
+               ncol=2,mode="expand",borderaxespad=0.)
+
+    for t in temps:
+        ratios = compare(config, model_file1, model_file2, t, num_games)
+        plt.plot(range(num_games), ratios, label=str(t))
+
+    plt.savefig('temps.png')
+    #plt.show()
+
+
 def temperature(probs, t):
     probs = np.array(probs)
     probs = np.power(probs, 1/t) / np.sum(np.power(probs, 1/t))
     return probs
 
 
-def compare(config, model_file1, model_file2):
+def compare(config, model_file1, model_file2, temp, num_games):
     models = [load_model(model_file1), load_model(model_file2)]
     games = 0
     first_player_wins = 0
@@ -25,7 +46,7 @@ def compare(config, model_file1, model_file2):
 
     ratios = []
     # while True:
-    for i in range(10):
+    for i in range(num_games):
         move_index = 0
         predictors = [TreeSearchPredictor(config.search_config,model,new_board(config.size),True) for model in models]
 
@@ -71,7 +92,7 @@ def compare(config, model_file1, model_file2):
             #   probabilities = np.array(uprobs).reshape(11, -1)
 
             # exp temperature
-            tprobs = temperature(probabilities, 10000)
+            tprobs = temperature(probabilities, temp)
             if games & 1 == move_index & 1:
                 probabilities = tprobs
                 #print(probabilities)
@@ -99,15 +120,10 @@ def compare(config, model_file1, model_file2):
 
         ratios.append(win_ratio)
 
-    # plot ratio graph (first_player_wins / games)
-    plt.plot(range(games),ratios)
-    plt.ylim(0, 1)
-    plt.xlabel('games')
-    plt.ylabel('ratio')
-    plt.show()
-
-    print(ratios)
+    return ratios
 
 
 if __name__ == '__main__':
-    compare(CompareConfig(), sys.argv[1], sys.argv[2])
+    multi_compare(CompareConfig(), sys.argv[1], sys.argv[2])
+    #compare(CompareConfig(), sys.argv[1], sys.argv[2])
+
