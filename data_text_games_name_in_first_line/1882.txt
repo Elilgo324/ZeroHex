@@ -1,0 +1,357 @@
+Tasmanian Devil
+
+
+
+(;FF[4]EV[hex.in.DEFAULT.95]PB[Tasmanian Devil]PW[Ocross]SZ[13]RE[B]GC[ game #1821624]SO[http://www.littlegolem.com];W[cb];B[ll];W[ei];B[cd];W[ie];B[hf];W[if];B[dk];W[fj];B[hh];W[hg];B[fi];W[gh];B[gi];W[ej];B[fh];W[eh];B[fg];W[eg];B[ff];W[jf];B[ih];W[ef];B[fd];W[fe];B[hc];W[gd];B[gc];W[hd];B[ic];W[kc];B[fk];W[ek];B[dm];W[dl];B[cm];W[bl];B[cl];W[cj];B[kb];W[lb];B[resign])
+
+(;FF[4]EV[hex.ch.38.3.4]PB[Jeremy Wakeman]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #1820000]SO[http://www.littlegolem.com];W[bl];B[swap];W[id];B[gg];W[jf];B[ih];W[hg];B[gi];W[ei];B[ck];W[fj];B[fi];W[ej];B[ff];W[dg];B[di];W[eh];B[ee];W[de];B[df];W[bg];B[cg];W[bh];B[ch];W[resign])
+
+(;FF[4]EV[hex.ch.38.3.4]PB[Tasmanian Devil]PW[Martyn Hamer]SZ[13]RE[B]GC[ game #1819999]SO[http://www.littlegolem.com];W[cb];B[gg];W[jf];B[ih];W[ei];B[eh];W[di];B[dh];W[if];B[hh];W[jh];B[kc];W[hf];B[hc];W[he];B[id];W[gd];B[gc];W[fd];B[fc];W[ed];B[ec];W[cd];B[dd];W[ce];B[de];W[cf];B[ef];W[df];B[ee];W[bi];B[cg];W[ah];B[ci];W[bj];B[bl];W[cj];B[el];W[cl];B[resign])
+
+(;FF[4]EV[hex.ch.38.3.4]PB[Grzeniu]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #1819998]SO[http://www.littlegolem.com];W[ac];B[ij];W[kj];B[kk];W[lj];B[ei];W[ie];B[if];W[bj];B[dk];W[al];B[cl];W[bl];B[df];W[eg];B[dh];W[eh];B[di];W[ch];B[dg];W[kf];B[ki];W[gi];B[gj];W[hi];B[ih];W[hg];B[resign])
+
+(;FF[4]EV[hex.ch.38.3.4]PB[Tasmanian Devil]PW[simpledeep]SZ[13]RE[W]GC[ game #1819997]SO[http://www.littlegolem.com];W[cb];B[swap];W[ie];B[ii];W[jh];B[ih];W[ei];B[hf];W[ff];B[fg];W[gf];B[dh];W[eg];B[eh];W[jj];B[hk];W[resign])
+
+(;FF[4]EV[hex.ch.38.3.4]PB[Nagy Fathy]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #1819996]SO[http://www.littlegolem.com];W[bc];B[swap];W[ed];B[fh];W[ih];B[ij];W[fe];B[fg];W[hf];B[hg];W[jf];B[jg];W[ig];B[hi];W[gh];B[fj];W[fi];B[dk];W[ck];B[dj];W[cj];B[dh];W[di];B[ei];W[ch];B[ci];W[aj];B[ki];W[bi];B[bj];W[ak];B[bl];W[bk];B[cl];W[resign])
+
+(;FF[4]EV[hex.ch.38.3.4]PB[Tasmanian Devil]PW[Scott Arnold]SZ[13]RE[B]GC[ game #1819995]SO[http://www.littlegolem.com];W[cb];B[swap];W[ie];B[hh];W[fh];B[ek];W[ej];B[dk];W[fj];B[fk];W[gj];B[gk];W[ij];B[hj];W[ii];B[hi];W[ck];B[dj];W[cj];B[di];W[ci];B[dh];W[ch];B[dg];W[cg];B[df];W[cf];B[de];W[ce];B[dc];W[dd];B[ec];W[ed];B[fc];W[fd];B[gc];W[jc];B[gd];W[fe];B[ge];W[hg];B[if];W[hf];B[jd];W[id];B[resign])
+
+(;FF[4]EV[hex.ch.38.3.4]PB[pim]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #1819994]SO[http://www.littlegolem.com];W[mj];B[ed];W[ie];B[ig];W[gg];B[hf];W[hg];B[if];W[he];B[gf];W[ff];B[fg];W[eg];B[eh];W[ci];B[dh];W[ch];B[dg];W[bf];B[cg];W[lf];B[ke];W[resign])
+
+(;FF[4]EV[hex.ch.38.3.4]PB[Tasmanian Devil]PW[Reiner Martin]SZ[13]RE[B]GC[ game #1819986]SO[http://www.littlegolem.com];W[cb];B[swap];W[ie];B[hh];W[ji];B[ig];W[kf];B[je];W[ld];B[lc];W[kd];B[kc];W[jd];B[jc];W[ic];B[id];W[ge];B[he];W[gf];B[hf];W[fh];B[fi];W[ei];B[ej];W[dj];B[cl];W[dk];B[dl];W[ek];B[el];W[fk];B[fl];W[gk];B[gl];W[ik];B[hk];W[ii];B[hj];W[hi];B[gj];W[gi];B[resign])
+
+(;FF[4]EV[hex.in.DEFAULT.94]PB[simpledeep]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #1817920]SO[http://www.littlegolem.com];W[ai];B[cj];W[ji];B[je];W[hd];B[fh];W[gg];B[gh];W[hg];B[hh];W[ig];B[jh];W[ih];B[hj];W[hi];B[gj];W[kh];B[ik];W[kj];B[kk];W[lj];B[kl];W[jk];B[im];W[il];B[hm];W[hl];B[gm];W[gl];B[fm];W[fl];B[em];W[el];B[dm];W[dl];B[cm];W[bl];B[cl];W[ck];B[dk];W[dj];B[fj];W[eh];B[fg];W[eg];B[fe];W[ff];B[ge];W[gf];B[he];W[ie];B[id];W[jd];B[jc];W[kc];B[la];W[kb];B[ka];W[jb];B[ja];W[ib];B[ia];W[hb];B[ha];W[fb];B[gb];W[ed];B[resign])
+
+(;FF[4]EV[hex.in.DEFAULT.93]PB[herveherve]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #1815793]SO[http://www.littlegolem.com];W[kk];B[swap];W[kc];B[ei];W[hh];B[gj];W[fj];B[dk];W[ek];B[gi];W[fi];B[gg];W[fg];B[fh];W[gh];B[if];W[jf];B[je];W[dj];B[di];W[aj];B[ci];W[ke];B[kd];W[mc];B[ld];W[resign])
+
+(;FF[4]EV[hex.in.DEFAULT.92]PB[Rex Moore]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #1813235]SO[http://www.littlegolem.com];W[ac];B[ij];W[fk];B[dh];W[fh];B[ge];W[eg];B[ef];W[dg];B[df];W[ff];B[eh];W[gg];B[gf];W[jd];B[ie];W[je];B[if];W[ig];B[jf];W[fe];B[fg];W[resign])
+
+(;FF[4]EV[hex.in.DEFAULT.91]PB[Tasmanian Devil]PW[scrampy]SZ[13]RE[B]GC[ game #1812124]SO[http://www.littlegolem.com];W[cb])
+
+(;FF[4]EV[hex.in.DEFAULT.90]PB[hostovich2014]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #1808891]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.in.HEX11.29]PB[mouchet patrick]PW[Tasmanian Devil]SZ[11]RE[W]GC[ game #1806886]SO[http://www.littlegolem.com];W[ac];B[hi];W[dh];B[df];W[ef];B[dg];W[eg];B[fd];W[ee];B[ed];W[gd];B[fe];W[ge];B[ff];W[gf];B[fg];W[gg];B[fj];W[fi];B[ej];W[bi];B[gc];W[ei];B[ib];W[be];B[de];W[resign])
+
+(;FF[4]EV[hex.in.DEFAULT.89]PB[ferrarifeleches]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #1805453]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.in.HEX11.28]PB[chronular]PW[Tasmanian Devil]SZ[11]RE[W]GC[ game #1805110]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.in.HEX11.27]PB[Tasmanian Devil]PW[SeanWieder]SZ[11]RE[B]GC[ game #1803084]SO[http://www.littlegolem.com];W[bb])
+
+(;FF[4]EV[hex.in.DEFAULT.88]PB[blewsky]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #1803073]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.in.HEX11.26]PB[Tasmanian Devil]PW[Gwylim Ashley]SZ[11]RE[B]GC[ game #1800548]SO[http://www.littlegolem.com];W[bb])
+
+(;FF[4]EV[hex.in.DEFAULT.87]PB[Tasmanian Devil]PW[chronular]SZ[13]RE[B]GC[ game #1800279]SO[http://www.littlegolem.com];W[am])
+
+(;FF[4]EV[hex.in.HEX11.25]PB[LeaderRAS]PW[Tasmanian Devil]SZ[11]RE[W]GC[ game #1798887]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.in.DEFAULT.86]PB[Tasmanian Devil]PW[meiosis]SZ[13]RE[B]GC[ game #1798577]SO[http://www.littlegolem.com];W[am];B[ld];W[id];B[je];W[hf];B[ie];W[gf];B[he];W[ge];B[hd];W[gd];B[hc];W[gc];B[resign])
+
+(;FF[4]EV[hex.mc.2011.oct.1.7]PB[Tasmanian Devil]PW[John Doe]SZ[13]RE[B]GC[ game #1381484]SO[http://www.littlegolem.com];W[ak];B[swap];W[lb];B[kj];W[ei];B[fh];W[hg];B[je];W[gg];B[gi];W[fi];B[gh];W[eh];B[fg];W[eg];B[gc];W[fe];B[hb];W[ed];B[ec];W[hd];B[ic];W[he];B[ef];W[de];B[fj];W[dk];B[dj];W[ej];B[ff];W[cg];B[cf];W[df];B[fb];W[jd];B[kc];W[jc];B[resign])
+
+(;FF[4]EV[hex.mc.2011.oct.1.7]PB[Skurwol]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #1381483]SO[http://www.littlegolem.com];W[ak];B[bl];W[kj];B[ed];W[cd];B[cb];W[dd];B[ec];W[db];B[de];W[ie];B[ig];W[hg];B[if];W[hf];B[gi];W[fi];B[gh];W[fh];B[gg];W[fg];B[gf];W[ff];B[ge];W[fe];B[gc];W[gd];B[hc];W[hd];B[jb];W[ic];B[ib];W[kc];B[la];W[ma];B[lb];W[mb];B[lc])
+
+(;FF[4]EV[hex.mc.2011.oct.1.7]PB[Tasmanian Devil]PW[Yussuf]SZ[13]RE[W]GC[ game #1381482]SO[http://www.littlegolem.com];W[ak];B[bl];W[gg];B[ij];W[kj];B[kl];W[jl];B[ki];W[fi];B[ge];W[ee];B[gf];W[dh];B[dg];W[ci];B[fg];W[fe];B[eg];W[cg];B[ch];W[ai];B[bi];W[aj];B[cj];W[resign])
+
+(;FF[4]EV[hex.mc.2011.oct.1.7]PB[TheGreed]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #1381481]SO[http://www.littlegolem.com];W[kb];B[jk];W[ei];B[eg];W[hg];B[hf];W[gf];B[fh];W[gg];B[gi];W[eh];B[fg];W[fi];B[gh];W[ch];B[fj];W[cj];B[df];W[cf];B[de];W[ce];B[dd];W[cd];B[bl];W[hi];B[hh];W[kg];B[ig];W[jg];B[jf];W[ke];B[kf];W[me];B[lf];W[mf];B[lg];W[mg];B[ki];W[resign])
+
+(;FF[4]EV[hex.mc.2011.oct.1.6]PB[Tasmanian Devil]PW[TheGreed]SZ[13]RE[B]GC[ game #1381093]SO[http://www.littlegolem.com];W[ad];B[gg];W[kj];B[if];W[fg];B[ej];W[ei];B[dj];W[fi];B[gd];W[df];B[fj];W[gi];B[gj];W[hi];B[hj];W[ii];B[il];W[jk];B[ik];W[ji];B[jl];W[lk];B[ki];W[jj];B[lj];W[kk];B[km];W[ml];B[mk];W[ll];B[ee];W[cg];B[cd];W[bf];B[eb];W[dd];B[fc];W[dc];B[db];W[bc];B[eh];W[di];B[dh];W[bi];B[resign])
+
+(;FF[4]EV[hex.mc.2011.oct.1.6]PB[Yussuf]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #1381092]SO[http://www.littlegolem.com];W[ak];B[bl];W[ee];B[jk];W[lk];B[eg];W[gg];B[gh];W[fh];B[fi];W[dj];B[ei];W[di];B[ef];W[df];B[ie];W[hf];B[dk];W[ej];B[el];W[ek];B[dl];W[ck];B[cl];W[jj];B[gk];W[ii];B[hi];W[ih];B[hg];W[hj];B[fk];W[if];B[ig];W[kf];B[resign])
+
+(;FF[4]EV[hex.mc.2011.oct.1.6]PB[Tasmanian Devil]PW[zastrzyk]SZ[13]RE[W]GC[ game #1381091]SO[http://www.littlegolem.com];W[ad];B[swap];W[gg];B[ij];W[eh];B[fd];W[hd];B[he];W[ge];B[gf];W[hg];B[if];W[df];B[dg];W[eg];B[fk];W[dj];B[hc];W[ef];B[ic];W[resign])
+
+(;FF[4]EV[hex.mc.2011.oct.1.6]PB[wojtek]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #1381090]SO[http://www.littlegolem.com];W[af];B[di];W[ji];B[jk];W[lk];B[lj];W[fh];B[fi];W[gh];B[gi];W[ei];B[dk];W[ik];B[gj])
+
+(;FF[4]EV[hex.mc.2011.oct.1.5]PB[Keizo]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #1380850]SO[http://www.littlegolem.com];W[ak];B[bl];W[gg];B[ed];W[cd];B[ij];W[kj];B[id];W[jd];B[ie];W[je];B[jh];W[if];B[fi];W[hh];B[hi];W[gi];B[fk];W[ek];B[resign])
+
+(;FF[4]EV[hex.mc.2011.oct.1.5]PB[Tasmanian Devil]PW[_Astrid_]SZ[13]RE[B]GC[ game #1380848]SO[http://www.littlegolem.com];W[ag];B[ei];W[ji];B[ih];W[gg];B[gh];W[hg];B[hi];W[fh];B[fi];W[di];B[dj];W[ck];B[cj];W[jg];B[jj];W[ki];B[hk];W[kj];B[jl];W[kf];B[lk];W[ik];B[hm];W[hl];B[ke];W[if];B[ie];W[he];B[ic];W[gd];B[gc];W[hc];B[ia];W[kb];B[hf];W[gf];B[resign])
+
+(;FF[4]EV[hex.mc.2011.oct.1.5]PB[Niall]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #1380846]SO[http://www.littlegolem.com];W[ad];B[jk];W[ei];B[eg];W[ie];B[gi];W[fg];B[eh];W[fh];B[ej];W[dj];B[cl];W[dk];B[dl];W[ek];B[el];W[fk];B[hg];W[bk];B[gf];W[ff];B[gd];W[ee];B[ed];W[fd];B[gb];W[fc];B[fb];W[ec];B[eb];W[dc];B[resign])
+
+(;FF[4]EV[hex.mc.2011.oct.1.5]PB[Tasmanian Devil]PW[wojtek]SZ[13]RE[B]GC[ game #1380843]SO[http://www.littlegolem.com];W[ag];B[swap];W[ie];B[ij];W[kj];B[kl];W[jl];B[ki];W[ei];B[ed];W[he];B[fh];W[fi])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[Renaud L]SZ[13]RE[B]GC[ game #1294108]SO[http://www.littlegolem.com];W[ag];B[ig];W[gg];B[fi];W[hg];B[hh];W[gi];B[gh];W[ei];B[bk];W[dk];B[fh];W[eh];B[fg];W[eg];B[fe];W[df];B[ed];W[dd];B[eb];W[cd];B[cc];W[hd];B[ff];W[ec];B[ga];W[fb];B[fa];W[gb];B[ha];W[ib];B[hb];W[gd];B[gc];W[fd];B[resign])
+
+(;FF[4]EV[null]PB[Rtv]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #863605]SO[http://www.littlegolem.com];W[ad];B[jk];W[lk];B[df];W[dg];B[de];W[gf];B[ei];W[hh];B[gk];W[fj];B[gh];W[ih];B[hg];W[jf];B[je];W[if];B[ie];W[hf];B[ge];W[he];B[ic];W[fd];B[fe];W[hd];B[hc];W[gd];B[fc];W[gc];B[ha];W[hj];B[fb];W[hb];B[ia];W[ib];B[ja];W[jb];B[ka];W[lb];B[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.2.2]PB[Galactic Being]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #404886]SO[http://www.littlegolem.com];W[bb];B[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.2.2]PB[Tasmanian Devil]PW[pogromca]SZ[13]RE[W]GC[ game #404884]SO[http://www.littlegolem.com];W[bb];B[ij];W[kj];B[hf];W[fh];B[ee];W[jf];B[je];W[if];B[ie];W[ld];B[jc];W[mb];B[jb];W[ma];B[ke];W[le];B[kf];W[lf];B[jk];W[kh];B[ji];W[jh];B[hi];W[hh];B[ih];W[jg];B[lg];W[fg];B[ff];W[kg];B[gi];W[gh];B[ej];W[dj];B[ei];W[di];B[eh];W[ch];B[df];W[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.2.2]PB[:/]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #404882]SO[http://www.littlegolem.com];W[kb];B[ij];W[kj];B[kl];W[ml];B[fg];W[de];B[eh];W[gg];B[fi];W[gi];B[gh];W[ig];B[hh];W[ih];B[ki];W[hi];B[ie];W[ch];B[hg];W[di];B[dj];W[bk];B[dk];W[bl];B[ci];W[dh];B[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[Fairwood]SZ[13]RE[B]GC[ game #397053]SO[http://www.littlegolem.com];W[bb];B[bc];W[jj];B[kh];W[gg];B[ic];W[gd];B[hb];W[fc];B[ge];W[ef];B[fg];W[dh];B[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[Fairwood]SZ[13]RE[B]GC[ game #393959]SO[http://www.littlegolem.com];W[bb];B[be];W[jj];B[jg];W[hf];B[hg];W[gg];B[gh];W[fh];B[ei];W[fi];B[fk];W[ek];B[dm];W[cl];B[id];W[ge];B[hc];W[fd];B[fb];W[gb];B[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.17]PB[Tasmanian Devil]PW[free_styler]SZ[13]RE[B]GC[ game #375400]SO[http://www.littlegolem.com];W[bb];B[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.17]PB[_pomek_]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #375399]SO[http://www.littlegolem.com];W[kb];B[jj];W[lj];B[ji];W[fh];B[ff];W[gf];B[fg];W[gg];B[hd];W[ge];B[gd];W[fe];B[fd];W[de];B[ee];W[id];B[he];W[df];B[ef];W[ie];B[hf];W[if];B[hg];W[ch];B[ci];W[dh];B[di];W[eh];B[fi];W[ei];B[dk];W[ej];B[ic];W[bi];B[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.17]PB[Tasmanian Devil]PW[fight_maan]SZ[13]RE[B]GC[ game #375398]SO[http://www.littlegolem.com];W[bb];B[ij];W[fh];B[df];W[hh];B[he];W[ie];B[gj];W[ej];B[hd];W[je];B[hf];W[ig];B[fi];W[fj];B[gi];W[eh];B[hc];W[ke];B[ib];W[ld];B[gh];W[kj];B[kl];W[hj];B[hi];W[jh];B[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.17]PB[:/]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #375397]SO[http://www.littlegolem.com];W[kb];B[jj];W[lj];B[jk];W[jl];B[dd];W[bd];B[dc];W[db];B[gg];W[eg];B[ei];W[ih];B[gf];W[hf];B[id];W[je];B[kc];W[ld];B[lc];W[he];B[hd];W[fe];B[de];W[ee];B[ge];W[fh];B[eh];W[fg];B[fi];W[gh];B[gj];W[gi];B[fk];W[fj];B[ek];W[ji];B[li];W[ij];B[hl];W[gk];B[fm];W[fl];B[em];W[el];B[dm];W[dl];B[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.16]PB[Tasmanian Devil]PW[Trevor Green]SZ[13]RE[B]GC[ game #375334]SO[http://www.littlegolem.com];W[bb];B[swap];W[jj];B[ig];W[fg];B[fh];W[gg];B[gh];W[hg];B[hh];W[di];B[eh];W[dh];B[eg];W[dg];B[ee];W[ef];B[fe];W[ff];B[ic];W[id];B[jc];W[jd];B[ib];W[kc];B[la];W[ma];B[lb];W[mb];B[lc];W[mc];B[ld];W[md];B[le];W[me];B[lf];W[mf];B[lh];W[lg];B[kh];W[kg];B[ii];W[hd];B[dj];W[jh];B[ji];W[ei];B[ej];W[fi];B[fj];W[hi];B[gl];W[hj];B[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.16]PB[guzik]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #375333]SO[http://www.littlegolem.com];W[ac];B[jj];W[fj];B[fg];W[if];B[fh];W[hf];B[gi];W[jh];B[ih];W[fi];B[gh];W[ci];B[ch];W[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.16]PB[Tasmanian Devil]PW[sean]SZ[13]RE[B]GC[ game #375331]SO[http://www.littlegolem.com];W[bb];B[cc];W[jj];B[ad];W[he];B[ib];W[hd];B[gc];W[jc];B[jf];W[gg];B[gh];W[fh];B[ek];W[ej];B[dk];W[fj];B[fl];W[fk];B[el];W[gk];B[gl];W[ik];B[hk];W[ii];B[hi];W[hj];B[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.16]PB[Hapel]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #375328]SO[http://www.littlegolem.com];W[bb];B[jj];W[hf];B[fh];W[hh];B[hd];W[gj];B[he];W[ff];B[fg];W[gf];B[hg];W[ig];B[if];W[dh];B[di];W[bj];B[ci];W[bi];B[cg];W[ch];B[ef];W[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.5]PB[Tasmanian Devil]PW[tasuki]SZ[13]RE[B]GC[ game #368347]SO[http://www.littlegolem.com];W[bb];B[swap];W[jj];B[if];W[ff];B[fi];W[ei];B[fg];W[gf];B[gg];W[dh];B[eg];W[dg];B[ef];W[df];B[ee];W[de];B[ec];W[ed];B[fc];W[fd];B[gc];W[hd];B[gd];W[fe];B[ic];W[id];B[jc];W[db];B[di];W[eh];B[ej];W[dj];B[cl];W[dk];B[dl];W[ek];B[el];W[fk];B[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.5]PB[Juäo]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #368346]SO[http://www.littlegolem.com];W[mk];B[dd];W[hf];B[hh];W[ff];B[ej];W[gi];B[ek];W[hi];B[gh];W[jg];B[jd];W[ke];B[jc];W[ie];B[hd];W[ef];B[gc];W[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.5]PB[Tasmanian Devil]PW[guzik]SZ[13]RE[W]GC[ game #368344]SO[http://www.littlegolem.com];W[bb];B[ij];W[ej];B[ef];W[hf];B[gh];W[if];B[fi];W[hh];B[gj];W[hj];B[hi];W[ii];B[ih];W[kg];B[jh];W[lh];B[jf];W[ke];B[je];W[kd];B[kf];W[resign])
+
+(;FF[4]EV[hex.mc.2005.jun.1.5]PB[Domi]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #368341]SO[http://www.littlegolem.com];W[el];B[dd];W[fj];B[jf];W[gh];B[he];W[hf];B[id];W[ie];B[jd];W[je];B[ee];W[kd];B[kc];W[lc];B[lb];W[mb];B[ma];W[gf];B[gd];W[ge];B[hd];W[fd];B[fe];W[resign])
+
+(;FF[4]EV[hex.mc.2005.may.1.14]PB[Tasmanian Devil]PW[romekdth]SZ[13]RE[W]GC[ game #362935]SO[http://www.littlegolem.com];W[bb];B[ef];W[hf];B[ij];W[kj];B[jh];W[gi];B[gh];W[if];B[ig];W[fh];B[gg];W[fg];B[ge];W[gf];B[ie];W[he];B[ic];W[fe];B[gd];W[ff];B[fd];W[ee];B[ed];W[de];B[dd];W[be];B[ce];W[bf];B[cf];W[bg];B[cg];W[bh];B[ch];W[bi];B[cj];W[ci];B[ei];W[kf];B[lg];W[fi];B[eh];W[jc];B[id];W[ld];B[kd];W[resign])
+
+(;FF[4]EV[hex.mc.2005.may.1.14]PB[Jan Arild Teland]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #362934]SO[http://www.littlegolem.com];W[mg];B[swap];W[kj];B[dd];W[hd];B[hf];W[fh];B[he];W[eh];B[ff];W[ge];B[gg];W[dh];B[ee];W[je];B[jd];W[kd];B[kc];W[mb];B[lc];W[mc];B[ld];W[md];B[lf];W[le];B[kf];W[resign])
+
+(;FF[4]EV[hex.mc.2005.may.1.14]PB[Tasmanian Devil]PW[Jose Delgado]SZ[13]RE[B]GC[ game #362932]SO[http://www.littlegolem.com];W[bb])
+
+(;FF[4]EV[hex.mc.2005.may.1.14]PB[Adrián]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #362929]SO[http://www.littlegolem.com];W[fj];B[swap];W[gg];B[dd];W[he];B[gi];W[fi];B[gh];W[fh];B[ek];W[ck];B[dj];W[hg];B[gj];W[ci];B[cj];W[ak];B[el];W[bj];B[bl];W[al];B[am];W[dk];B[cm];W[ih];B[ii];W[ji];B[jh];W[lg];B[kf];W[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[Leoni]SZ[13]RE[W]GC[ game #228383]SO[http://www.littlegolem.com];W[bb];B[swap];W[jj];B[hf];W[ef];B[eg];W[dg];B[dh];W[fg];B[gh];W[ei];B[ff];W[gf];B[hd];W[ge];B[gc];W[id];B[he];W[je];B[jg];W[ig];B[jf];W[gd];B[hc];W[ed];B[fd];W[fe];B[ee];W[resign])
+
+(;FF[4]EV[null]PB[powerrade]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #228056]SO[http://www.littlegolem.com];W[ad];B[jj];W[fh];B[ff];W[hf];B[gi];W[eh];B[fe];W[gf];B[dk];W[ej];B[ek];W[fj];B[fk];W[hj];B[fl];W[cj];B[bk];W[gl];B[gj];W[ih];B[hg];W[jf];B[je];W[if];B[ic];W[hd];B[hc];W[gd];B[gc];W[fd];B[fc];W[dd];B[ed];W[de];B[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[Fast food(on vacation)]SZ[13]RE[W]GC[ game #228024]SO[http://www.littlegolem.com];W[bb];B[swap];W[jj];B[ij];W[fe];B[ik];W[fj];B[fh];W[eh];B[ei];W[cj];B[dk];W[bl];B[di];W[ci];B[dg];W[dh];B[ff];W[hf];B[gg];W[gf];B[fg];W[hh];B[hg];W[ig];B[gi];W[ki];B[ii];W[jh];B[jk];W[kk];B[kj];W[mi];B[li];W[mh];B[lh];W[mg];B[lg];W[mf];B[lf];W[me];B[ld];W[resign])
+
+(;FF[4]EV[null]PB[na_wspak]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #228008]SO[http://www.littlegolem.com];W[ac];B[jj];W[gi];B[eg];W[hf];B[gh];W[fh];B[fi];W[ei];B[ej];W[ig];B[hh];W[ih];B[hi];W[jh];B[hk];W[dj];B[cl];W[dk];B[dl];W[fk];B[gk];W[ek];B[em];W[fl];B[fm];W[gl];B[gm];W[hl];B[hm];W[il];B[im];W[kl];B[jl];W[kk];B[jk];W[ki];B[kh];W[lh];B[ji];W[lg];B[kg];W[lf];B[kf];W[le];B[kd];W[lb];B[lc];W[ke];B[ie];W[jd];B[je];W[jf];B[hd];W[ge];B[gd];W[he];B[id];W[fe];B[fd];W[ee];B[ed];W[ce];B[de];W[bg];B[cf];W[bf];B[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[passenger]SZ[13]RE[W]GC[ game #228005]SO[http://www.littlegolem.com];W[bb];B[ij];W[fj];B[ef];W[hf];B[gh];W[fh];B[gg];W[if];B[dk];W[ek];B[dl];W[hh];B[gi];W[hj];B[hi];W[jh];B[ii];W[jj];B[ji];W[lh];B[kf];W[ci];B[dj];W[ei];B[fg];W[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[David J Bush]SZ[13]RE[W]GC[ game #177993]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[jk];W[fi];B[hf];W[ff];B[fh];W[eg];B[ge];W[fd];B[fe];W[df];B[hc];W[fc];B[di];W[ei];B[hb];W[resign])
+
+(;FF[4]EV[null]PB[jjjklj]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #171948]SO[http://www.littlegolem.com];W[ac];B[ii];W[fh];B[fe];W[df];B[eg];W[di];B[ed];W[he];B[gf];W[ch];B[ce];W[ge];B[ff];W[if];B[hg];W[hf];B[gg];W[ih];B[ig];W[kf];B[jg];W[kg];B[jh];W[kh];B[jj];W[kj];B[ki];W[mh];B[lk];W[li];B[jl];W[jk];B[il];W[ik];B[hl];W[hk];B[gl];W[gk];B[fl];W[gi];B[fk];W[gj];B[cl];W[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[Ryan]SZ[13]RE[B]GC[ game #171845]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[jg];W[gg];B[gf];W[fe];B[gh];W[fh];B[eg];W[hf];B[id];W[he];B[hd];W[ge];B[ej];W[fi];B[if];W[ee];B[fj];W[hh];B[hk];W[jj];B[jk];W[ik];B[hm];W[hl];B[gm];W[gl];B[fm];W[fl];B[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[mirror_man]SZ[13]RE[B]GC[ game #171640]SO[http://www.littlegolem.com];W[bb];B[gg];W[jj];B[jd];W[eg];B[eh];W[fg];B[fh];W[ci];B[dh];W[ch];B[dd];W[ed];B[dg];W[cg];B[de];W[df];B[ee];W[ef];B[gd];W[hd];B[ge];W[he];B[gf];W[if];B[ig];W[hg];B[gi];W[hh];B[hi];W[ih];B[ii];W[kh];B[jh];W[kg];B[jg];W[kf];B[jf];W[ke];B[je];W[lc];B[ld];W[kd];B[resign])
+
+(;FF[4]EV[null]PB[Tim Shih]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #171488]SO[http://www.littlegolem.com];W[ab];B[hi];W[fh];B[ie];W[hf];B[ej];W[gi];B[fk];W[gj];B[gk];W[hj];B[hk];W[di];B[ck];W[ij];B[ik];W[kj];B[jj];W[ki];B[id];W[ji];B[fe];W[ge];B[hc];W[ed];B[df];W[gd];B[kk];W[jk];B[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[don_squad_esco]SZ[13]RE[B]GC[ game #167985]SO[http://www.littlegolem.com];W[bb];B[swap];W[he];B[jk];W[hj];B[gg];W[eg];B[ff];W[fg];B[gf];W[ef];B[fh];W[di];B[dh];W[eh];B[fd];W[ie];B[gc];W[hd];B[fe];W[hg];B[hh];W[gh];B[gi];W[fi];B[ek];W[fj];B[fk];W[gj];B[gl];W[ik];B[ij];W[jj];B[jl];W[kj];B[hm];W[lk];B[lj];W[kk];B[hk];W[ji];B[ii];W[jh];B[ig];W[kf];B[je];W[ld];B[le];W[ke];B[kg];W[jg];B[kc];W[mb];B[ma];W[lb];B[la];W[kb];B[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.2.1]PB[Tasmanian Devil]PW[ypercube]SZ[13]RE[W]GC[ game #158178]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.2.1]PB[Manuel Fernández]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #158177]SO[http://www.littlegolem.com];W[ac];B[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.2.1]PB[Tasmanian Devil]PW[passenger]SZ[13]RE[W]GC[ game #158175]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.2.1]PB[don_squad_esco]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #158172]SO[http://www.littlegolem.com];W[bb];B[resign])
+
+(;FF[4]EV[hex.ch.7.2.1]PB[Subtleblue]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #146720]SO[http://www.littlegolem.com];W[mk];B[ee];W[ge];B[gg];W[ef];B[gh];W[di];B[ei];W[dj];B[eg];W[ch];B[dg];W[bg];B[cg];W[bh];B[ce];W[cf];B[ed];W[dd];B[ec];W[dc];B[de];W[df];B[hc];W[id];B[jb];W[kb];B[jc];W[kc];B[jd];W[kd];B[je];W[ke];B[jg];W[kg];B[kf];W[me];B[lh];W[ig];B[hf];W[hi];B[ih];W[hh];B[jf];W[resign])
+
+(;FF[4]EV[hex.ch.7.2.1]PB[Tasmanian Devil]PW[Reiner Martin]SZ[13]RE[B]GC[ game #146719]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[hf];W[ff];B[fi];W[ei];B[fg];W[gf];B[gg];W[dh];B[eg];W[dg];B[ef];W[df];B[ed];W[ee];B[fd];W[fe];B[hd];W[gd];B[hb];W[hc];B[ib];W[ic];B[jb];W[jc];B[kb];W[kc];B[lb];W[dc];B[ej];W[dj];B[cl];W[dk];B[dl];W[ek];B[el];W[gj];B[hk];W[gl];B[resign])
+
+(;FF[4]EV[hex.ch.7.2.1]PB[Jose Maria Grau Ribas]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #146718]SO[http://www.littlegolem.com];W[mk];B[ee];W[gg];B[gi];W[ii];B[ih];W[fi];B[he];W[ie];B[hf];W[jf];B[if];W[kf];B[id];W[ge];B[gh];W[dh];B[fh];W[ch];B[fd];W[cf];B[ce];W[bd];B[be];W[de];B[ec];W[resign])
+
+(;FF[4]EV[hex.ch.7.2.1]PB[Tasmanian Devil]PW[hazzard]SZ[13]RE[B]GC[ game #146717]SO[http://www.littlegolem.com];W[bb];B[swap];W[hf];B[cj];W[fg];B[ij];W[fj];B[ie];W[he];B[ic];W[hc];B[gc];W[gd];B[gg];W[ei];B[ia];W[ec];B[fb];W[eb];B[fc];W[ed];B[ge];W[fe];B[eh];W[fh];B[gk];W[gh];B[ee];W[fd];B[ff];W[hd];B[ek];W[dk];B[resign])
+
+(;FF[4]EV[hex.ch.7.2.1]PB[Herb Doughty]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #146716]SO[http://www.littlegolem.com];W[ac];B[ii];W[fh];B[ff];W[gf];B[fg];W[gg];B[hd];W[ge];B[gd];W[fe];B[fd];W[cf];B[de];W[be];B[df];W[je];B[ie];W[ke];B[if];W[kh];B[jg];W[resign])
+
+(;FF[4]EV[hex.ch.7.2.1]PB[Tasmanian Devil]PW[passenger]SZ[13]RE[W]GC[ game #146710]SO[http://www.littlegolem.com];W[bb];B[gg];W[jf];B[ii];W[gi];B[he];W[gf];B[hf];W[eg];B[eh];W[ci];B[dh];W[ch];B[dj];W[bk];B[cl];W[bl];B[dg];W[ke];B[hj];W[hg];B[gh];W[resign])
+
+(;FF[4]EV[hex.ch.7.2.1]PB[Taral]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #146704]SO[http://www.littlegolem.com];W[mk];B[ee];W[hf];B[hh];W[fg];B[gg];W[dh];B[gf];W[ff];B[gd];W[je];B[he];W[kf];B[ke];W[kd];B[kh];W[ih];B[ig];W[lg];B[ki];W[hd];B[ge];W[dd];B[cf];W[kg];B[jh];W[jg];B[hj];W[hi];B[gj];W[gi];B[fj];W[resign])
+
+(;FF[4]EV[hex.ch.7.2.1]PB[Tasmanian Devil]PW[LoKo]SZ[13]RE[B]GC[ game #146697]SO[http://www.littlegolem.com];W[bb];B[jk];W[dj];B[ef];W[hf];B[gg];W[hg];B[gh];W[hh];B[gi];W[hi];B[gk];W[gj];B[fk];W[fj];B[ek];W[ii];B[gl];W[cl];B[hd];W[gf];B[hc];W[jd];B[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[powerrade]SZ[13]RE[W]GC[ game #143972]SO[http://www.littlegolem.com];W[bb];B[hj];W[jj];B[gf];W[ie];B[ji];W[eg];B[fh];W[di];B[dj];W[gj];B[fi];W[hh];B[hi];W[gi];B[gk];W[ki];B[kh];W[fk];B[hg];W[jf];B[ig];W[kg];B[jg];W[cj];B[ck];W[kf];B[le];W[al];B[bk];W[ak];B[bj];W[aj];B[bi];W[ai];B[bg];W[bh];B[df];W[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.2.1]PB[hiiintaro]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #137811]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.mc.2003.nov.2.1]PB[Tasmanian Devil]PW[ypercube]SZ[13]RE[W]GC[ game #137810]SO[http://www.littlegolem.com];W[bb];B[swap];W[jj];B[jg];W[gg];B[he];W[ff];B[gd];W[fd];B[fe];W[df];B[ef];W[dg];B[ee];W[de];B[ec];W[ed];B[gb];W[ce];B[cd];W[jc];B[hc];W[ie];B[jd];W[id];B[hf];W[if];B[hg];W[ig];B[hi];W[ih];B[ii];W[jh];B[ji];W[lh];B[hk];W[kj];B[kh];W[mf];B[lg];W[mg];B[lf];W[me];B[le];W[hh];B[gi];W[gh];B[ei];W[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.2.1]PB[Zeycus]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #137809]SO[http://www.littlegolem.com];W[mk];B[dd];W[ie];B[ig];W[fh];B[fj];W[gh];B[fk];W[di];B[dj];W[cj];B[ck];W[bk];B[bl];W[hi];B[hj];W[ji];B[ii];W[jh];B[ih];W[jf];B[lj];W[ki];B[jg];W[lf];B[kf];W[le];B[ke];W[ld];B[kc];W[mb];B[ma];W[lb];B[la];W[kb];B[ka];W[ib];B[jb];W[id];B[ic];W[gd];B[hd];W[ge];B[he];W[hf];B[gf];W[eg];B[ff];W[ef];B[resign])
+
+(;FF[4]EV[hex.mc.2003.oct.2.2]PB[Tasmanian Devil]PW[150]SZ[13]RE[W]GC[ game #126204]SO[http://www.littlegolem.com];W[bb];B[ef];W[hf];B[ih];W[fi];B[gg];W[hg];B[gh];W[ei];B[hi];W[fg];B[ge];W[gf];B[id];W[ag];B[cg];W[bh];B[ci];W[resign])
+
+(;FF[4]EV[hex.mc.2003.oct.2.2]PB[passenger]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #126203]SO[http://www.littlegolem.com];W[ak];B[swap];W[cd];B[ii];W[fi];B[eh];W[hg];B[hf];W[gg];B[gf];W[fg];B[ff];W[dg];B[eg];W[ci];B[cj];W[di];B[dj];W[ig];B[fe];W[bj];B[df];W[bg];B[ce];W[de];B[dd];W[ee];B[fc];W[ec];B[ed];W[af];B[bc];W[bd];B[db];W[dc];B[fa];W[fb];B[ga];W[gb];B[ha];W[ib];B[hb];W[hc];B[bk];W[ei];B[resign])
+
+(;FF[4]EV[hex.mc.2003.oct.2.2]PB[Tasmanian Devil]PW[ypercube]SZ[13]RE[B]GC[ game #126202]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[if];W[gf];B[hc];W[hd];B[ic];W[fd];B[ge];W[ef];B[ec];W[gb];B[ee];W[fe];B[gg];W[dh];B[di];W[eh];B[ei];W[fh];B[fi];W[gh];B[gi];W[jg];B[hk];W[fl];B[jd];W[ig];B[resign])
+
+(;FF[4]EV[hex.mc.2003.oct.2.2]PB[Bernhard Herwig]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #126201]SO[http://www.littlegolem.com];W[ab];B[ii];W[gh];B[he];W[ff];B[fg];W[dh];B[di];W[if];B[jd];W[gf];B[fj];W[ej];B[fh];W[hh];B[fk];W[bk];B[ck];W[jj];B[hk];W[lg];B[jh];W[resign])
+
+(;FF[4]EV[hex.mc.2003.oct.2.2]PB[Tasmanian Devil]PW[hazzard]SZ[13]RE[W]GC[ game #126196]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[hf];W[ff];B[fg];W[gf];B[he];W[eg];B[gj];W[di];B[dj];W[gh];B[fk];W[hi];B[ij];W[ji];B[jj];W[kk];B[il];W[li];B[ki];W[lh];B[hd];W[cj];B[ck];W[bk];B[eh];W[dh];B[kh];W[mf];B[kd];W[lf];B[fe];W[ee];B[dd];W[de];B[cg];W[ef];B[fc];W[gd];B[hb];W[jc];B[jg];W[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.2.1]PB[Tasmanian Devil]PW[David J Bush]SZ[13]RE[B]GC[ game #114969]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[hf];W[ff];B[ei];W[gg];B[ge];W[fe];B[gd];W[kd];B[je];W[ke];B[jg];W[hg];B[gf];W[jf];B[kc];W[mb];B[kb];W[ma];B[lc];W[mc];B[ld];W[md];B[le];W[me];B[kh];W[lg];B[jj];W[kg];B[jh];W[kf];B[ig];W[if];B[gk];W[hh];B[gl];W[fk];B[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.2.1]PB[Crelo]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #114968]SO[http://www.littlegolem.com];W[ac];B[ii];W[gi];B[gg];W[eh];B[eg];W[fg];B[ff];W[gf];B[hd];W[ge];B[gd];W[fe];B[fd];W[de];B[ck];W[di];B[ej];W[dk];B[ek];W[dj];B[cm];W[dl];B[dm];W[el];B[em];W[hj];B[gk];W[fl];B[fm];W[gl];B[gm];W[il];B[hl];W[ik];B[hk];W[ij];B[gj];W[hi];B[fh];W[if];B[hh];W[jg];B[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.2.1]PB[Tasmanian Devil]PW[Marius Halsor]SZ[13]RE[B]GC[ game #114965]SO[http://www.littlegolem.com];W[bb];B[gg];W[jf];B[ij];W[eg];B[ei];W[gi];B[fk];W[hj];B[fi];W[ii];B[je];W[if];B[ie];W[dh];B[cj];W[hf];B[he];W[gf];B[ge];W[ef];B[gl];W[hk];B[hl];W[jk];B[kl];W[jl];B[ik];W[ki];B[ji];W[kh];B[fg];W[ke];B[ec];W[lc];B[lb];W[kc];B[kb];W[jc];B[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.2.1]PB[Jason Kidd]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #114962]SO[http://www.littlegolem.com];W[mk];B[ee];W[gf];B[gh];W[ig];B[hf];W[je];B[jd];W[ie];B[id];W[he];B[hd];W[fe];B[gc];W[fd];B[fc];W[dd];B[ed];W[df];B[ef];W[dg];B[cc];W[eb];B[de];W[cf];B[ce];W[hc];B[gd];W[lc];B[kd];W[ld];B[ke];W[le];B[kf];W[lf];B[kh];W[kg];B[jh];W[jg];B[hi];W[gi];B[hh];W[fh];B[ej];W[fi];B[fk];W[gj];B[gk];W[hj];B[hk];W[ij];B[ik];W[kj];B[jj];W[ki];B[ji];W[mg];B[lj];W[jl];B[lh];W[ek];B[fj];W[dj];B[ei];W[dh];B[fg];W[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.2.1]PB[Tasmanian Devil]PW[LoKo]SZ[13]RE[W]GC[ game #114958]SO[http://www.littlegolem.com];W[bb];B[jk];W[ej];B[ef];W[hf];B[gh];W[fh];B[fi];W[eh];B[ei];W[di];B[dj];W[cj];B[gg];W[bk];B[fe];W[eg];B[gd];W[cg];B[bl];W[ck];B[cm];W[cl];B[bm];W[dl];B[dm];W[el];B[em];W[fl];B[fm];W[gl];B[gm];W[hl];B[hm];W[il];B[im];W[jl];B[jm];W[kl];B[km];W[ml];B[ll];W[mk];B[lk];W[mj];B[lj];W[mi];B[li];W[mh];B[lh];W[mg];B[lg];W[mf];B[lf];W[me];B[le];W[md];B[ld];W[mc];B[lb];W[lc];B[kc];W[kd];B[jd];W[jf];B[je];W[ke];B[ig];W[if];B[he];W[gf];B[de];W[ce];B[bd];W[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.2.1]PB[na_wspak]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #114953]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.2.1]PB[Tasmanian Devil]PW[Leoni]SZ[13]RE[W]GC[ game #114947]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[hf];W[ff];B[gc];W[ed];B[gd];W[de];B[dg];W[gf];B[ee];W[hd];B[he];W[ge];B[fh];W[gg];B[jc];W[je];B[hg];W[ke];B[jd];W[kc];B[lb];W[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.14]PB[Bonnie McGowan]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #111787]SO[http://www.littlegolem.com];W[cm];B[di];W[gi];B[hf];W[je];B[ig];W[hh];B[ih];W[hg];B[ie];W[if];B[jd];W[kc];B[kd];W[ld];B[fg];W[ke];B[lc];W[lb];B[dh];W[mb];B[mc];W[gf];B[gg];W[ff];B[bi];W[aj];B[ai];W[ci];B[ch];W[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.14]PB[Tasmanian Devil]PW[Jonathan]SZ[13]RE[B]GC[ game #111785]SO[http://www.littlegolem.com];W[bb];B[swap];W[gg];B[gh];W[hi];B[ig];W[hg];B[hh];W[fh];B[ej];W[fi];B[fj];W[gi];B[hj];W[bl];B[gj];W[ii];B[ij];W[ji];B[jj];W[ki];B[kj];W[li];B[lj];W[dj];B[ei];W[di];B[eh];W[dh];B[ef];W[eg];B[ff];W[fg];B[he];W[ie];B[jc];W[kc];B[jd];W[kd];B[je];W[ke];B[jh];W[jf];B[la];W[kb];B[ka];W[jb];B[ja];W[if];B[ma];W[ib];B[ia];W[gc];B[gb];W[hb];B[ha];W[ec];B[fc];W[de];B[ed];W[dd];B[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.14]PB[Piotr Opalinski]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #111783]SO[http://www.littlegolem.com];W[bc];B[swap];W[ge];B[gg];W[ig];B[ii];W[hg];B[gj];W[fi];B[gf];W[ie];B[ek];W[hj];B[hi];W[fk];B[fj];W[dk];B[ej];W[dj];B[ei];W[di];B[eg];W[kh];B[lf];W[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.14]PB[Tasmanian Devil]PW[uem]SZ[13]RE[B]GC[ game #111780]SO[http://www.littlegolem.com];W[bb];B[jk];W[ej])
+
+(;FF[4]EV[hex.mc.2003.dec.1.7]PB[Tasmanian Devil]PW[David Milne]SZ[13]RE[B]GC[ game #109367]SO[http://www.littlegolem.com];W[bb];B[gg];W[jf];B[jd];W[ie];B[id];W[he];B[hd];W[fe];B[ge];W[ff];B[eh];W[ke];B[gf];W[lc];B[ii];W[hi];B[ig];W[jg];B[ih];W[ji];B[jh];W[lg];B[kh];W[lh];B[ki];W[li];B[kk];W[kj];B[il];W[jk];B[jl];W[ik];B[hl];W[hk];B[gl];W[gk];B[fl];W[fk];B[el];W[dk];B[ek];W[ej];B[fj];W[fh];B[gc];W[hc];B[cb];W[fb];B[gb];W[fg];B[ed];W[gd];B[ia];W[jb];B[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.7]PB[rusu horea ioan]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #109366]SO[http://www.littlegolem.com];W[cc];B[swap];W[gg];B[fj];W[ii];B[ih];W[gi];B[he];W[ef];B[fd];W[gd];B[ff];W[jd];B[if];W[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.7]PB[Tasmanian Devil]PW[klaashaas]SZ[13]RE[W]GC[ game #109365]SO[http://www.littlegolem.com];W[bb];B[gg];W[id];B[jg];W[hh];B[if];W[fg];B[fe];W[eg];B[df];W[gf];B[ek];W[dj];B[cl];W[fi];B[hj];W[jj];B[ik];W[ki];B[ij];W[hi];B[gj];W[jh];B[jk];W[kk];B[kj];W[mi];B[kh];W[lh];B[ji];W[mf];B[lg];W[mg];B[kf];W[lf];B[kg];W[dl];B[dk];W[md];B[le];W[me];B[lc];W[bl];B[ck];W[bk];B[cj];W[bj];B[ci];W[bi];B[ch];W[ah];B[ce];W[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.7]PB[mslano]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #109364]SO[http://www.littlegolem.com];W[dd];B[swap];W[ge];B[gg];W[fg];B[fh];W[di];B[eh];W[dh];B[eg];W[dg];B[ef];W[de];B[df];W[bg];B[cf];W[bf];B[ce];W[be];B[cc];W[ad];B[bb];W[dc];B[cd];W[if];B[ig];W[hg];B[gi];W[jf];B[jg];W[hh];B[hi];W[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[bennok]SZ[13]RE[B]GC[ game #108327]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[gg];W[eg];B[eh];W[fg];B[gd];W[id];B[he];W[ge];B[fh];W[je];B[ie];W[kd];B[ih];W[kg];B[jh];W[kh];B[ji];W[ki];B[jk];W[jj];B[ik];W[ij];B[hk];W[gj];B[hi];W[hj];B[kf];W[ig];B[fj];W[lf];B[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.3]PB[Tasmanian Devil]PW[Jihyuk Im]SZ[13]RE[B]GC[ game #107960]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[if];W[hd];B[fh];W[jf];B[je];W[ld];B[jg];W[kf];B[kg];W[hh];B[ig];W[gg];B[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.3]PB[leandro]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #107959]SO[http://www.littlegolem.com];W[ac];B[ii];W[fh];B[ff];W[dg];B[cf];W[ee];B[eh];W[ci];B[dj];W[bk];B[bl];W[ck];B[cl];W[dk];B[dl];W[fj];B[fk];W[hj];B[ek];W[gl];B[ej];W[gh];B[he];W[ge];B[gf];W[jd];B[if];W[jf];B[ih];W[jh];B[ji];W[mh];B[ki];W[lg];B[lj];W[ig];B[gi];W[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.3]PB[Tasmanian Devil]PW[klaashaas]SZ[13]RE[B]GC[ game #107957]SO[http://www.littlegolem.com];W[bb];B[gg];W[ej];B[de];W[jf];B[je];W[hf];B[hg];W[ig];B[if];W[ld];B[lc];W[kd];B[kc];W[jd];B[jc];W[id];B[ic];W[hd];B[hc];W[fd];B[gd];W[fe];B[ge];W[ff];B[gf];W[eh];B[ei];W[dj];B[di];W[fh];B[fi];W[gh];B[gi];W[hh];B[hi];W[ii];B[ih];W[kg];B[jh];W[kh];B[ji];W[ki];B[jj];W[kj];B[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.3]PB[Manuel Fernández]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #107954]SO[http://www.littlegolem.com];W[cc];B[swap];W[dd];B[ii];W[gj];B[fh];W[ih];B[if];W[gg];B[gh];W[hi];B[ig];W[eh];B[ei];W[cj];B[di];W[ci];B[dg];W[dh];B[ff];W[fg];B[he];W[le];B[ke];W[ld];B[kg];W[resign])
+
+(;FF[4]EV[null]PB[Szabó Gábor]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #107804]SO[http://www.littlegolem.com];W[ac];B[ii];W[gg];B[di];W[kj];B[ih];W[hg];B[fj];W[fi];B[fk];W[ej];B[dl];W[ck];B[bm];W[am];B[bl];W[al];B[bk];W[ak];B[bj];W[aj];B[bi];W[ai];B[bg];W[bh];B[cg];W[ch];B[dg];W[dh];B[eg];W[eh];B[fg];W[ie];B[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.1]PB[rusu horea ioan]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #107609]SO[http://www.littlegolem.com];W[cc];B[swap];W[ge];B[fh];W[hg];B[je];W[ie];B[gi];W[ih];B[ii];W[ci];B[cj];W[ei];B[fj];W[dj];B[eh];W[di];B[dg];W[ah];B[ij];W[bf];B[bh];W[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.1]PB[Tasmanian Devil]PW[Herb Doughty]SZ[13]RE[W]GC[ game #107607]SO[http://www.littlegolem.com];W[bb];B[swap];W[id];B[gg];W[ej];B[hh];W[dh];B[di];W[gh];B[fh];W[hg];B[hf];W[if];B[ie];W[je];B[jd];W[lc];B[kd];W[ld];B[ke];W[le];B[kf];W[lf];B[kg];W[lg];B[jj];W[kh];B[ik];W[ii];B[jh];W[ji];B[hj];W[hi];B[fk];W[cj];B[ci];W[resign])
+
+(;FF[4]EV[hex.mc.2003.dec.1.1]PB[zweeec]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #107605]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.mc.2003.dec.1.1]PB[Tasmanian Devil]PW[David Scott]SZ[13]RE[B]GC[ game #107602]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[gg];W[di];B[jf];W[ef];B[fd];W[ie];B[he];W[hg];B[jc];W[hd];B[fi];W[ei];B[id];W[ge];B[ff];W[ec];B[dh];W[fg];B[cl];W[ck];B[hc];W[de];B[fb];W[fc];B[gb];W[gc];B[hb];W[eb];B[resign])
+
+(;FF[4]EV[null]PB[Tasmanian Devil]PW[agoui (limited edition)]SZ[13]RE[W]GC[ game #107579]SO[http://www.littlegolem.com];W[bb];B[swap];W[id];B[ii];W[gi];B[gg];W[eg];B[ee];W[fg];B[fi];W[ei];B[ej];W[dj];B[cl];W[cj];B[bk];W[dk];B[dl];W[ek];B[el];W[fk];B[fl];W[hk];B[gk];W[hj];B[gj];W[hi];B[fj];W[gh];B[fh];W[if];B[ie];W[je];B[jd];W[kd];B[kc];W[mb];B[lc];W[mc];B[ld];W[md];B[kf];W[le];B[ke];W[lf];B[kg];W[lg];B[kh];W[lh];B[ki];W[li];B[kj];W[resign])
+
+(;FF[4]EV[null]PB[Alan Turing]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #107578]SO[http://www.littlegolem.com];W[ac];B[ii];W[fj];B[fh];W[eg];B[df];W[ge];B[di];W[gh];B[gg];W[jf];B[if];W[je];B[ig];W[kh];B[jg];W[lf];B[jj];W[resign])
+
+(;FF[4]EV[null]PB[ypercube]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #107577]SO[http://www.littlegolem.com];W[mj];B[swap];W[ei];B[je];W[hf];B[fg];W[gh];B[he];W[gf];B[gd];W[hd];B[hc];W[ic];B[ge];W[ie];B[id];W[jd];B[kb];W[jc];B[ja];W[ib];B[ia];W[hb];B[ha];W[gb];B[ga];W[dc];B[fb];W[ed];B[fc];W[fd];B[gc];W[ff];B[ej];W[dj];B[cl];W[fk];B[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.1.15]PB[Tasmanian Devil]PW[mmbeer]SZ[13]RE[B]GC[ game #106090]SO[http://www.littlegolem.com];W[bb];B[ee];W[ie];B[gd];W[ih];B[ic];W[jc];B[jb];W[kb];B[if];W[hf];B[hg];W[jg];B[je];W[gg];B[gh];W[fh];B[dj];W[ej];B[dl];W[fk];B[em];W[gl];B[fi];W[ei];B[la];W[ka];B[fj];W[ek];B[jd];W[id];B[fl];W[gk];B[gm];W[fm])
+
+(;FF[4]EV[hex.mc.2003.nov.1.15]PB[MochaMonkey]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #106089]SO[http://www.littlegolem.com];W[cc];B[swap];W[ff];B[fh];W[ig];B[hi];W[ii];B[ih];W[lf];B[jg];W[gi];B[if];W[jf];B[je];W[kd];B[kh];W[hg];B[gf];W[hf];B[id];W[jd];B[fk];W[gj];B[gl];W[gk];B[fl];W[jk];B[hk];W[ki];B[jj];W[kj];B[lh];W[ej];B[dl];W[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.1.15]PB[Tasmanian Devil]PW[Piotr Opalinski]SZ[13]RE[B]GC[ game #106088]SO[http://www.littlegolem.com];W[bb];B[swap];W[gg];B[he];W[jd];B[hf];W[gd];B[ff];W[if];B[je];W[ie];B[hh];W[ih];B[ig];W[kf];B[jg];W[kg];B[ld];W[kd];B[ke];W[jf];B[ji];W[jh];B[hj];W[hi];B[gj];W[fi];B[gi];W[hg];B[fh];W[gh];B[ej];W[kj];B[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.1.15]PB[Jihyuk Im]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #106087]SO[http://www.littlegolem.com];W[ab];B[je];W[hf];B[fi];W[ig];B[hj];W[gi];B[fk];W[ji];B[jd];W[id];B[ih];W[dk];B[ej];W[dj];B[eg];W[eh];B[fg];W[bh];B[dg];W[gk];B[gj];W[ek];B[gh];W[hh];B[fj];W[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.1.14]PB[Tasmanian Devil]PW[Ryan]SZ[13]RE[W]GC[ game #105799]SO[http://www.littlegolem.com];W[bb];B[gg];W[dh];B[de];W[ge];B[gf];W[eg];B[ff];W[ef];B[fi];W[cj];B[fd];W[fe];B[hc];W[id];B[jb];W[lb];B[kc];W[lc];B[je];W[kd];B[he];W[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.1.14]PB[Piotr Opalinski]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #105798]SO[http://www.littlegolem.com];W[bb];B[gg];W[eh];B[dg];W[eg];B[ei];W[fh];B[fi];W[hh];B[if];W[hf];B[hi];W[gi];B[fk];W[gj];B[gk];W[ij];B[jh];W[hj];B[ik];W[hk];B[gm];W[gl];B[fm];W[fj];B[ek];W[cl];B[gh];W[hg];B[he];W[gf];B[ge];W[ie];B[jc];W[fd];B[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.1.14]PB[Tasmanian Devil]PW[hazzard]SZ[13]RE[W]GC[ game #105795]SO[http://www.littlegolem.com];W[bb];B[swap];W[gg];B[je];W[ff];B[fd];W[gd];B[fg];W[hf];B[hh];W[fi];B[fj];W[ej];B[dl];W[cl];B[dk];W[hj];B[gk];W[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.1.14]PB[marek]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #105792]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.mc.2003.nov.1.12]PB[Tasmanian Devil]PW[Cynic Kim]SZ[13]RE[B]GC[ game #104663]SO[http://www.littlegolem.com];W[bb];B[gg];W[ig];B[if];W[hg];B[hf];W[di];B[ef];W[ke];B[kd];W[je];B[jd];W[ie];B[id];W[he];B[hd];W[ge];B[gd];W[fe];B[fd];W[ee];B[ed];W[de];B[dd];W[be];B[cl];W[cj];B[bk];W[ck];B[bl];W[ek];B[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.1.12]PB[Jihyuk Im]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #104662]SO[http://www.littlegolem.com];W[ab];B[fh];W[hg];B[ih];W[gi];B[hf];W[if];B[ie];W[je];B[jd];W[lc];B[jc];W[lb];B[kd];W[ld];B[ke];W[le];B[jg];W[ch];B[ej];W[dj];B[dk];W[ck];B[de];W[ee];B[dg];W[eg];B[ef];W[ff];B[gd];W[fe];B[fc];W[ed];B[ec];W[cd];B[dd];W[bf];B[cg];W[ah];B[bj];W[di];B[dh];W[ci];B[bh];W[kf];B[jf];W[lg];B[kg];W[lf];B[ki];W[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.1.12]PB[Tasmanian Devil]PW[MILK]SZ[13]RE[B]GC[ game #104661]SO[http://www.littlegolem.com];W[bb];B[cf];W[hf];B[gh];W[fh];B[he];W[fg];B[jd];W[ef];B[ee];W[fe];B[fj];W[ej];B[dl];W[jh];B[gk];W[kh];B[ig];W[jf];B[if];W[lh];B[el];W[je];B[ie];W[lc];B[il];W[ik];B[ji];W[kj];B[lb];W[kc];B[resign])
+
+(;FF[4]EV[hex.mc.2003.nov.1.12]PB[rusu horea ioan]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #104660]SO[http://www.littlegolem.com];W[ck];B[swap];W[gf];B[gh];W[fh];B[gg];W[fg];B[ej];W[cj];B[ch];W[dj];B[hc];W[ed];B[eg];W[fe];B[ee];W[gc];B[fd];W[gd];B[ei];W[dh];B[eh];W[dg];B[ef];W[cf];B[de];W[ce];B[dc];W[dd];B[fb];W[fc];B[ha];W[jb];B[resign])
+
+(;FF[4]EV[hex.mc.2003.aug.2.1]PB[LoKo]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #104027]SO[http://www.littlegolem.com];W[ac];B[jj];W[gi];B[gg];W[eg];B[eh];W[fg];B[fh];W[dh];B[de];W[cj];B[gd];W[ee];B[fc];W[ie];B[hf];W[he];B[gf];W[ed];B[fe];W[cg];B[ce];W[bg];B[resign])
+
+(;FF[4]EV[hex.mc.2003.aug.2.1]PB[Tasmanian Devil]PW[Norbi]SZ[13]RE[B]GC[ game #104025]SO[http://www.littlegolem.com];W[bb];B[gg];W[ig];B[if];W[fg];B[fh];W[hg];B[hf];W[ke];B[jf];W[kf];B[jg];W[kg];B[jh];W[kh];B[jj];W[ji];B[ij];W[ii];B[gk];W[hj];B[hk];W[fj];B[ek];W[ej];B[dk];W[kk];B[jl];W[kl];B[gj];W[li];B[kd];W[je];B[jd];W[ie];B[id];W[he];B[hd];W[ge];B[gd];W[fe];B[fd];W[de];B[ee];W[df];B[ef];W[dg];B[eg];W[dh];B[eh];W[di];B[dj];W[ei];B[gi];W[fk];B[em];W[fl];B[fm];W[gl];B[gm];W[hl];B[hm];W[il];B[dd];W[ed];B[fb];W[ec];B[resign])
+
+(;FF[4]EV[hex.mc.2003.aug.2.1]PB[KaWoTan]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #104023]SO[http://www.littlegolem.com];W[kl];B[swap];W[fh];B[fe];W[ie];B[fj];W[hk];B[hi];W[ej];B[gg];W[cf];B[ef];W[lh];B[kg];W[jh];B[jg];W[hg];B[gh];W[ih];B[ij];W[dg];B[eg];W[dh];B[df];W[bh];B[cj];W[bj];B[ci];W[resign])
+
+(;FF[4]EV[hex.mc.2003.aug.2.1]PB[Tasmanian Devil]PW[bennok]SZ[13]RE[B]GC[ game #104020]SO[http://www.littlegolem.com];W[bb];B[swap];W[hf];B[ij];W[ej];B[he];W[gd];B[gh];W[fh];B[gf];W[eg];B[fe];W[ee];B[ef];W[cg];B[df];W[cf];B[de];W[ce];B[dc];W[dd];B[dg];W[ch];B[dh];W[ci];B[dk];W[dj];B[cj];W[di];B[ek];W[gk];B[fl];W[gl];B[fk];W[hi];B[gi];W[ig];B[ic];W[be];B[ec];W[cc];B[da];W[db];B[ea];W[eb];B[fa];W[fb];B[ga];W[gb];B[ha];W[hb];B[ia];W[ib];B[ja];W[jb];B[ka];W[lb];B[if];W[hg];B[kb];W[kc];B[resign])
+
+(;FF[4]EV[hex.mc.2003.aug.2.1]PB[Hexer]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #104016]SO[http://www.littlegolem.com];W[cc];B[swap];W[gg];B[gi];W[fi];B[gh];W[fh];B[ek];W[dk];B[ej];W[dj];B[ei];W[di];B[eh];W[dh];B[eg];W[dg];B[ef];W[df];B[ed];W[ee];B[fd];W[fe];B[gd];W[id];B[he];W[ie];B[ji];W[hg];B[if];W[hf];B[gf];W[fg];B[ff];W[fj];B[fk];W[hj];B[resign])
+
+(;FF[4]EV[hex.ch.6.3.2]PB[Tasmanian Devil]PW[Mirella van de sluis]SZ[13]RE[B]GC[ game #97199]SO[http://www.littlegolem.com];W[bb])
+
+(;FF[4]EV[hex.ch.6.3.2]PB[Marcelo Fraga]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #97198]SO[http://www.littlegolem.com];W[am];B[dd];W[resign])
+
+(;FF[4]EV[hex.ch.6.3.2]PB[Tasmanian Devil]PW[Hexer]SZ[13]RE[B]GC[ game #97197]SO[http://www.littlegolem.com];W[bb];B[gg];W[jg];B[jf];W[eh];B[ei];W[ig];B[if];W[fh];B[ff];W[dg];B[ee];W[cf];B[dd];W[be];B[bc];W[cc];B[gi];W[ck];B[cj];W[fi];B[ej];W[fj];B[em];W[fk];B[resign])
+
+(;FF[4]EV[hex.ch.6.3.2]PB[Andy Aspden]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #97196]SO[http://www.littlegolem.com];W[cl];B[swap];W[fg];B[dj];W[gh];B[ge];W[ef];B[fd];W[de];B[dd];W[ed];B[fb];W[gd];B[gc];W[cd];B[dc];W[ic];B[hd];W[jd];B[if];W[he];B[gg];W[gf];B[fh];W[cj];B[di];W[ci];B[ck];W[al];B[bk];W[ak];B[bj];W[aj];B[bi];W[ai];B[bh];W[ah];B[bg];W[ag];B[ce];W[ae];B[cb];W[resign])
+
+(;FF[4]EV[hex.ch.6.3.2]PB[Tasmanian Devil]PW[Elizabeth]SZ[13]RE[B]GC[ game #97195]SO[http://www.littlegolem.com];W[bb];B[cd];W[hf];B[ed];W[ie];B[gg];W[hg];B[ad];W[gi];B[hh];W[gh];B[gf];W[fk];B[jd];W[id];B[ic];W[jc];B[gd];W[el];B[gj];W[fj];B[mb];W[jb];B[ja];W[ka];B[dm];W[em])
+
+(;FF[4]EV[hex.ch.6.3.2]PB[Bernhard Herwig]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #97194]SO[http://www.littlegolem.com];W[cb];B[swap];W[gg];B[gi];W[fi];B[ek];W[jh];B[ij];W[hj];B[ge];W[he];B[ic];W[kc];B[ik];W[fk];B[jf];W[je];B[fj];W[le];B[kf];W[ck];B[dj];W[cj];B[di];W[li];B[lf];W[ig];B[jd];W[cd];B[gd];W[ci];B[dh];W[ch];B[df];W[cf];B[cg];W[dg];B[ee];W[kd];B[if];W[ie];B[gf];W[hf];B[hg];W[gh];B[dl];W[hh];B[resign])
+
+(;FF[4]EV[hex.ch.6.3.2]PB[Tasmanian Devil]PW[Morgan Kan]SZ[13]RE[B]GC[ game #97193]SO[http://www.littlegolem.com];W[bb];B[swap];W[jj];B[kg];W[hf];B[hh];W[gh];B[ic];W[fd];B[fe];W[ee];B[ef];W[id];B[jc];W[hd];B[gc];W[hc];B[ia];W[hb];B[ha];W[gb];B[ga];W[fb];B[fa];W[db];B[eb];W[dc];B[gi];W[fi];B[fj];W[ej];B[dl];W[ek];B[em];W[el];B[dm];W[fl];B[fm];W[hk];B[hm];W[kk];B[resign])
+
+(;FF[4]EV[hex.ch.6.3.2]PB[Jonathan]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #97192]SO[http://www.littlegolem.com];W[ci];B[swap];W[jc];B[jj];W[hi];B[id];W[fe];B[fg];W[eg];B[eh];W[ci];B[de];W[dh];B[fd];W[hc];B[ib];W[hb];B[gd];W[hd];B[ge];W[gf];B[he];W[ke];B[jd];W[lc];B[lb];W[resign])
+
+(;FF[4]EV[hex.mc.2003.oct.1.3]PB[Tasmanian Devil]PW[Hexer]SZ[13]RE[B]GC[ game #89725]SO[http://www.littlegolem.com];W[bb];B[gg];W[jg];B[je];W[ef];B[di];W[if];B[ie];W[hf];B[gf];W[he];B[ic];W[gd];B[gc];W[ee];B[ed];W[de];B[dd];W[ce];B[resign])
+
+(;FF[4]EV[hex.mc.2003.oct.1.3]PB[Arnoud Meijer]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #89724]SO[http://www.littlegolem.com];W[ii];B[swap];W[hh];B[fh];W[if];B[gj];W[fi];B[ek];W[ck];B[di];W[ej];B[ie];W[ff];B[gf];W[kc];B[kd];W[resign])
+
+(;FF[4]EV[hex.mc.2003.oct.1.3]PB[Tasmanian Devil]PW[Choin]SZ[13]RE[B]GC[ game #89722]SO[http://www.littlegolem.com];W[bb];B[ji];W[ei];B[ej];W[dj];B[cl];W[gj];B[fk];W[gk];B[gi];W[dk];B[dl];W[fj];B[eh];W[fh];B[gf];W[hf];B[gg];W[hg];B[fi];W[ih];B[hi];W[ii];B[hk];W[ek];B[gh];W[hj];B[fm];W[el];B[id];W[he];B[hd];W[ge];B[gd];W[fe];B[fd];W[de];B[ee];W[df];B[ef];W[dg];B[dh];W[eg];B[fg];W[ff];B[hh];W[ig];B[em];W[dm];B[fl];W[ec];B[ed];W[dd];B[fb];W[eb];B[fa];W[ea])
+
+(;FF[4]EV[hex.mc.2003.oct.1.3]PB[Alan Turing]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #89719]SO[http://www.littlegolem.com];W[mc];B[jj];W[hi];B[hf];W[fg];B[gh];W[ei];B[ff];W[gf];B[hd];W[ge];B[gd];W[ee];B[eh];W[fh];B[fe];W[dg];B[eg];W[ci];B[cj];W[di];B[ej];W[gi];B[ed];W[fd];B[gb];W[fc];B[fb];W[ec];B[eb];W[dc];B[db];W[bc];B[ch];W[ai];B[dh];W[kd];B[ie];W[id];B[he];W[if];B[je];W[ke];B[jg];W[kg];B[kf];W[me];B[lf];W[mf];B[lg];W[mg];B[ki];W[lh];B[kh];W[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.14]PB[Tasmanian Devil]PW[lazar]SZ[13]RE[B]GC[ game #85109]SO[http://www.littlegolem.com];W[bb];B[if];W[fh];B[ef];W[hd];B[gf];W[hf];B[gh];W[eh];B[eg];W[gg];B[ej];W[dj];B[cl];W[hj];B[ek];W[hi];B[gi];W[ig];B[ih];W[jg];B[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.14]PB[passenger]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #85108]SO[http://www.littlegolem.com];W[ab];B[ii];W[gh];B[gf];W[fg];B[ff];W[dg];B[ee];W[cf];B[ce];W[de];B[ec];W[dd];B[dc];W[bd];B[cd];W[af];B[bf];W[ag];B[bg];W[ah];B[bh];W[ai];B[bi];W[aj];B[bj];W[ak];B[bl];W[bk];B[ck];W[cj];B[ej];W[dj];B[dk];W[hh];B[gj];W[hj];B[gk];W[hi];B[hl];W[hk];B[gl];W[ik];B[il];W[jk];B[jl];W[lk];B[kk];W[lj];B[kj];W[li];B[ji];W[ki];B[jj];W[kh];B[jg];W[kf];B[kg];W[mf];B[kd];W[md];B[ld];W[jf];B[lf];W[me];B[le];W[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.14]PB[Tasmanian Devil]PW[hazzard]SZ[13]RE[B]GC[ game #85106]SO[http://www.littlegolem.com];W[bb];B[cd];W[hf];B[kd];W[gf];B[ic];W[fe];B[gc];W[ed];B[ee];W[fd];B[ff];W[ge];B[fi];W[ih];B[ii];W[hi];B[gk];W[ik];B[hl];W[ki];B[ji];W[fj];B[ek];W[fk];B[em];W[el];B[gh];W[jg];B[jc];W[if];B[dm];W[jk];B[kh];W[hj];B[fa];W[fb];B[ga];W[eb];B[ec];W[fc];B[ig];W[jf];B[hk];W[ij];B[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.14]PB[David Scott]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #85103]SO[http://www.littlegolem.com];W[bc];B[swap];W[gg];B[fj];W[ji];B[ih];W[gi];B[gj];W[dk];B[ei];W[hi];B[ig];W[fi];B[he];W[fd];B[ff];W[jf];B[jd];W[kd];B[kc];W[mb];B[kg];W[lf];B[lg];W[if];B[lc];W[cg];B[dg];W[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.4]PB[Tasmanian Devil]PW[agoui (limited edition)]SZ[13]RE[B]GC[ game #79867]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[jf];W[gf];B[gg];W[hf];B[hh];W[di];B[eh];W[dh];B[eg];W[dg];B[ef];W[df];B[ee];W[de];B[ed];W[dd];B[eb];W[ec];B[fb];W[fc];B[gb];W[lb];B[jc];W[ic];B[hc];W[gc];B[hb];W[fe];B[gd];W[he];B[ge];W[ig];B[ih];W[kg];B[jg];W[le];B[jh];W[kh];B[ji];W[ki];B[jk];W[kl];B[kk];W[jj];B[hl];W[ik];B[il];W[hk];B[gl];W[gk];B[fl];W[fk];B[el];W[dk];B[ek];W[ej];B[fj];W[fh];B[fg];W[gh];B[hg];W[gi];B[ld];W[ke];B[kd];W[je];B[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.4]PB[LoKo]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #79866]SO[http://www.littlegolem.com];W[ma];B[ii];W[jj];B[gg];W[hg];B[jg];W[gi];B[ie];W[jd];B[he];W[jf];B[je];W[ld];B[ke];W[me];B[le];W[md];B[lf];W[mf];B[lh];W[lg];B[ji];W[ki];B[kh];W[ge];B[eh];W[gf];B[gh];W[dh];B[di];W[bj];B[df];W[cg];B[cf];W[dg];B[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.4]PB[Tasmanian Devil]PW[Crelo]SZ[13]RE[W]GC[ game #79864]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[gg];W[eg];B[eh];W[ci];B[dh];W[ch];B[dg];W[cg];B[de];W[df];B[ee];W[id];B[gf];W[hf];B[ih];W[hh];B[hi];W[gi];B[gj];W[fj];B[hg];W[jf];B[ig];W[jh];B[jg];W[lf];B[kf];W[le];B[kd];W[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.4]PB[zilue]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #79861]SO[http://www.littlegolem.com];W[ab];B[ii];W[gh];B[ek];W[hi];B[gi];W[dk];B[di];W[ei];B[gf];W[hf];B[id];W[ef];B[ge];W[fg];B[ee];W[kc];B[je];W[hd];B[he];W[fe];B[gc];W[ji];B[ke];W[lc];B[gd];W[dd];B[ed];W[cf];B[df];W[cg];B[dg];W[ch];B[eh];W[cj];B[cc];W[be];B[ci];W[aj];B[bj];W[ak];B[bl];W[bk];B[cm];W[ej];B[el];W[gj];B[gk];W[hj];B[hl];W[hk];B[gl];W[ik];B[il];W[kk];B[jk];W[kj];B[jj];W[ki];B[ij];W[jg];B[hh];W[if];B[gg];W[hg];B[fh];W[fi];B[bf];W[resign])
+
+(;FF[4]EV[hex.rt.2003.7.171]PB[Zeycus]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #79202]SO[http://www.littlegolem.com];W[ab];B[ii];W[gh];B[fj];W[fh];B[ek];W[dk];B[ei];W[hh];B[hi];W[di];B[bl];W[jj];B[dl];W[cl];B[dj];W[cj];B[ck];W[jh];B[ji];W[lh];B[ki];W[li];B[kj];W[lj];B[kl];W[kk];B[im];W[gj];B[il];W[hk];B[resign])
+
+(;FF[4]EV[hex.rt.2003.7.171]PB[Tasmanian Devil]PW[Bela Nagy]SZ[13]RE[B]GC[ game #79201]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[ig];W[gg];B[ge];W[he];B[ic];W[fd];B[gf];W[hf];B[gd];W[fg];B[ef];W[jc];B[id];W[jd];B[ie];W[je];B[if];W[jg];B[jf];W[le];B[lb];W[ke];B[ka];W[jb];B[ja];W[ib];B[ia];W[gc];B[hb];W[hc];B[ga];W[gb];B[kf];W[ji];B[lg];W[hd];B[hi];W[hh];B[ih];W[ej];B[resign])
+
+(;FF[4]EV[hex.rt.2003.7.171]PB[Cynic Kim]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #79200]SO[http://www.littlegolem.com];W[ab];B[ii];W[gg];B[ge];W[he];B[ic];W[jc];B[id];W[je];B[jd];W[lc];B[kd];W[ld];B[ke];W[le];B[jg];W[hc];B[dj];W[ej];B[hd];W[ef];B[de];W[fd];B[fg];W[eh];B[eg];W[dg];B[dh];W[ci];B[ch];W[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.2]PB[Tasmanian Devil]PW[Cynic Kim]SZ[13]RE[B]GC[ game #78304]SO[http://www.littlegolem.com];W[bb];B[swap];W[gg];B[ig];W[fg];B[hd];W[fe];B[fd];W[gd];B[hb];W[ec];B[fc];W[de];B[fa];W[db];B[ef];W[ee];B[ff];W[he];B[jc];W[ge];B[ej];W[dj];B[cl];W[fj];B[fk];W[ek];B[dm];W[hk];B[gl];W[ik];B[gj];W[el];B[fi];W[hh];B[gi];W[ii];B[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.2]PB[Jan Beran]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #78303]SO[http://www.littlegolem.com];W[fm];B[gg];W[ig];B[if];W[ke];B[jf];W[kf];B[jh];W[jg];B[hi];W[gh];B[fj];W[ej];B[fi];W[ei];B[fh];W[eh];B[ff];W[ef];B[eg];W[ch];B[de];W[dg];B[fd];W[fe];B[gd];W[ge];B[hd];W[he];B[id];W[ie];B[kc];W[lc];B[lb];W[ce];B[cf];W[ag];B[bh];W[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.2]PB[Tasmanian Devil]PW[Stefan Valovic]SZ[13]RE[B]GC[ game #78302]SO[http://www.littlegolem.com];W[bb];B[gg];W[jf];B[ie];W[kd];B[ih];W[ji];B[kg];W[hh];B[ig];W[hg];B[if];W[hf];B[he];W[ff];B[gf];W[eh];B[ei];W[fh];B[gd];W[ee];B[fj];W[fi];B[gj];W[hj];B[hi];W[ej];B[fc];W[dd];B[dc];W[cd];B[cc];W[ec];B[fa];W[eb];B[ea];W[db];B[dl];W[ek];B[el];W[fk];B[fl];W[gk];B[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.2]PB[Alu]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #78301]SO[http://www.littlegolem.com];W[di];B[swap];W[gf];B[ge];W[fe];B[eh];W[ff];B[gg];W[jf];B[hg];W[ie];B[ih];W[kg];B[ji];W[lh];B[kj];W[ah];B[ci];W[bi];B[bj];W[resign])
+
+(;FF[4]EV[hex.rt.2003.7.170]PB[sil]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #78254]SO[http://www.littlegolem.com];W[gf];B[swap];W[hf];B[gh];W[bh];B[ef];W[de];B[cj];W[di];B[cg];W[ag];B[ch];W[aj];B[bi];W[ai];B[bk];W[kg];B[jf];W[ig];B[hi];W[ji];B[jh];W[kh];B[jg];W[le];B[kd];W[mc];B[lb];W[dg];B[df];W[resign])
+
+(;FF[4]EV[hex.rt.2003.7.170]PB[Tasmanian Devil]PW[Stefan Valovic]SZ[13]RE[B]GC[ game #78253]SO[http://www.littlegolem.com];W[bb];B[ff];W[hf];B[he];W[ie];B[id];W[jd];B[kc];W[jc];B[fj];W[ii];B[ih];W[gi];B[gj];W[jh];B[jg];W[hi];B[gh];W[ke];B[hh];W[lf];B[kg];W[lg];B[kh];W[lh];B[ki];W[li];B[kj];W[lj];B[kl];W[kk];B[jl];W[jk];B[il];W[ik];B[hl];W[hk];B[gl];W[dk];B[gk];W[ei];B[cm];W[el];B[fg];W[fi];B[ka];W[ib];B[resign])
+
+(;FF[4]EV[hex.rt.2003.7.170]PB[Alu]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #78252]SO[http://www.littlegolem.com];W[fh];B[swap];W[eh];B[fe];W[ge];B[fg];W[ff];B[eg];W[dg];B[dh];W[if];B[jg];W[hg];B[ie];W[je];B[jd];W[lb];B[lc];W[aj];B[ci];W[ai];B[bk];W[gg];B[gf];W[ak];B[al];W[bj];B[cj];W[kd];B[kc];W[mb];B[mc])
+
+(;FF[4]EV[hex.rt.2003.7.169]PB[Tasmanian Devil]PW[Mark Dufour]SZ[13]RE[B]GC[ game #78028]SO[http://www.littlegolem.com];W[bb];B[resign])
+
+(;FF[4]EV[hex.rt.2003.7.169]PB[Alan Turing]PW[Tasmanian Devil]SZ[13]RE[B]GC[ game #78027]SO[http://www.littlegolem.com];W[mc];B[ie];W[ef];B[eh];W[hf];B[if];W[fh];B[fg];W[ec];B[gg];W[hg];B[gi];W[dj];B[ei];W[bi];B[dk];W[ek];B[cj];W[ck];B[dh];W[ih];B[ig];W[hh];B[hj];W[ji];B[jj];W[ki];B[kj];W[li];B[kk];W[ij];B[hl];W[hk];B[gl];W[gk];B[fl];W[fk];B[dm];W[cl];B[resign])
+
+(;FF[4]EV[hex.rt.2003.7.169]PB[Tasmanian Devil]PW[Jose Maria Grau Ribas]SZ[13]RE[B]GC[ game #78024]SO[http://www.littlegolem.com];W[bb];B[swap];W[ii];B[ig];W[fh];B[gf];W[ef];B[eg];W[ff];B[fg];W[hf];B[hd];W[id];B[jb];W[ic];B[ib];W[hc];B[hb];W[gc];B[gb];W[fc];B[fb];W[dc];B[ej];W[di];B[gh];W[fi];B[de];W[gg];B[ec];W[kc];B[la];W[ma];B[lb];W[mb];B[lc];W[mc];B[ld];W[md];B[le];W[me];B[lg];W[lf];B[jh];W[jg];B[ih];W[jf];B[dl];W[gj];B[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.1]PB[Tasmanian Devil]PW[Hexer]SZ[13]RE[B]GC[ game #77787]SO[http://www.littlegolem.com];W[bb];B[gg];W[jf];B[ih];W[kf];B[kg];W[hh];B[ig];W[hg];B[gj];W[fi];B[ej];W[fj];B[el];W[dj];B[dk];W[ck];B[bm];W[dl];B[cl];W[ek];B[ie];W[ff];B[eh];W[dg];B[ci];W[hf];B[ge];W[he];B[ic];W[dd];B[gd];W[gf];B[de];W[ee];B[ed];W[fd];B[gb];W[fc];B[fa];W[fb];B[ga];W[eb];B[ea];W[db];B[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.1]PB[ypercube]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #77786]SO[http://www.littlegolem.com];W[mj];B[swap];W[ee];B[fh];W[ci];B[cj];W[di];B[eg];W[dg];B[dj];W[ei];B[ej];W[gi];B[fk];W[gk];B[gj];W[ii];B[hg];W[ih];B[hl];W[ij];B[fm];W[fl];B[em];W[bl];B[el];W[ak];B[bj];W[aj];B[bi];W[ai];B[bh];W[ah];B[bg];W[ag];B[bf];W[af];B[be];W[ae];B[bd];W[ad];B[bc];W[ac];B[ba];W[bb];B[ca];W[cb];B[da];W[db];B[ea];W[eb];B[fa];W[fb];B[ga];W[gb];B[ha];W[hb];B[ia];W[jb];B[ib];W[ic];B[hc];W[he];B[fd];W[gg];B[jf];W[fi];B[ed];W[jk];B[im];W[kl];B[km];W[ml];B[ll];W[mk];B[lk];W[mj];B[lj];W[resign])
+
+(;FF[4]EV[hex.mc.2003.sep.1.1]PB[Tasmanian Devil]PW[Beatriz Mas]SZ[13]RE[B]GC[ game #77783]SO[http://www.littlegolem.com];W[bb])
+
+(;FF[4]EV[hex.mc.2003.sep.1.1]PB[Alan Turing]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #77780]SO[http://www.littlegolem.com];W[mc];B[swap];W[dk];B[gg];W[ef];B[eh];W[dh];B[di];W[bj];B[bl];W[ck];B[el];W[gk];B[fj];W[ih];B[if];W[mc];B[jg];W[kg];B[le];W[jf];B[je];W[ke];B[kd];W[fi];B[ej];W[resign])
+
+(;FF[4]EV[hex.mc.2003.aug.1.22]PB[Tasmanian Devil]PW[LoKo]SZ[13]RE[B]GC[ game #77338]SO[http://www.littlegolem.com];W[bb];B[ij];W[ei];B[ef];W[gf];B[fg];W[gg];B[fh];W[hh];B[gi];W[hi];B[gk];W[hk];B[gl];W[hj];B[hl];W[ik];B[il];W[jk];B[jl];W[lk];B[kk];W[lj];B[kj];W[li];B[ki];W[lh];B[kh];W[lg];B[kg];W[lf];B[kf];W[le];B[kd];W[ke];B[je];W[jf];B[ge];W[lb];B[mc];W[he];B[resign])
+
+(;FF[4]EV[hex.mc.2003.aug.1.22]PB[Jose Maria Grau Ribas]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #77337]SO[http://www.littlegolem.com];W[mk];B[gg];W[eg];B[ee];W[if];B[ie];W[fe];B[gf];W[di];B[dj];W[ei];B[ej];W[fi];B[fj];W[gi];B[gj];W[bl];B[bk];W[hi];B[hj];W[ji];B[ii];W[jh];B[ih];W[jg];B[jf];W[ig];B[hh];W[he];B[id];W[hd];B[hf];W[kd];B[kc];W[resign])
+
+(;FF[4]EV[hex.mc.2003.aug.1.22]PB[Tasmanian Devil]PW[Alan Turing]SZ[13]RE[W]GC[ game #77335]SO[http://www.littlegolem.com];W[bb];B[swap];W[gg];B[ij];W[hg];B[fk];W[dk];B[ee];W[eh];B[hd];W[id];B[hf];W[ke];B[jd];W[if];B[jc];W[gf];B[he];W[mb];B[fh];W[lc];B[ld];W[kd];B[ej];W[hj];B[gl];W[hk];B[hl];W[ik];B[il];W[jk];B[jl];W[lk];B[ii];W[ki];B[kk];W[lj];B[kj];W[li];B[kh];W[dj];B[fg];W[jj];B[hi];W[resign])
+
+(;FF[4]EV[hex.mc.2003.aug.1.22]PB[zilue]PW[Tasmanian Devil]SZ[13]RE[W]GC[ game #77332]SO[http://www.littlegolem.com];W[ab];B[fh];W[kj];B[gf];W[jf];B[jd];W[he];B[if];W[gh];B[hf];W[je];B[jc];W[mb];B[lb];W[df];B[ee];W[de];B[ge];W[fg];B[dh];W[cj];B[ef];W[bi];B[cd];W[resign])
+
+   

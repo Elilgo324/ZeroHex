@@ -1,0 +1,339 @@
+JJ10
+
+
+
+(;FF[4]EV[hex.ch.41.3.3]PB[JJ10]PW[Shumacher;]]SZ[13]RE[B]GC[ game #1911644]SO[http://www.littlegolem.com];W[bd])
+
+(;FF[4]EV[hex.ch.41.3.3]PB[liuziqi]PW[JJ10]SZ[13]RE[B]GC[ game #1911643]SO[http://www.littlegolem.com];W[hg];B[swap];W[ig];B[if];W[hf];B[hg];W[je];B[jg];W[jf];B[hi];W[fg];B[ei];W[ih];B[ii];W[jh];B[jj];W[di];B[ck];W[dj];B[dk];W[ej];B[ek];W[gj];B[gk];W[fk];B[em];W[bk];B[am];W[bl];B[bm];W[hl];B[fj];W[cl];B[cm];W[fl];B[dm];W[gi];B[hh];W[ki];B[kj];W[lj];B[li];W[fi];B[ie];W[he];B[ic];W[id];B[jc];W[jd];B[lb];W[fc];B[gd];W[ee];B[ef];W[cg];B[resign])
+
+(;FF[4]EV[hex.ch.41.3.3]PB[JJ10]PW[Marecky]SZ[13]RE[B]GC[ game #1911640]SO[http://www.littlegolem.com];W[bd])
+
+(;FF[4]EV[hex.ch.41.3.3]PB[Yorge]PW[JJ10]SZ[13]RE[W]GC[ game #1911637]SO[http://www.littlegolem.com];W[kb];B[swap];W[ji];B[jg];W[gg];B[hd];W[de];B[ef];W[he];B[fe];W[id];B[gh];W[fh];B[fk];W[fi];B[ej];W[fj];B[ek];W[gj];B[gl])
+
+(;FF[4]EV[hex.ch.41.3.3]PB[JJ10]PW[psikonauta]SZ[13]RE[W]GC[ game #1911633]SO[http://www.littlegolem.com];W[bd];B[swap];W[hf];B[gi];W[fi];B[gg];W[ig];B[ih];W[hh];B[if];W[je];B[hi];W[gh];B[ek];W[jh];B[jg];W[fj];B[fk];W[gj];B[gk];W[hj];B[hk];W[ki];B[jj];W[resign])
+
+(;FF[4]EV[hex.ch.41.3.3]PB[Scott Arnold]PW[JJ10]SZ[13]RE[B]GC[ game #1911628]SO[http://www.littlegolem.com];W[ab];B[cc];W[gg];B[he];W[ef];B[fd];W[ie];B[jc];W[kc];B[la];W[kb];B[fj];W[ii];B[ij];W[hj];B[gl];W[fk];B[resign])
+
+(;FF[4]EV[hex.ch.41.3.3]PB[JJ10]PW[German_Rodriguez_Perez]SZ[13]RE[B]GC[ game #1911622]SO[http://www.littlegolem.com];W[bc];B[swap];W[gg];B[jk];W[ij];B[he];W[ge])
+
+(;FF[4]EV[hex.ch.41.3.3]PB[Gasparim]PW[JJ10]SZ[13]RE[B]GC[ game #1911615]SO[http://www.littlegolem.com];W[lb];B[swap];W[dk];B[ie];W[ld];B[lb];W[gf];B[gg];W[eh];B[ge];W[he];B[ic];W[hd];B[gc];W[hc];B[ia];W[ib];B[ja];W[kb];B[resign])
+
+(;FF[4]EV[hex.in.HEX11.84]PB[JJ10]PW[liuziqi]SZ[11]RE[B]GC[ game #1903200]SO[http://www.littlegolem.com];W[bc];B[ff];W[hc];B[ec];W[ed];B[fd];W[fe];B[ee];W[cf];B[de];W[ce];B[dd];W[cd];B[ef];W[bh];B[bj];W[ci];B[cj];W[di];B[dj];W[ei];B[ej];W[fi];B[fj];W[gi];B[gj];W[hi];B[hj];W[ji];B[ii];W[jh];B[ih];W[jg];B[ig];W[jf];B[if];W[je];B[jc];W[id];B[resign])
+
+(;FF[4]EV[hex.in.HEX11.83]PB[hecheng830]PW[JJ10]SZ[11]RE[B]GC[ game #1900572]SO[http://www.littlegolem.com];W[ab];B[swap];W[ge];B[gh];W[dh];B[di];W[fh];B[ej];W[fi];B[fj];W[gi];B[gj];W[hi];B[hk];W[dj];B[ei];W[hj];B[gk];W[ji];B[jj];W[ij];B[ik];W[ci];B[ck];W[bj];B[hc];W[fd];B[fc];W[gc];B[ha];W[jb];B[hb];W[ef];B[id];W[dc];B[fb];W[ed];B[ea];W[cb];B[resign])
+
+(;FF[4]EV[hex.in.HEX11.82]PB[qbingyan]PW[JJ10]SZ[11]RE[W]GC[ game #1897463]SO[http://www.littlegolem.com];W[fe];B[swap];W[he];B[gh];W[ff];B[eh];W[fh];B[ej];W[fi];B[fj];W[ei];B[dj];W[gi];B[gj];W[ii];B[hd];W[fe];B[fd];W[gd];B[hb];W[gc];B[gb];W[fc];B[fb];W[fg];B[ec];W[di];B[ic];W[jc];B[jb];W[cd];B[cc];W[dc];B[ea];W[db];B[da];W[cb];B[ca];W[ab];B[bb];W[ac];B[de];W[bd];B[bf];W[ib];B[hc];W[ce];B[cf];W[resign])
+
+(;FF[4]EV[hex.in.HEX11.81]PB[ferrarifeleches]PW[JJ10]SZ[11]RE[W]GC[ game #1896030]SO[http://www.littlegolem.com];W[df];B[swap];W[de];B[df];W[ee];B[eg];W[ff];B[fg];W[bg];B[ch];W[if];B[hh];W[gg];B[fi];W[fh];B[ei];W[eh];B[cj];W[ci];B[bj];W[kg];B[ji];W[ih];B[hj];W[gi];B[fk];W[fj];B[ek];W[ej];B[dk];W[aj];B[bh];W[bi];B[ak];W[di];B[ck];W[hg];B[ki];W[jf];B[ij])
+
+(;FF[4]EV[hex.in.HEX11.80]PB[Catalunya]PW[JJ10]SZ[11]RE[W]GC[ game #1894813]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.in.HEX11.79]PB[petpof]PW[JJ10]SZ[11]RE[W]GC[ game #1893387]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.in.HEX11.78]PB[JJ10]PW[richyfourtytwo]SZ[11]RE[W]GC[ game #1892328]SO[http://www.littlegolem.com];W[ac];B[swap];W[ff];B[hd];W[gd];B[fg];W[eg];B[eh];W[dh];B[di];W[ci];B[bk];W[ak];B[bj];W[resign])
+
+(;FF[4]EV[hex.in.HEX11.77]PB[Arducode]PW[JJ10]SZ[11]RE[W]GC[ game #1890789]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[null]PB[hecheng830]PW[JJ10]SZ[11]RE[B]GC[ game #1890039]SO[http://www.littlegolem.com];W[hd];B[swap];W[fg];B[ff];W[he];B[ic];W[gd];B[gc];W[hc];B[ia];W[fc];B[fd];W[hb];B[ej];W[hh];B[hi];W[di];B[gf];W[if];B[hg];W[ig];B[fj];W[gi];B[gj];W[fh];B[ck];W[bj];B[resign])
+
+(;FF[4]EV[hex.in.HEX11.76]PB[JJ10]PW[SYSTEM]SZ[11]RE[B]GC[ game #1889252]SO[http://www.littlegolem.com];W[cd])
+
+(;FF[4]EV[null]PB[fedeabrile]PW[JJ10]SZ[11]RE[W]GC[ game #1889177]SO[http://www.littlegolem.com];W[ff];B[swap];W[id];B[ii];W[gg];B[he];W[cd];B[dg];W[ie];B[hf];W[if];B[hg];W[bh];B[bj];W[ci];B[cj];W[di];B[dj];W[ig];B[hi];W[ei];B[cf];W[hh];B[ek];W[fk];B[gi];W[fj];B[gh];W[cg];B[df];W[bf];B[bg];W[ah];B[ag];W[gf];B[ge];W[eg];B[ef];W[ji];B[jh];W[kg];B[kh])
+
+(;FF[4]EV[null]PB[JJ10]PW[Gwylim Ashley]SZ[11]RE[W]GC[ game #1889176]SO[http://www.littlegolem.com];W[ac];B[hi];W[gi];B[ff];W[ch];B[cf];W[df];B[cg];W[dg];B[ed];W[fe];B[gc];W[ic];B[jb];W[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[fedeabrile]SZ[11]RE[B]GC[ game #1889175]SO[http://www.littlegolem.com];W[ac];B[ff];W[ie];B[ig];W[hg];B[hh];W[gh];B[if];W[hf];B[jb];W[ge];B[fj];W[ei];B[hc];W[ic];B[ib];W[fd];B[gd];W[fe];B[ej];W[dj];B[gb];W[ec];B[fi];W[fh];B[ck];W[dk];B[fc];W[ed];B[eb];W[fb];B[fa];W[ga];B[he];W[gf])
+
+(;FF[4]EV[null]PB[JJ10]PW[Gwylim Ashley]SZ[11]RE[W]GC[ game #1889174]SO[http://www.littlegolem.com];W[ac];B[df];W[ii];B[ic];W[fe];B[ff];W[he];B[fg];W[gg];B[gd];W[ge];B[fd];W[cf];B[de];W[resign])
+
+(;FF[4]EV[hex.HEX11.mc.2017.aug.1.1]PB[JJ10]PW[urmaul]SZ[11]RE[W]GC[ game #1884077]SO[http://www.littlegolem.com];W[ci];B[swap];W[gd];B[eg];W[he];B[ge];W[hd];B[hf];W[dg];B[dh];W[bi];B[ef];W[df];B[ee];W[de];B[di];W[bj];B[cd];W[fc];B[ch];W[resign])
+
+(;FF[4]EV[hex.HEX11.mc.2017.aug.1.1]PB[psikonauta]PW[JJ10]SZ[11]RE[B]GC[ game #1884076]SO[http://www.littlegolem.com];W[bb];B[swap];W[ff];B[ii];W[eh];B[ge];W[fe];B[gc];W[ed];B[ec];W[dc];B[dd];W[fc];B[ei];W[di];B[ga];W[fb];B[resign])
+
+(;FF[4]EV[hex.HEX11.mc.2017.aug.1.1]PB[JJ10]PW[mzmzmz]SZ[11]RE[B]GC[ game #1884074]SO[http://www.littlegolem.com];W[bi];B[swap];W[ee];B[dh];W[fg];B[ef];W[ge];B[gb];W[hb];B[hc];W[fd];B[ej];W[bj];B[di];W[hi];B[fh];W[hg];B[gc];W[ec];B[gf];W[ie];B[hh];W[jg];B[if];W[ke];B[je];W[kd];B[he];W[jc];B[hj];W[ii];B[jd];W[kc];B[resign])
+
+(;FF[4]EV[hex.ch.37.4.2]PB[akasha14]PW[JJ10]SZ[13]RE[B]GC[ game #1781467]SO[http://www.littlegolem.com];W[kc])
+
+(;FF[4]EV[hex.ch.37.4.2]PB[JJ10]PW[temifar]SZ[13]RE[W]GC[ game #1781466]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.ch.37.4.2]PB[wojtek]PW[JJ10]SZ[13]RE[W]GC[ game #1781465]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.ch.37.4.2]PB[JJ10]PW[Jeremy Wakeman]SZ[13]RE[W]GC[ game #1781464]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.ch.37.4.2]PB[Schaapmans]PW[JJ10]SZ[13]RE[B]GC[ game #1781463]SO[http://www.littlegolem.com];W[kj])
+
+(;FF[4]EV[hex.ch.37.4.2]PB[JJ10]PW[pensando]SZ[13]RE[W]GC[ game #1781457]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.ch.37.4.2]PB[shinnosuke]PW[JJ10]SZ[13]RE[W]GC[ game #1781451]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.36.4.4]PB[naderfathy]PW[JJ10]SZ[13]RE[B]GC[ game #1742504]SO[http://www.littlegolem.com];W[fl])
+
+(;FF[4]EV[hex.ch.36.4.4]PB[JJ10]PW[Héctor Máximo Canteros]SZ[13]RE[W]GC[ game #1742503]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.ch.36.4.4]PB[AcetyleneLamp]PW[JJ10]SZ[13]RE[B]GC[ game #1742502]SO[http://www.littlegolem.com];W[hk])
+
+(;FF[4]EV[hex.ch.36.4.4]PB[JJ10]PW[gamestalker]SZ[13]RE[W]GC[ game #1742501]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.ch.36.4.4]PB[TUMRAK]PW[JJ10]SZ[13]RE[W]GC[ game #1742500]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.ch.36.4.4]PB[JJ10]PW[hyperpape]SZ[13]RE[W]GC[ game #1742499]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.ch.36.4.4]PB[Omo321]PW[JJ10]SZ[13]RE[B]GC[ game #1742498]SO[http://www.littlegolem.com];W[bg])
+
+(;FF[4]EV[hex.ch.35.3.2]PB[Juan Jose Montes de Oca Arbos]PW[JJ10]SZ[13]RE[B]GC[ game #1712724]SO[http://www.littlegolem.com];W[jj];B[resign])
+
+(;FF[4]EV[hex.ch.35.3.2]PB[JJ10]PW[Tommah]SZ[13]RE[W]GC[ game #1712723]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.35.3.2]PB[Nagy Fathy]PW[JJ10]SZ[13]RE[B]GC[ game #1712722]SO[http://www.littlegolem.com];W[ac];B[resign])
+
+(;FF[4]EV[hex.ch.35.3.2]PB[JJ10]PW[Mojmir Hanes]SZ[13]RE[W]GC[ game #1712718]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.35.3.2]PB[leandro]PW[JJ10]SZ[13]RE[B]GC[ game #1712714]SO[http://www.littlegolem.com];W[ac];B[resign])
+
+(;FF[4]EV[hex.ch.35.3.2]PB[JJ10]PW[PaulStu]SZ[13]RE[W]GC[ game #1712709]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.35.3.2]PB[Cpunek]PW[JJ10]SZ[13]RE[B]GC[ game #1712703]SO[http://www.littlegolem.com];W[ac];B[resign])
+
+(;FF[4]EV[hex.ch.35.3.2]PB[JJ10]PW[German_Rodriguez_Perez]SZ[13]RE[W]GC[ game #1712696]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.34.4.8]PB[JJ10]PW[naderfathy]SZ[13]RE[B]GC[ game #1679335]SO[http://www.littlegolem.com];W[ac];B[ee];W[ke];B[kb];W[hc];B[id];W[ge];B[gf];W[dg];B[eh];W[ci];B[dj];W[bk];B[bl];W[he];B[if];W[hf];B[hg];W[gg];B[gh];W[fh];B[fi];W[ei];B[ej];W[ck];B[cl];W[dk];B[dl];W[ek];B[el];W[fk];B[fl];W[gk];B[gl];W[ik];B[hk];W[ji];B[jl];W[hm];B[kf];W[jf];B[jh];W[ii];B[ih];W[hi];B[ff];W[di];B[ha];W[ia];B[resign])
+
+(;FF[4]EV[hex.ch.34.4.8]PB[tangram]PW[JJ10]SZ[13]RE[W]GC[ game #1679334]SO[http://www.littlegolem.com];W[ah];B[swap];W[dg];B[df];W[jd];B[kb];W[ib];B[ic];W[hc];B[ge];W[hd];B[hf];W[ef];B[fd];W[he];B[gf];W[jg];B[je];W[ee];B[ed];W[ce];B[dc];W[md];B[ke];W[kf];B[lc];W[bc];B[bd];W[resign])
+
+(;FF[4]EV[hex.ch.34.4.8]PB[JJ10]PW[gragu71]SZ[13]RE[B]GC[ game #1679333]SO[http://www.littlegolem.com];W[ac])
+
+(;FF[4]EV[hex.ch.34.4.8]PB[codec87]PW[JJ10]SZ[13]RE[W]GC[ game #1679332]SO[http://www.littlegolem.com];W[gg];B[swap];W[dg];B[ck];W[ei];B[eh];W[bj];B[ci];W[cj];B[bh];W[jf];B[jd];W[gh];B[if];W[kd];B[lb];W[kc];B[kb];W[jc];B[jb];W[ic];B[ib];W[fd];B[gc];W[gd];B[ec];W[cd];B[fc];W[hb];B[hc];W[de];B[hd];W[ch];B[bi];W[dh];B[di];W[fg];B[fh];W[hf];B[gf];W[mb];B[ma];W[resign])
+
+(;FF[4]EV[hex.ch.34.4.8]PB[JJ10]PW[Juan Jose Montes de Oca Arbos]SZ[13]RE[W]GC[ game #1679331]SO[http://www.littlegolem.com];W[ac];B[ck];W[fi];B[fj];W[hi];B[hj];W[gj];B[fl];W[dk];B[ej];W[dj];B[dg];W[ei];B[ff];W[gf];B[fh];W[hg];B[gh];W[hh];B[hd];W[kd];B[je];W[ke];B[jf];W[jc];B[ie];W[kf];B[jg];W[kg];B[ii];W[ji];B[jj];W[ij];B[ik];W[hk];B[gm];W[ge];B[gd];W[gk];B[gi];W[fk];B[dm];W[cm];B[dl];W[cl];B[ek];W[eg];B[eh];W[ci];B[dh];W[cg];B[ch];W[ai];B[bi];W[aj];B[bj];W[hl];B[hm];W[mi];B[lj];W[mj];B[ll];W[jl];B[il];W[kj];B[ki];W[resign])
+
+(;FF[4]EV[hex.ch.34.4.8]PB[Tobias Lang]PW[JJ10]SZ[13]RE[W]GC[ game #1679330]SO[http://www.littlegolem.com];W[ab];B[swap];W[ei];B[hf];W[gf];B[hd];W[fe];B[fd];W[gd];B[hb];W[dc];B[fc];W[ce];B[df];W[resign])
+
+(;FF[4]EV[hex.ch.34.4.8]PB[JJ10]PW[Scott Arnold]SZ[13]RE[W]GC[ game #1679323]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.33.3.1]PB[Dvd Avins]PW[JJ10]SZ[13]RE[W]GC[ game #1651472]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.33.3.1]PB[JJ10]PW[Loew]SZ[13]RE[W]GC[ game #1651470]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.33.3.1]PB[gamesorry]PW[JJ10]SZ[13]RE[B]GC[ game #1651468]SO[http://www.littlegolem.com];W[bb];B[resign])
+
+(;FF[4]EV[hex.ch.33.3.1]PB[JJ10]PW[Keizo]SZ[13]RE[W]GC[ game #1651465]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.33.3.1]PB[lyoa]PW[JJ10]SZ[13]RE[B]GC[ game #1651461]SO[http://www.littlegolem.com];W[bb];B[resign])
+
+(;FF[4]EV[hex.ch.33.3.1]PB[JJ10]PW[Trololo]SZ[13]RE[W]GC[ game #1651456]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.33.3.1]PB[wojtex]PW[JJ10]SZ[13]RE[B]GC[ game #1651450]SO[http://www.littlegolem.com];W[kb];B[resign])
+
+(;FF[4]EV[hex.ch.33.3.1]PB[JJ10]PW[ypercube]SZ[13]RE[W]GC[ game #1651443]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.32.4.2]PB[bill]PW[JJ10]SZ[13]RE[W]GC[ game #1613054]SO[http://www.littlegolem.com];W[if];B[swap];W[ji];B[je];W[mb];B[ld];W[ie];B[if];W[mc];B[md];W[hf];B[hh];W[ig];B[hg];W[gh];B[gi];W[kd];B[ke];W[ej];B[ei];W[di];B[dj];W[bk];B[bl];W[ck];B[cj];W[bj];B[dg];W[aj];B[ci];W[bi];B[cf];W[bg];B[bf];W[af];B[ag];W[ah];B[dh];W[cg];B[df])
+
+(;FF[4]EV[hex.ch.32.4.2]PB[JJ10]PW[Apostolis]SZ[13]RE[W]GC[ game #1613053]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.32.4.2]PB[joeq]PW[JJ10]SZ[13]RE[W]GC[ game #1613052]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.ch.32.4.2]PB[JJ10]PW[Marczyk]SZ[13]RE[W]GC[ game #1613051]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.32.4.2]PB[Moot Point]PW[JJ10]SZ[13]RE[W]GC[ game #1613050]SO[http://www.littlegolem.com];W[cc];B[swap];W[gg];B[ej])
+
+(;FF[4]EV[hex.ch.32.4.2]PB[JJ10]PW[FatPhil]SZ[13]RE[W]GC[ game #1613049]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.32.4.2]PB[morphles]PW[JJ10]SZ[13]RE[B]GC[ game #1613048]SO[http://www.littlegolem.com];W[ac];B[resign])
+
+(;FF[4]EV[hex.ch.32.4.2]PB[JJ10]PW[broutcha]SZ[13]RE[W]GC[ game #1613040]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.32.4.2]PB[shinnosuke]PW[JJ10]SZ[13]RE[W]GC[ game #1613032]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.31.4.4]PB[bill]PW[JJ10]SZ[13]RE[W]GC[ game #1565675]SO[http://www.littlegolem.com];W[eg];B[swap];W[ie];B[hg];W[ih];B[jf];W[ke];B[kg];W[lf];B[lh];W[ig];B[if];W[kf];B[jg];W[jh];B[gf];W[gd];B[ef];W[fe];B[ff];W[hf];B[gg];W[hd];B[cg];W[dg];B[df];W[he];B[ah];W[bg];B[bh];W[lg];B[kh];W[ki];B[mh])
+
+(;FF[4]EV[hex.ch.31.4.4]PB[JJ10]PW[Sebastionjackson]SZ[13]RE[B]GC[ game #1565674]SO[http://www.littlegolem.com];W[ad])
+
+(;FF[4]EV[hex.ch.31.4.4]PB[flolem]PW[JJ10]SZ[13]RE[W]GC[ game #1565673]SO[http://www.littlegolem.com];W[gl];B[swap];W[kg];B[ji];W[ii];B[je];W[gf];B[gg];W[if];B[hk];W[gj];B[fk];W[gk];B[fm];W[el];B[fl];W[ek];B[fj];W[dj];B[eh];W[fi];B[hh];W[bi];B[cj];W[jg];B[ej];W[ei];B[gi];W[gl];B[gm];W[hl];B[hm];W[di];B[dg];W[ah];B[bh];W[ai];B[bf];W[il];B[im];W[kl];B[jl];W[mj];B[kj];W[resign])
+
+(;FF[4]EV[hex.ch.31.4.4]PB[JJ10]PW[Velvitia]SZ[13]RE[B]GC[ game #1565672]SO[http://www.littlegolem.com];W[ad])
+
+(;FF[4]EV[hex.ch.31.4.4]PB[PaulStu]PW[JJ10]SZ[13]RE[W]GC[ game #1565671]SO[http://www.littlegolem.com];W[ll];B[swap];W[fh];B[fi];W[gi];B[gh];W[ig];B[ii];W[hi];B[if];W[gf];B[gg];W[fg];B[ei];W[hf];B[hg];W[di];B[dj];W[bk];B[bl];W[ke];B[jf];W[kf];B[jg];W[lg];B[jj];W[mh];B[ck];W[kj];B[lh];W[resign])
+
+(;FF[4]EV[hex.ch.31.4.4]PB[JJ10]PW[duplolas]SZ[13]RE[B]GC[ game #1565670]SO[http://www.littlegolem.com];W[ad];B[fh];W[jg];B[jf];W[gg];B[gh];W[ig];B[hi];W[ii];B[hk];W[ik];B[ij];W[ki];B[hd];W[id];B[hf];W[if];B[ie];W[df];B[eg];W[dh];B[dg];W[bh];B[bj];W[ci];B[cj];W[ei];B[ej];W[fg];B[hg];W[eh];B[fi];W[dj];B[cl];W[dk];B[dl];W[ek];B[el];W[fk];B[fl];W[hj];B[ji];W[lg];B[kg];W[me];B[le];W[md];B[ld];W[mc];B[lc];W[mb];B[ma];W[lb];B[la];W[kb];B[ka];W[jb];B[ja];W[he];B[hb];W[cf];B[bc];W[dc];B[dd];W[ed];B[ec];W[be];B[cd];W[fc];B[ga];W[fb];B[fa];W[eb];B[ea];W[cb];B[resign])
+
+(;FF[4]EV[hex.ch.31.4.4]PB[kobuz]PW[JJ10]SZ[13]RE[B]GC[ game #1565669]SO[http://www.littlegolem.com];W[aj];B[swap];W[ee];B[gg];W[eh];B[ef];W[ff];B[fe];W[jd];B[kc];W[ge];B[gc];W[ic];B[hd];W[hb];B[he];W[dc];B[gd];W[hf];B[gf];W[ig];B[if];W[ke];B[jj];W[jh];B[hj];W[ij];B[hl];W[lj];B[jk];W[hk];B[gl];W[gk];B[fl];W[dk];B[ek];W[fi];B[ej];W[cj];B[di];W[ci];B[dh];W[ch];B[cg];W[dg];B[df];W[eg];B[hh];W[gj];B[kg];W[jg];B[kh];W[dl];B[resign])
+
+(;FF[4]EV[hex.ch.31.4.4]PB[JJ10]PW[Phobos]SZ[13]RE[W]GC[ game #1565661]SO[http://www.littlegolem.com];W[bc];B[cd];W[kc];B[gg];W[hg];B[ie];W[je];B[gi];W[jh];B[ij];W[hi];B[gk];W[jj];B[ji];W[lh];B[jl];W[lk];B[lj];W[ki];B[kd];W[jd];B[kh];W[ci];B[cj];W[dj];B[di];W[fi];B[fj];W[gh];B[ej];W[ei];B[cl];W[mf];B[lf];W[me];B[ke];W[le];B[lc];W[kf];B[jf];W[if];B[ih];W[hh];B[ii];W[bl];B[ck];W[ak];B[dh];W[ch];B[dg];W[ae];B[cg];W[bg];B[bh];W[resign])
+
+(;FF[4]EV[hex.ch.31.4.4]PB[zwack]PW[JJ10]SZ[13]RE[W]GC[ game #1565653]SO[http://www.littlegolem.com];W[kb];B[swap];W[gh];B[hf];W[dd];B[fg];W[jf];B[je];W[if];B[ie];W[ld];B[fk];W[kj];B[ki];W[ij];B[ih];W[dj];B[dk];W[hh];B[hj])
+
+(;FF[4]EV[null]PB[JeanBaptiste]PW[JJ10]SZ[13]RE[B]GC[ game #1515208]SO[http://www.littlegolem.com];W[cb];B[swap];W[kj];B[kh];W[gg];B[he];W[ff];B[fe];W[ie];B[jc];W[kc];B[la];W[ma];B[lb];W[mb];B[lc];W[mc];B[ke];W[hd];B[id];W[ge];B[fi];W[hh];B[hi];W[gi];B[fk];W[gj];B[hk];W[gk];B[fm];W[gl];B[hc];W[gc];B[gd];W[ic];B[gm];W[hl];B[hm];W[ik];B[jl];W[lk];B[km];W[ml];B[lm];W[mm];B[ja];W[ib];B[ia];W[hb];B[ha];W[fb];B[resign])
+
+(;FF[4]EV[null]PB[JeanBaptiste]PW[JJ10]SZ[13]RE[W]GC[ game #1515207]SO[http://www.littlegolem.com];W[bb];B[swap];W[kj];B[kg];W[hh];B[hf];W[fg];B[ff];W[if];B[ie];W[ef];B[eg];W[ch];B[fd];W[kd];B[je];W[di];B[de];W[gd];B[fe];W[gf];B[hb];W[fc];B[gc];W[ib];B[hc];W[id];B[he];W[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[babyruth]SZ[13]RE[B]GC[ game #1514954]SO[http://www.littlegolem.com];W[ad];B[ae];W[gg];B[hd];W[fe];B[ff];W[he];B[id];W[ge];B[gb];W[ed];B[ec];W[cd];B[da];W[bb];B[bc];W[db];B[cb];W[ea];B[fj];W[hi];B[gh];W[ig];B[gl];W[ik];B[hj];W[ji];B[ih];W[kg];B[hf];W[jg];B[hg];W[je];B[ie];W[kc];B[if];W[jf];B[gm];W[hm];B[dd];W[la];B[jh];W[kh];B[jd];W[kd];B[ij];W[jj];B[hl];W[il];B[lb];W[kb])
+
+(;FF[4]EV[null]PB[Héctor Máximo Canteros]PW[JJ10]SZ[13]RE[W]GC[ game #1514564]SO[http://www.littlegolem.com];W[gk];B[swap];W[fg];B[fh];W[hh];B[hg];W[jg];B[jf];W[le];B[kf];W[kd];B[di];W[aj];B[ch];W[bh];B[bk];W[cj];B[ck];W[dj];B[dl];W[mf];B[lh];W[ci];B[fk];W[ii];B[ij];W[hj];B[gl];W[ek];B[el];W[hk];B[hl];W[al];B[ak];W[dk];B[cl];W[fl];B[gk];W[ik];B[il];W[kj];B[kk];W[lk];B[lj];W[mj];B[mi];W[jl];B[jk])
+
+(;FF[4]EV[null]PB[JJ10]PW[Héctor Máximo Canteros]SZ[13]RE[B]GC[ game #1514563]SO[http://www.littlegolem.com];W[ad];B[bh];W[kk];B[kh];W[hg];B[gi];W[ih];B[hj];W[ji];B[jj];W[ij];B[hl];W[ik];B[jh];W[ii];B[il];W[jk];B[jm];W[ll];B[kl];W[lk];B[lm];W[km];B[jc];W[gf];B[hc];W[fe];B[fc];W[gc];B[ha];W[be];B[cf];W[ed];B[ec];W[ce];B[cc];W[bb];B[bd];W[ae];B[de];W[dd];B[gg];W[hf];B[hh];W[ig];B[ee];W[fd];B[ge];W[ff];B[jl];W[ac];B[hi];W[ca])
+
+(;FF[4]EV[null]PB[JJ10]PW[babyruth]SZ[13]RE[B]GC[ game #1514562]SO[http://www.littlegolem.com];W[ad];B[ae];W[kc];B[ig];W[hg];B[gj];W[ej];B[dm];W[cm];B[dk];W[ek];B[ie];W[fe];B[ff];W[gf];B[ge];W[he];B[gh];W[fh];B[jb];W[ic];B[kb];W[ib];B[jc];W[dl];B[ja];W[ia];B[id];W[hd];B[gg];W[fg];B[fi];W[ei])
+
+(;FF[4]EV[hex.ch.30.4.5]PB[JJ10]PW[luisoares8]SZ[13]RE[B]GC[ game #1513378]SO[http://www.littlegolem.com];W[ad])
+
+(;FF[4]EV[hex.ch.30.4.5]PB[orgg]PW[JJ10]SZ[13]RE[W]GC[ game #1513377]SO[http://www.littlegolem.com];W[ja];B[gg];W[if];B[ie];W[kd];B[jf];W[je];B[hh];W[kg];B[kf];W[ig];B[ih];W[jg];B[ji];W[ki];B[jk];W[mg];B[lj];W[jj];B[ik];W[ij];B[hk];W[hj];B[gk];W[gj];B[fk];W[fj];B[ek];W[dk];B[ej];W[dj];B[fh];W[eh];B[ff];W[cg];B[de];W[ee];B[dg];W[ah];B[df];W[af];B[bf];W[ag];B[bd];W[ce];B[dc];W[dd];B[ch];W[bi];B[ec];W[ed];B[bh];W[ai];B[be];W[resign])
+
+(;FF[4]EV[hex.ch.30.4.5]PB[JJ10]PW[arkanosaur]SZ[13]RE[W]GC[ game #1513376]SO[http://www.littlegolem.com];W[ad];B[swap];W[gg];B[jj];W[ij];B[ei];W[fi];B[id];W[ge];B[gf];W[ie];B[ic];W[kc];B[jd];W[ld];B[kd];W[lc];B[ke];W[he];B[gd];W[ee];B[fc];W[ec];B[ed];W[ce];B[de];W[bg];B[cf];W[bf];B[cg];W[ai];B[bh];W[ah];B[bi];W[aj];B[bj];W[ak];B[bl];W[bk];B[dk];W[dj];B[ej];W[di];B[eh];W[resign])
+
+(;FF[4]EV[hex.ch.30.4.5]PB[aragost]PW[JJ10]SZ[13]RE[W]GC[ game #1513375]SO[http://www.littlegolem.com];W[bl];B[cj];W[dk];B[ei];W[fi];B[fh];W[gh];B[gg];W[hg];B[hf];W[if];B[jd];W[ie];B[id];W[he];B[hd];W[ge];B[gd];W[ee];B[fe];W[ff];B[ef];W[cf];B[dh];W[kd];B[kc];W[mb];B[ma];W[lb];B[la];W[kb];B[ka];W[jb];B[ke];W[je];B[lc];W[mc];B[ld];W[md];B[lf];W[resign])
+
+(;FF[4]EV[hex.ch.30.4.5]PB[JJ10]PW[matjazo]SZ[13]RE[W]GC[ game #1513374]SO[http://www.littlegolem.com];W[ad];B[swap];W[gg];B[fj];W[ej];B[dl];W[bl];B[hd];W[id];B[gf];W[hf];B[he];W[ie];B[fi];W[hh];B[hi];W[eh];B[di];W[ci];B[cj];W[ak];B[bk];W[al];B[ch];W[bi];B[jb];W[lb];B[dh];W[bh];B[cg];W[bg];B[cf];W[bf];B[ce];W[be];B[cc];W[cd];B[dc];W[dd];B[ec];W[ed];B[fc];W[fd];B[gc];W[gd];B[hc];W[eg];B[kc];W[lc];B[kd];W[ld];B[ke];W[me];B[le];W[md];B[ki];W[lg];B[lf];W[mf];B[jh];W[kg];B[jg];W[resign])
+
+(;FF[4]EV[hex.ch.30.4.5]PB[RoByN]PW[JJ10]SZ[13]RE[W]GC[ game #1513373]SO[http://www.littlegolem.com];W[bb];B[cc];W[gg];B[ek];W[hk];B[hj];W[ki];B[jh];W[kg];B[kh];W[mg];B[lc];W[gj];B[gi];W[hi];B[hh];W[ih];B[if];W[fj];B[fh];W[jf];B[je];W[ch];B[ci];W[aj];B[bk];W[dj];B[eh];W[kd];B[ke];W[md];B[ld];W[mc];B[mb];W[resign])
+
+(;FF[4]EV[hex.ch.30.4.5]PB[JJ10]PW[Phobos]SZ[13]RE[W]GC[ game #1513366]SO[http://www.littlegolem.com];W[ad];B[cj];W[gg];B[fj];W[ej];B[fh];W[hh];B[dl];W[gj];B[gf];W[hf];B[he];W[ie];B[id];W[kc];B[gk];W[fk];B[em];W[bm];B[ck];W[ij];B[ik];W[gl];B[hi];W[gi];B[fl];W[hk];B[jd];W[kd];B[je];W[ke];B[jg];W[resign])
+
+(;FF[4]EV[hex.ch.30.4.5]PB[Kisoul]PW[JJ10]SZ[13]RE[W]GC[ game #1513359]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[hex.ch.29.4.5]PB[JJ10]PW[BUGOR]SZ[13]RE[B]GC[ game #1469849]SO[http://www.littlegolem.com];W[ad];B[resign])
+
+(;FF[4]EV[hex.ch.29.4.5]PB[ferrarifeleches]PW[JJ10]SZ[13]RE[W]GC[ game #1469848]SO[http://www.littlegolem.com];W[lc];B[swap];W[fl];B[gi];W[ek];B[ej];W[jh];B[jg];W[ih];B[ig];W[hh];B[hg];W[gh];B[gg];W[mf];B[ke];W[dg];B[eh];W[fh];B[fg];W[ci];B[cj];W[di];B[ei];W[dj];B[dk];W[resign])
+
+(;FF[4]EV[hex.ch.29.4.5]PB[JJ10]PW[bjobae]SZ[13]RE[W]GC[ game #1469847]SO[http://www.littlegolem.com];W[ad];B[ei];W[gh];B[ie];W[fg];B[gd];W[hd];B[gg];W[fh];B[ge];W[gf];B[he];W[dg];B[fk];W[jk];B[dj];W[fj];B[ef];W[kd];B[jf];W[kf];B[ke];W[md];B[lb];W[kc];B[ld];W[eg];B[dd];W[ce];B[cf];W[df];B[de];W[fe];B[fd];W[ag];B[bh];W[resign])
+
+(;FF[4]EV[hex.ch.29.4.5]PB[ximena]PW[JJ10]SZ[13]RE[W]GC[ game #1469846]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.ch.29.4.5]PB[JJ10]PW[Héctor Máximo Canteros]SZ[13]RE[B]GC[ game #1469845]SO[http://www.littlegolem.com];W[ad];B[gg];W[eh];B[dk];W[ck];B[di];W[fi];B[fj];W[ej];B[bm];W[am];B[bl];W[al];B[bk];W[ak];B[bi];W[dl];B[cm];W[dm];B[cl];W[ek];B[ff];W[dg];B[ed];W[de];B[dd];W[ce];B[cd];W[be];B[df];W[ef];B[ee];W[fe];B[gc];W[cg];B[eg];W[dh];B[ei];W[fh];B[bc];W[ac];B[aa];W[ba];B[ab];W[bb];B[bd];W[ae];B[cf];W[kb];B[hd];W[jd];B[ie];W[ke];B[jf];W[kf];B[ih];W[jh];B[ii];W[ji];B[ik];W[ij];B[hk];W[hj];B[gk];W[gj];B[gi];W[fk];B[jg];W[kg];B[je];W[kd];B[ka];W[la];B[kc];W[jc])
+
+(;FF[4]EV[hex.ch.29.4.5]PB[Christian K]PW[JJ10]SZ[13]RE[B]GC[ game #1469844]SO[http://www.littlegolem.com];W[ak];B[swap];W[gf];B[ge];W[df];B[ed];W[id];B[ib];W[lb];B[kc];W[lc];B[ki];W[kd];B[ie];W[jf];B[ih];W[hg];B[gi];W[di];B[dj];W[fi];B[ek];W[fj];B[fk];W[ji];B[ik];W[gk];B[gj];W[bk];B[bl];W[dk];B[ej];W[ck];B[cj];W[bj];B[ci];W[bi];B[ch];W[bh];B[cg];W[bg];B[cf];W[bf];B[ce];W[be];B[cc];W[cd];B[dc];W[dd];B[ec];W[de];B[ff];W[eg];B[fg];W[fe];B[gb];W[gd];B[hd];W[hb];B[cm];W[dl];B[dm];W[el];B[em];W[fl];B[fm];W[hl];B[resign])
+
+(;FF[4]EV[hex.ch.29.4.5]PB[JJ10]PW[Dvd Avins]SZ[13]RE[W]GC[ game #1469837]SO[http://www.littlegolem.com];W[ad];B[gi];W[ej];B[dg];W[fh];B[gf];W[eg];B[ef];W[ff];B[gd];W[he];B[ic];W[jc];B[ge];W[fe];B[fd];W[hg];B[hf];W[je];B[jd];W[lc];B[if];W[jf];B[kd];W[ld];B[ke];W[le];B[kf];W[lf];B[kg];W[lg];B[kj];W[kh];B[ji];W[jh];B[hj];W[ih];B[lb];W[kc];B[ka];W[jb];B[ja];W[ib];B[ia];W[hb];B[ha];W[fc];B[fb];W[dd];B[dc];W[be];B[bd];W[ae];B[bb];W[cc];B[cd];W[bc];B[ce];W[ag];B[bf];W[af];B[bh];W[bg];B[de];W[resign])
+
+(;FF[4]EV[hex.ch.29.4.5]PB[Shemp Duchamp]PW[JJ10]SZ[13]RE[W]GC[ game #1469830]SO[http://www.littlegolem.com];W[mh];B[swap];W[gg];B[fi];W[jj];B[hh];W[kf];B[jl];W[fk];B[ii];W[kh];B[kg];W[cj];B[gd];W[dd];B[ee];W[cf];B[cg];W[dg];B[df];W[ff];B[hd];W[jd];B[ie];W[je];B[hg];W[ih];B[hi];W[hj];B[ij];W[resign])
+
+(;FF[4]EV[hex.mc.2012.mar.1.12]PB[JJ10]PW[Russ Williams]SZ[13]RE[B]GC[ game #1434747]SO[http://www.littlegolem.com];W[ad];B[gg];W[eh];B[dk];W[ck];B[ee];W[ff];B[gd];W[cf];B[di];W[ci];B[cj];W[ak];B[am];W[bl];B[bm];W[jg];B[hk];W[fk];B[cl];W[ej];B[dj];W[fh];B[dh];W[ef];B[df];W[jd];B[he];W[if];B[jj];W[hj];B[gk];W[gj];B[em];W[dl];B[gi];W[ih];B[resign])
+
+(;FF[4]EV[hex.mc.2012.mar.1.12]PB[Marcin Pindral]PW[JJ10]SZ[13]RE[B]GC[ game #1434746]SO[http://www.littlegolem.com];W[mg];B[kk];W[hj];B[hh];W[de];B[dc];W[bc];B[bd];W[fh];B[gf];W[hf];B[he];W[eg];B[ef];W[fe];B[ff];W[cg];B[ed];W[ee];B[gd];W[fd];B[gb];W[ec];B[fa];W[eb];B[ea];W[db];B[resign])
+
+(;FF[4]EV[hex.mc.2012.mar.1.12]PB[JJ10]PW[Gerald]SZ[13]RE[B]GC[ game #1434744]SO[http://www.littlegolem.com];W[ad];B[ef];W[hf];B[gh];W[fh];B[fg];W[gg];B[di];W[ej];B[dl];W[fk];B[el];W[fl];B[hd];W[id];B[jb];W[lc];B[de];W[jd];B[resign])
+
+(;FF[4]EV[hex.mc.2012.mar.1.12]PB[Ruby1987]PW[JJ10]SZ[13]RE[W]GC[ game #1434741]SO[http://www.littlegolem.com];W[dj];B[swap];W[dj];B[eh];W[fg];B[fh];W[gh];B[gg];W[if];B[he];W[id];B[ie];W[gf];B[hf];W[kd];B[kc];W[mb];B[ma];W[lb];B[la];W[kb];B[ka];W[jb];B[ja];W[ib];B[ia];W[hb];B[ha];W[gb];B[ig];W[hg];B[je];W[ke];B[jf];W[kg];B[kf];W[me];B[le];W[dh];B[ee];W[dg];B[cf];W[resign])
+
+(;FF[4]EV[null]PB[impressive]PW[JJ10]SZ[13]RE[B]GC[ game #1420270]SO[http://www.littlegolem.com];W[bb];B[swap];W[hf];B[gh];W[gj];B[ig];W[fh];B[gg];W[fg];B[ic];W[de];B[ef];W[ge];B[gd];W[cd];B[fe];W[dg];B[df];W[bg];B[di];W[ci];B[ch];W[cg];B[fj];W[dj];B[ei];W[dh];B[ej];W[cj];B[dc];W[dd];B[fb];W[eb];B[ec];W[cc];B[db];W[cb];B[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[impressive]SZ[13]RE[W]GC[ game #1419650]SO[http://www.littlegolem.com];W[ad];B[gg];W[eh];B[ei];W[cj];B[ck];W[if];B[ie];W[hf];B[he];W[gh];B[gi];W[ej];B[dj];W[fi];B[fh];W[ld];B[lc];W[kd];B[kc];W[fe];B[gf];W[jd];B[ic];W[jc];B[ka];W[jb];B[ja];W[ib];B[ia];W[gc];B[gb];W[ec];B[fc];W[ee];B[ed];W[de];B[dd];W[ce];B[cc];W[bc];B[bd];W[ae];B[be];W[af];B[bf];W[ag];B[bg];W[ah];B[bh];W[ai];B[bi];W[aj];B[bk];W[bj];B[dh];W[di];B[eg];W[resign])
+
+(;FF[4]EV[null]PB[mzmzmz]PW[JJ10]SZ[13]RE[W]GC[ game #1419116]SO[http://www.littlegolem.com];W[ia];B[swap];W[gg];B[fi];W[ih];B[hj];W[ij];B[ii];W[kh];B[jh];W[kg];B[kc];W[lc];B[lb];W[kd];B[jd];W[jf];B[je];W[hg];B[gf];W[dg];B[ee];W[fe];B[eg];W[dh];B[ef];W[bf];B[cf];W[bg];B[cd];W[de];B[ec];W[ed];B[fc];W[fd];B[hb];W[ic];B[di];W[ie];B[id];W[dj];B[hd];W[gc];B[df];W[ce];B[cj];W[bi];B[eh];W[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[bill]SZ[13]RE[B]GC[ game #1416719]SO[http://www.littlegolem.com];W[ad];B[hf];W[fg];B[df];W[ge];B[gf];W[ff];B[ef];W[ei];B[eg];W[dk];B[fh];W[eh];B[gg];W[hc];B[gd];W[hd];B[fe];W[ib];B[he];W[cm];B[dl];W[cl];B[dj];W[ej];B[ek];W[ja])
+
+(;FF[4]EV[null]PB[JJ10]PW[bill]SZ[13]RE[B]GC[ game #1416718]SO[http://www.littlegolem.com];W[ad];B[he];W[ff];B[de];W[gd];B[fe];W[ge];B[gc];W[hc];B[hd];W[hb];B[ie];W[gg];B[gf];W[fg];B[eg];W[fi];B[eh];W[ek];B[fh];W[gh];B[ed];W[dm];B[fj];W[ej];B[dk];W[dl];B[el];W[ha])
+
+(;FF[4]EV[null]PB[Fire764]PW[JJ10]SZ[13]RE[W]GC[ game #1416614]SO[http://www.littlegolem.com];W[gf];B[swap];W[hg];B[hf];W[ld];B[lc];W[jd];B[je];W[cg];B[dh];W[bi];B[cj];W[kd];B[kf];W[ak];B[bl];W[resign])
+
+(;FF[4]EV[null]PB[bjobae]PW[JJ10]SZ[13]RE[W]GC[ game #1414555]SO[http://www.littlegolem.com];W[cb];B[de];W[je];B[hl];W[gh];B[ek];W[cj];B[ck];W[dk];B[cm];W[el];B[dl];W[gj];B[fk];W[gk];B[gi];W[fj];B[fi];W[ej];B[eh];W[jh];B[ih];W[kf];B[ii];W[ki];B[kj];W[jj];B[jd];W[mc];B[lb];W[kc];B[kd];W[ef];B[he];W[fg];B[fd];W[gd];B[ff];W[fe];B[eg];W[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[MasterLuke]SZ[13]RE[B]GC[ game #1414088]SO[http://www.littlegolem.com];W[ad])
+
+(;FF[4]EV[null]PB[JJ10]PW[MasterLuke]SZ[13]RE[B]GC[ game #1414085]SO[http://www.littlegolem.com];W[ad])
+
+(;FF[4]EV[null]PB[0cara]PW[JJ10]SZ[13]RE[B]GC[ game #1413254]SO[http://www.littlegolem.com];W[ae];B[swap];W[jk];B[kh];W[jc];B[hf];W[fg];B[fh];W[di];B[eh];W[if];B[ie];W[gg];B[ge];W[ef];B[fd];W[de];B[ec];W[cd];B[cc];W[bb];B[ce];W[be];B[bg];W[dd];B[dc];W[ad];B[dj];W[hh];B[hi];W[gi];B[fk];W[gj];B[hk];W[gk];B[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[0cara]SZ[13]RE[B]GC[ game #1413253]SO[http://www.littlegolem.com];W[ad];B[jk];W[hk];B[ci];W[gg];B[gj];W[ii];B[ih];W[gi];B[hi];W[fj];B[gh];W[ei];B[ej];W[fi];B[gf];W[dh];B[ee];W[cg];B[cf];W[fe];B[eh];W[di];B[ef];W[ff];B[eg];W[fh];B[fg];W[hf];B[ic];W[id];B[kb];W[hd];B[gc];W[hc];B[ia];W[jb];B[ie];W[he];B[resign])
+
+(;FF[4]EV[hex.ch.28.4.2]PB[rubiera]PW[JJ10]SZ[13]RE[W]GC[ game #1402286]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.ch.28.4.2]PB[JJ10]PW[milesd]SZ[13]RE[B]GC[ game #1402285]SO[http://www.littlegolem.com];W[ad];B[gg];W[eh];B[df];W[ff];B[gc];W[ee];B[ed];W[de];B[dd];W[ce];B[bd];W[cd];B[db];W[hc];B[gd];W[ke];B[jg];W[he];B[hd];W[jd];B[jc];W[kc];B[dk];W[ck];B[di];W[fi];B[fj];W[hg];B[ii];W[dj];B[bm];W[am];B[bl];W[al];B[bk];W[ak];B[bj];W[aj];B[bi];W[ai];B[bh];W[ah];B[bf];W[bg];B[cf];W[dl];B[ei];W[ej];B[fh];W[gh];B[hf];W[jf];B[la];W[kb];B[ka];W[jb];B[ja];W[hb];B[ie];W[je];B[ek];W[cl];B[resign])
+
+(;FF[4]EV[hex.ch.28.4.2]PB[Harald Korneliussen]PW[JJ10]SZ[13]RE[B]GC[ game #1402284]SO[http://www.littlegolem.com];W[ah];B[gg];W[jg];B[jf];W[ee];B[ck];W[bl];B[bk];W[di];B[ej];W[fi];B[fj];W[hh];B[gi];W[hj];B[gh];W[je];B[kf];W[hg];B[ie];W[kc];B[if];W[hf];B[he];W[gf];B[gd];W[fe];B[fb];W[fc];B[gb];W[cd];B[dc];W[cc];B[dd];W[bf];B[cf];W[bj];B[eg];W[dg];B[bh];W[le];B[lf];W[gc];B[hi];W[kh];B[gm];W[ij];B[il];W[hl];B[hm];W[jj];B[kk];W[hb];B[fl];W[fk];B[el];W[dk];B[ek];W[dj];B[dh];W[ai];B[bm];W[cl];B[cm];W[am];B[da];W[bb];B[cb];W[bc];B[resign])
+
+(;FF[4]EV[hex.ch.28.4.2]PB[JJ10]PW[duplolas]SZ[13]RE[B]GC[ game #1402280]SO[http://www.littlegolem.com];W[ad];B[swap];W[kc];B[ie];W[je];B[ig];W[eg];B[dj];W[fi];B[fj];W[ej];B[dl];W[ek];B[el];W[fk];B[fl];W[hk];B[gk];W[hj];B[gj];W[hi];B[gi];W[hh];B[gh];W[hg];B[if];W[gf];B[hd];W[gd];B[ge];W[ef];B[fe];W[ee];B[fd];W[ed];B[fb];W[fc];B[gb];W[gc];B[hb];W[hc];B[ib];W[ic];B[jb];W[jg];B[jf];W[le];B[kf];W[lf];B[la];W[ma];B[resign])
+
+(;FF[4]EV[hex.ch.28.4.2]PB[mass]PW[JJ10]SZ[13]RE[W]GC[ game #1402276]SO[http://www.littlegolem.com];W[jf];B[swap];W[kh];B[kf];W[hg];B[hi];W[ih];B[ij];W[ii];B[hj];W[li];B[kk];W[jj];B[il];W[ik];B[hl];W[hk];B[gl];W[gk];B[fl];W[bl];B[ek];W[di];B[fd];W[ie];B[jc];W[hd];B[hc];W[ic];B[ja];W[jb];B[ka];W[db];B[ib];W[ce];B[df];W[bg];B[ch];W[ee];B[ed];W[de];B[dc];W[bd];B[bj];W[fh];B[ck];W[dk];B[ei];W[dj];B[eg];W[fe];B[eh];W[mj];B[ll];W[resign])
+
+(;FF[4]EV[hex.ch.28.4.2]PB[JJ10]PW[Cristi]SZ[13]RE[B]GC[ game #1402271]SO[http://www.littlegolem.com];W[ad])
+
+(;FF[4]EV[hex.ch.28.4.2]PB[Huw Rees]PW[JJ10]SZ[13]RE[B]GC[ game #1402265]SO[http://www.littlegolem.com];W[mk];B[gg];W[hg];B[ie];W[eh];B[ff];W[ef];B[eg];W[ch];B[dj];W[bk];B[bj];W[di];B[cj];W[fi];B[fj];W[hi];B[hj];W[fl];B[fk];W[ji];B[gi];W[hh];B[gh];W[hf];B[ei];W[he];B[ii];W[jh];B[ih];W[jg];B[ig];W[ke];B[jf];W[kf];B[kd];W[je];B[jc];W[jd];B[kc];W[id];B[ib];W[gc];B[hc];W[gd];B[resign])
+
+(;FF[4]EV[hex.ch.28.4.2]PB[JJ10]PW[shinnosuke]SZ[13]RE[W]GC[ game #1402258]SO[http://www.littlegolem.com];W[ac];B[gg];W[jf];B[hi];W[ii];B[hk];W[ik];B[kc];W[ie];B[id];W[eh];B[fe];W[ge];B[hc];W[gd];B[gc];W[fd];B[fc];W[ed];B[ec];W[dd];B[dc];W[bd];B[cd];W[be];B[ce];W[bf];B[cf];W[bg];B[cg];W[bh];B[ch];W[bi];B[ci];W[bj];B[bc];W[cc];B[da];W[ba];B[bb];W[ab];B[ad];W[db];B[ea];W[eb];B[fa];W[mb];B[kb];W[lb];B[la];W[ma];B[ld];W[resign])
+
+(;FF[4]EV[hex.mc.2011.nov.1.6]PB[JJ10]PW[Tom Ace]SZ[13]RE[W]GC[ game #1395359]SO[http://www.littlegolem.com];W[ad];B[swap];W[kc];B[hf];W[eg];B[ei];W[bj];B[dj];W[ck];B[cj];W[bk];B[ch];W[gg];B[gh];W[jg];B[ij];W[hi];B[hk];W[gk];B[hg];W[if];B[jf];W[ig];B[jd];W[ie];B[id];W[le];B[kd];W[mc];B[lb];W[lc];B[kf];W[mf];B[lf];W[me];B[lg];W[mg];B[ki];W[li];B[kk];W[kj];B[il];W[lk];B[lj];W[ik];B[hl];W[lh];B[kh];W[he];B[hd];W[fe];B[ef];W[ff];B[fd];W[gd];B[hb];W[hc];B[ib];W[ic];B[ka];W[resign])
+
+(;FF[4]EV[hex.mc.2011.nov.1.6]PB[John Doe]PW[JJ10]SZ[13]RE[B]GC[ game #1395358]SO[http://www.littlegolem.com];W[ac];B[dc];W[ie];B[gh];W[kj];B[ig];W[kf];B[ki];W[lg];B[lh];W[jh];B[ij];W[hi];B[gk];W[fj];B[ek];W[ej];B[dk];W[dj];B[ck];W[fk];B[em];W[jj];B[ji];W[fl];B[fm];W[gl];B[gm];W[ik];B[il];W[jl];B[im];W[jm];B[je];W[if];B[jf];W[hg];B[hh];W[ld];B[lc];W[kd];B[kb];W[kc];B[lb];W[id];B[ic];W[gd];B[hb];W[fc];B[hd];W[ge];B[he];W[gf];B[fb];W[gb];B[resign])
+
+(;FF[4]EV[hex.mc.2011.nov.1.6]PB[JJ10]PW[FruG0]SZ[13]RE[W]GC[ game #1395356]SO[http://www.littlegolem.com];W[ak];B[swap];W[lb];B[jk];W[lk];B[kl];W[ll];B[kk];W[lj];B[ki];W[gj];B[ie];W[gf];B[fe];W[hd];B[gg];W[dh];B[eh];W[eg];B[ck];W[dj];B[di];W[bj];B[ci];W[bi];B[dk];W[je];B[dl];W[cj];B[ch];W[ah];B[ej];W[al];B[am];W[ei];B[gk];W[fk];B[fi];W[ig];B[hh];W[ih];B[kc];W[jd];B[jc];W[id];B[hc];W[ic];B[ja];W[ib];B[ia];W[cd];B[eb];W[fb];B[gb];W[fc];B[gc];W[df];B[em];W[fl];B[fm];W[hl];B[hj];W[ji];B[ik];W[mh];B[lg];W[gl];B[hi];W[resign])
+
+(;FF[4]EV[hex.mc.2011.nov.1.6]PB[Jos Dekker]PW[JJ10]SZ[13]RE[B]GC[ game #1395353]SO[http://www.littlegolem.com];W[mf];B[kc];W[de];B[dj];W[hf];B[gi];W[kj];B[jf];W[ig];B[ih];W[jg];B[ji];W[lh];B[kh];W[lf];B[id];W[ge];B[gd];W[ef];B[dd];W[ed];B[fb];W[gc];B[hb];W[gb];B[resign])
+
+(;FF[4]EV[hex.mc.2011.sep.1.4]PB[Ignatius J Reilly]PW[JJ10]SZ[13]RE[B]GC[ game #1367337]SO[http://www.littlegolem.com];W[ai];B[swap];W[ef];B[fh];W[ji];B[je];W[hg];B[hh];W[gh];B[gi];W[fi];B[fj];W[ej];B[hf];W[df];B[ff];W[di];B[dh];W[gg];B[gf];W[eg];B[fc];W[dd];B[de];W[fd];B[ed];W[hc];B[jb];W[hb];B[ha];W[gb];B[ga];W[fb];B[dl];W[ek];B[el];W[fk];B[fm];W[fl];B[em];W[hl];B[gl];W[hj];B[hk];W[jj];B[fa];W[db];B[eb];W[ce];B[dc];W[bd];B[ec];W[cf];B[ee];W[ik];B[fg];W[eh];B[resign])
+
+(;FF[4]EV[hex.mc.2011.sep.1.4]PB[JJ10]PW[naderfathy]SZ[13]RE[B]GC[ game #1367335]SO[http://www.littlegolem.com];W[ad];B[ch];W[gg];B[fi];W[ei];B[ej];W[dj];B[dk];W[ck];B[bm];W[cl];B[cm];W[dl];B[dm];W[il];B[el];W[hk];B[hh];W[kg];B[ii];W[ji];B[jd];W[ig];B[hg];W[if];B[hf];W[ie];B[ij];W[jj];B[jg];W[kf];B[jf];W[je];B[ke];W[ih];B[jh];W[hi];B[hj];W[fk];B[gk];W[fl];B[gj];W[fj];B[fh];W[ef];B[eg];W[gi];B[id];W[he];B[hd];W[ff];B[df];W[fd];B[dg];W[gb];B[em];W[ha];B[fm];W[gl];B[fe];W[ee];B[gh];W[gf];B[gm];W[ik];B[resign])
+
+(;FF[4]EV[hex.mc.2011.sep.1.4]PB[karim saif]PW[JJ10]SZ[13]RE[W]GC[ game #1367333]SO[http://www.littlegolem.com];W[bl];B[cj];W[fj];B[fi];W[jg];B[ii];W[gi];B[jd];W[ih];B[ke];W[hh];B[he];W[ef];B[gg];W[dj];B[di];W[md];B[lf];W[ak];B[bi];W[resign])
+
+(;FF[4]EV[hex.mc.2011.sep.1.4]PB[JJ10]PW[ferrarifeleches]SZ[13]RE[W]GC[ game #1367330]SO[http://www.littlegolem.com];W[ad];B[bb];W[cc];B[bf];W[hg];B[ef];W[ie];B[jb];W[hd];B[hc];W[kb];B[fk];W[dk];B[ej];W[ik];B[ih];W[lg];B[jf];W[fh];B[gi];W[fi];B[fj];W[cj];B[di];W[ci];B[dh];W[ch];B[de];W[ke];B[ki];W[jh];B[ij];W[hj];B[ii];W[ji];B[jj];W[resign])
+
+(;FF[4]EV[null]PB[William S.]PW[JJ10]SZ[13]RE[B]GC[ game #1364569]SO[http://www.littlegolem.com];W[db];B[eg];W[ih];B[ig];W[gg];B[gh];W[fh];B[ej];W[fi];B[fk];W[gj];B[gk];W[kj];B[ij];W[ji];B[he];W[ff];B[gi];W[fj];B[fe];W[ge];B[hc];W[if];B[jd];W[id];B[jb];W[gd];B[gc];W[ed];B[fd];W[df];B[ef];W[ch];B[di];W[bj];B[ck];W[al];B[am];W[bl];B[bm];W[cl];B[cm];W[ek];B[hi];W[el];B[bk];W[ak];B[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[William S.]SZ[13]RE[W]GC[ game #1364568]SO[http://www.littlegolem.com];W[ad];B[gg];W[eh];B[ef];W[ff];B[dk];W[gj];B[gd];W[fe];B[fd];W[ee];B[ed];W[de];B[dd];W[ce];B[cc];W[cd];B[dc];W[bb];B[bd];W[ae];B[be];W[af];B[bf];W[ag];B[cj];W[bg];B[fi];W[jg];B[ej];W[if];B[cf];W[jd];B[jc];W[kc];B[ig];W[jf];B[hi];W[ii];B[gl];W[hk];B[hl];W[gk];B[fl];W[ek];B[dm];W[dl];B[cm];W[bm];B[cl];W[resign])
+
+(;FF[4]EV[hex.mc.2011.aug.1.16]PB[JJ10]PW[Ishmael]SZ[13]RE[W]GC[ game #1364330]SO[http://www.littlegolem.com];W[ai];B[swap];W[ei];B[ed];W[kc];B[ij];W[fe];B[ie];W[gc];B[ff];W[gf];B[fh];W[dh];B[eh];W[di];B[ef];W[hh];B[hi];W[gi];B[hg];W[df];B[ce];W[de];B[dg];W[bh];B[cg];W[if];B[kd];W[hf];B[ig];W[fg];B[eg];W[bg];B[cf];W[resign])
+
+(;FF[4]EV[hex.mc.2011.aug.1.16]PB[Marek]PW[JJ10]SZ[13]RE[W]GC[ game #1364329]SO[http://www.littlegolem.com])
+
+(;FF[4]EV[hex.mc.2011.aug.1.16]PB[JJ10]PW[vieuxsac]SZ[13]RE[W]GC[ game #1364326]SO[http://www.littlegolem.com];W[ad];B[di];W[ei];B[gf];W[hf];B[gh];W[fg];B[ej];W[dj];B[ff];W[gg];B[cl];W[fj];B[ek];W[fi];B[fk];W[gj];B[ie];W[he];B[gk];W[kj];B[jk];W[ik];B[ij];W[ki];B[jh];W[bl];B[ck];W[ak];B[cj];W[bi];B[ch];W[bh];B[ce];W[cf];B[de];W[df];B[ee];W[eg];B[ef];W[dg];B[hd];W[id];B[jb];W[af];B[bg];W[cg];B[be];W[kc];B[la];W[ma];B[lb];W[ic];B[ib];W[hc];B[hb];W[gc];B[gb];W[mb];B[lc];W[mc];B[ld];W[md];B[jg];W[lg];B[lf];W[kg];B[kf];W[resign])
+
+(;FF[4]EV[hex.mc.2011.aug.1.16]PB[Pelikan ha Niekraszny]PW[JJ10]SZ[13]RE[W]GC[ game #1364323]SO[http://www.littlegolem.com];W[ce];B[swap];W[lb];B[ig];W[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[Pelikan ha Niekraszny]SZ[13]RE[B]GC[ game #1364123]SO[http://www.littlegolem.com];W[ad];B[swap];W[ei];B[hf];W[gf];B[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[AntoniusBlock]SZ[13]RE[W]GC[ game #1364120]SO[http://www.littlegolem.com];W[ad];B[swap];W[ei];B[he];W[ie];B[hg];W[hf];B[fh];W[eh];B[fg];W[eg];B[fe];W[df];B[ed];W[dd];B[eb];W[ec];B[fb];W[fd];B[fc];W[ff];B[hb];W[jc];B[gf];W[hc];B[gd];W[hd];B[ge];W[ig];B[if];W[ke];B[hi];W[hh];B[gi];W[ii];B[ih];W[lg];B[jh];W[kh];B[lf];W[kg];B[kf];W[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[Monica Rainey]SZ[13]RE[W]GC[ game #1363968]SO[http://www.littlegolem.com];W[ad];B[swap];W[ie];B[ij];W[ej];B[hf];W[ff];B[fd];W[gd];B[fe];W[ge];B[ei];W[kj];B[jk];W[kk];B[jl];W[kl];B[ih];W[ii];B[ig];W[gg];B[gh];W[di];B[eh];W[ch];B[dg];W[cg];B[de];W[ce];B[cf];W[ag];B[bk];W[cj];B[bg];W[kf];B[kg];W[lg];B[lf];W[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[Monica Rainey]SZ[13]RE[W]GC[ game #1363966]SO[http://www.littlegolem.com];W[ac];B[de];W[ei];B[ie];W[he];B[fh];W[hh];B[hg];W[eh];B[fg];W[eg];B[ff];W[ef];B[fd];W[fe];B[gd];W[gg];B[ic];W[kc];B[jd];W[ke];B[kg];W[if];B[kd];W[mc];B[ld];W[md];B[le];W[resign])
+
+(;FF[4]EV[null]PB[mike21]PW[JJ10]SZ[13]RE[B]GC[ game #1363866]SO[http://www.littlegolem.com];W[ck];B[swap];W[he];B[dj];W[gi];B[hf];W[eh];B[fi];W[gh];B[fg];W[je];B[ig];W[lf];B[kf];W[le];B[ke];W[ld];B[ki];W[kh];B[lc];W[kd];B[id];W[ie];B[hd];W[ed];B[fe];W[cg];B[df];W[cf];B[dg];W[ch];B[fh];W[ak];B[al];W[bk];B[bl];W[ck];B[cl];W[dk];B[dl];W[ek];B[el];W[hj];B[bj];W[aj];B[bi];W[ai];B[bh];W[ah];B[resign])
+
+(;FF[4]EV[null]PB[bill]PW[JJ10]SZ[13]RE[W]GC[ game #1363865]SO[http://www.littlegolem.com];W[hg];B[swap];W[eh];B[ei];W[fi];B[fh];W[cj];B[de];W[ff];B[di];W[ch];B[ci];W[bi];B[bj];W[ih];B[ig];W[hg];B[hh];W[hi];B[kf];W[jf];B[jg];W[lf];B[le];W[ak];B[aj];W[me];B[md])
+
+(;FF[4]EV[null]PB[JJ10]PW[mike21]SZ[13]RE[W]GC[ game #1363864]SO[http://www.littlegolem.com];W[ad];B[be];W[ie];B[hg];W[gg];B[fi];W[ei];B[cl];W[dk];B[dl];W[ek];B[el];W[fk];B[fl];W[gk];B[gl];W[hk];B[hl];W[ik];B[il];W[kk];B[jk];W[kj];B[jj];W[ki];B[ji];W[kh];B[jb];W[kb];B[kf];W[jh];B[jc];W[hi];B[ge];W[hd];B[hc];W[gd];B[gc];W[fd];B[fc];W[ed];B[ec];W[dd];B[dc];W[kd];B[kc];W[cd];B[cc];W[bd];B[bb];W[bc];B[cb];W[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[Jonas]SZ[13]RE[B]GC[ game #1362700]SO[http://www.littlegolem.com];W[ad];B[swap];W[jj];B[fh];W[ed];B[gb];W[fb];B[ee];W[id];B[ie];W[gf];B[gd];W[hd];B[hg];W[ci];B[eh];W[dg];B[ff];W[cf];B[ec];W[dd];B[dj];W[bk];B[bl];W[ck];B[cl];W[dk];B[dl];W[ek];B[el];W[fk];B[fm];W[gl];B[gm];W[ik];B[hl];W[hk];B[im];W[kl];B[jk];W[il];B[fc];W[cc];B[bb];W[db];B[resign])
+
+(;FF[4]EV[null]PB[Jonas]PW[JJ10]SZ[13]RE[B]GC[ game #1362698]SO[http://www.littlegolem.com];W[ak];B[swap];W[gg];B[fe];W[kc];B[lb];W[hc];B[gf];W[hf];B[he];W[ie];B[ic];W[jb];B[jd];W[kd];B[kb];W[jc];B[ja];W[ib];B[ek];W[gj];B[gi];W[ih];B[hk];W[ii];B[ij];W[fl];B[ig];W[hh];B[je];W[id];B[resign])
+
+(;FF[4]EV[hex.mc.2011.aug.1.11]PB[JJ10]PW[MonsieurCactus]SZ[13]RE[W]GC[ game #1362674]SO[http://www.littlegolem.com];W[ad];B[bl];W[jj];B[jg];W[hh];B[hf];W[eg];B[gh];W[dj];B[eh];W[ci];B[df];W[dg];B[fe];W[ge];B[ia];W[hc];B[fj];W[cl];B[ff];W[cf];B[cg];W[gf];B[fg];W[gg];B[hi];W[gi];B[fi];W[ih];B[hg];W[ig];B[je];W[fh];B[ei];W[ah];B[bi];W[resign])
+
+(;FF[4]EV[hex.mc.2011.aug.1.11]PB[Ishmael]PW[JJ10]SZ[13]RE[B]GC[ game #1362673]SO[http://www.littlegolem.com];W[ad];B[cj];W[ji];B[kd];W[ff];B[gi];W[ei];B[fg];W[hg];B[ih];W[ie];B[ej];W[dj];B[cl];W[dk];B[dl];W[ek];B[el];W[fk];B[fl];W[gk];B[gl];W[hk];B[hl];W[kj];B[kk];W[il];B[ik];W[jk];B[ij];W[ii];B[gh];W[dh];B[fb];W[ef];B[gc];W[hd];B[ic];W[kb];B[jb];W[jd];B[ge];W[gg];B[gf];W[fh];B[hj];W[hi];B[gj];W[hh];B[resign])
+
+(;FF[4]EV[hex.mc.2011.aug.1.11]PB[JJ10]PW[DEMDIE]SZ[13]RE[B]GC[ game #1362670]SO[http://www.littlegolem.com];W[ad];B[eg];W[jj];B[jh];W[hf];B[gh];W[fh];B[gg];W[fg];B[gf];W[ff];B[gd];W[ee];B[ej];W[fi];B[fj];W[gi];B[hj];W[ii];B[hi];W[gj];B[fl];W[gk];B[gl];W[hk];B[hl];W[jk];B[ed];W[de];B[cd];W[be];B[ce];W[bf];B[cf];W[ah];B[bi];W[bh];B[ch];W[cg];B[ef];W[dg];B[dh];W[fe];B[df];W[dd];B[eb];W[dc];B[db];W[cc];B[cb];W[fc];B[ga];W[hb];B[resign])
+
+(;FF[4]EV[hex.mc.2011.aug.1.11]PB[bill]PW[JJ10]SZ[13]RE[W]GC[ game #1362667]SO[http://www.littlegolem.com];W[jf];B[swap];W[gf];B[ei];W[ej];B[fi];W[hj];B[hi];W[gi];B[gj];W[ji];B[jh];W[lg];B[kf];W[lf];B[le];W[ih];B[ii];W[jg];B[kg];W[ci];B[cj];W[dj];B[di];W[dh];B[bj];W[aj];B[ak];W[me];B[md])
+
+(;FF[4]EV[null]PB[JJ10]PW[Ishmael]SZ[13]RE[W]GC[ game #1361029]SO[http://www.littlegolem.com];W[ad];B[swap];W[ie];B[ij];W[dj];B[ff];W[gh];B[fj];W[ei];B[fh];W[fi];B[hf];W[gf];B[gg];W[ig];B[if];W[ke];B[jf];W[kf];B[jg];W[lg];B[ki];W[resign])
+
+(;FF[4]EV[null]PB[velvetar]PW[JJ10]SZ[13]RE[W]GC[ game #1357895]SO[http://www.littlegolem.com];W[ed];B[swap];W[ij];B[jh];W[hh];B[if];W[jg];B[fi];W[gg];B[gf];W[hf];B[id];W[fd];B[ge];W[ef];B[fg];W[dh];B[dj];W[cj];B[ck];W[ei];B[fh];W[ej];B[di];W[eh];B[ek];W[fj];B[fl];W[hl];B[hk];W[ik];B[hj];W[ii];B[gi];W[dk];B[cm];W[am];B[bl];W[al];B[bk];W[ak];B[bj];W[aj];B[ch];W[bh];B[df];W[cg];B[dg];W[ce];B[dc];W[bd];B[cb];W[dd];B[fc];W[hc];B[ed];W[ec];B[fa];W[fb];B[cf];W[ag];B[bf];W[eg];B[kc];W[dl];B[dm];W[af];B[be];W[el];B[em];W[gj];B[hi];W[lc];B[lb];W[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[velvetar]SZ[13]RE[B]GC[ game #1357893]SO[http://www.littlegolem.com];W[ad];B[df];W[ie];B[id];W[jd];B[hg];W[fg];B[hf];W[he];B[gf];W[ff];B[gd];W[ge];B[fh];W[di];B[eh];W[dg];B[dh];W[bi];B[ch];W[ah];B[af];W[bf];B[be];W[de];B[dd];W[fd];B[ci];W[bj];B[am];W[cj];B[cl];W[jk];B[ih];W[ej];B[hj];W[dl];B[gb];W[kb];B[cg];W[fe];B[resign])
+
+(;FF[4]EV[null]PB[rubiera]PW[JJ10]SZ[13]RE[W]GC[ game #1357783]SO[http://www.littlegolem.com];W[ac];B[gg];W[bd];B[dj];W[ce];B[if];W[bg];B[bk];W[ak];B[al];W[ei];B[eh];W[di];B[dh];W[bi];B[ci];W[ke];B[jg];W[mf];B[kh];W[resign])
+
+(;FF[4]EV[null]PB[bill]PW[JJ10]SZ[13]RE[W]GC[ game #1357782]SO[http://www.littlegolem.com];W[kf];B[swap];W[ii];B[jf];W[hg];B[hh];W[gi];B[gh];W[ig];B[ih];W[kf];B[kg];W[jg];B[jh];W[lg];B[lf];W[mf];B[me];W[fi];B[fg];W[gg];B[fh];W[eh];B[eg];W[ch];B[df];W[dg];B[ef];W[cg];B[cf];W[af];B[ag];W[bf];B[bg])
+
+(;FF[4]EV[null]PB[JJ10]PW[rubiera]SZ[13]RE[B]GC[ game #1357780]SO[http://www.littlegolem.com];W[ad];B[gf];W[eg];B[fe];W[df];B[ed];W[ce];B[dc];W[bd];B[cb];W[bb];B[fh];W[di];B[bl];W[ej];B[dl];W[fk];B[resign])
+
+(;FF[4]EV[hex.mc.2011.jul.1.7]PB[Ishmael]PW[JJ10]SZ[13]RE[B]GC[ game #1354372]SO[http://www.littlegolem.com];W[ad];B[swap];W[ie];B[hg];W[ji];B[jf];W[ke];B[kg];W[eh];B[ei];W[ck];B[cj];W[fh];B[fi];W[gh];B[gf];W[ff];B[hc];W[hd];B[ic];W[ed];B[fb];W[dd];B[eb];W[kf];B[jg];W[kc];B[jd];W[lf];B[lg];W[gc];B[ha];W[hb];B[ia];W[ib];B[gd];W[ee];B[hi];W[gi];B[fk];W[gj];B[gk];W[hj];B[ik];W[hk];B[gm];W[gl];B[fm];W[fl];B[em];W[el];B[dm];W[dl];B[cm];W[bl];B[bm];W[am];B[resign])
+
+(;FF[4]EV[hex.mc.2011.jul.1.7]PB[JJ10]PW[Nederdina]SZ[13]RE[B]GC[ game #1354370]SO[http://www.littlegolem.com];W[kc];B[jd];W[kd];B[jf];W[kf];B[jh];W[kh];B[jj];W[kj];B[ki];W[mh];B[li];W[mi];B[jl];W[lk];B[mg];W[lh];B[kg];W[dj];B[hh];W[eh];B[ff];W[gg];B[he];W[ef];B[fd];W[de];B[fa];W[ec];B[ga];W[db];B[dk];W[ck];B[bm];W[cl];B[cm];W[dl];B[dm];W[el];B[em];W[fl];B[fm];W[gl];B[gm];W[hl];B[hm];W[jk];B[km];W[ml];B[eg];W[ch];B[resign])
+
+(;FF[4]EV[hex.mc.2011.jul.1.7]PB[Aaron Coombs]PW[JJ10]SZ[13]RE[W]GC[ game #1354368]SO[http://www.littlegolem.com];W[fh];B[swap];W[fg];B[fh];W[di];B[fd];W[ge];B[eh];W[dh];B[eg];W[dg];B[fe];W[ee];B[ed];W[ce];B[dc];W[bd];B[cb];W[ac];B[ba];W[fj];B[hg];W[resign])
+
+(;FF[4]EV[hex.mc.2011.jul.1.7]PB[JJ10]PW[wojtek]SZ[13]RE[W]GC[ game #1354365]SO[http://www.littlegolem.com];W[resign])
+
+(;FF[4]EV[null]PB[Aaron Coombs]PW[JJ10]SZ[13]RE[W]GC[ game #1354048]SO[http://www.littlegolem.com];W[gg];B[swap];W[eh];B[ff];W[dg];B[ee];W[bf];B[cd];W[dd];B[cf];W[bg];B[ce];W[resign])
+
+(;FF[4]EV[null]PB[JJ10]PW[bill]SZ[13]RE[B]GC[ game #1353873]SO[http://www.littlegolem.com];W[ah];B[gg];W[cj];B[dg];W[bf];B[ag];W[bg];B[cg];W[bi];B[be];W[ce];B[eg];W[bl];B[fg];W[dc];B[af];W[ea];B[dd];W[cd];B[hg];W[db];B[ig];W[bj];B[bh];W[ai];B[aj];W[ck];B[ak];W[am])
+
+(;FF[4]EV[null]PB[JJ10]PW[fye]SZ[13]RE[B]GC[ game #1352882]SO[http://www.littlegolem.com];W[ae])
+
+(;FF[4]EV[null]PB[JJ10]PW[fye]SZ[13]RE[B]GC[ game #1352881]SO[http://www.littlegolem.com];W[cj])
+
+(;FF[4]EV[null]PB[fye]PW[JJ10]SZ[13]RE[W]GC[ game #1352880]SO[http://www.littlegolem.com])
+
+   
