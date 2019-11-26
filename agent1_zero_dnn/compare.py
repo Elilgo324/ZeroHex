@@ -4,7 +4,7 @@ import numpy as np
 
 from keras.models import load_model
 
-from game import print_board, winner, flip, flip_move, best_move, new_board, sample_move
+from game import print_board, winner, flip, flip_move, best_move, new_board, sample_move, shlomo_move
 from tree_search import TreeSearchPredictor
 from config import CompareConfig
 
@@ -98,10 +98,10 @@ def compare(config, model_file1, model_file2, temp, num_games):
                 #print(probabilities)
 
             if move_index < 3:
-                move = sample_move(probabilities)
+                move = shlomo_move(probabilities)
             else:
                 #move = best_move(probabilities)
-                move = sample_move(probabilities)
+                move = shlomo_move(probabilities)
             for predictor in predictors:
                 predictor.make_move(move)
             if games & 1 == move_index & 1:

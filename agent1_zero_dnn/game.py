@@ -128,6 +128,22 @@ def best_move(probabilities):
     max_probability = max(probabilities[x,y] for x in range(size) for y in range(size))
     return random.choice(list((x, y) for x in range(size) for y in range(size) if probabilities[x,y] == max_probability))
 
+def top_11(probabilities):
+    tops = []
+    tops = numpy.argpartition(probabilities,-11)[-11:]
+    print(tops)
+    return tops
+
+
+def shlomo_move(probabilities):
+    '''
+    Shlomo move from probability distribution.
+    '''
+    size = probabilities.shape[0]
+    board = [Pos(x, y) for x in range(size) for y in range(size)]
+    probabilities = probabilities.reshape(size**2)
+    pos = numpy.random.choice(board, p=probabilities)
+    return pos.x, pos.y
 
 def sample_move(probabilities):
     '''
