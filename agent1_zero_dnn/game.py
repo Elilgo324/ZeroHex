@@ -135,6 +135,7 @@ def top_11(probabilities):
     return tops
 
 
+# added now
 def shlomo_move(probabilities):
     '''
     Shlomo move from probability distribution.
