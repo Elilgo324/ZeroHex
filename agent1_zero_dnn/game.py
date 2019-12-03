@@ -134,6 +134,14 @@ def top_11(probabilities):
     print(tops)
     return tops
 
+class Pos(object):
+    def __init__(self, x, y) -> None:
+        super().__init__()
+        self.x = x
+        self.y = y
+
+    def _repr_(self):
+        return '({}, {})'.format(self.x, self.y)
 
 def shlomo_move(probabilities):
     '''
