@@ -12,6 +12,8 @@ model = load_model(model_file1)
 predictor = TreeSearchPredictor(config.search_config, model, new_board(config.size), True)
 temp = 0.7
 
+win, lose = 0, 0
+
 for mv in moves:
     predictor.board = np.array(mv.board_stt)
     predictor.run(config.iterations)
@@ -21,7 +23,6 @@ for mv in moves:
     # now we have the best move according model (not 15)
     model_moves = ori_move(tprobs)
 
-    win, lose = 0, 0
     if next_move in model_moves:
         win += 1
     else:
