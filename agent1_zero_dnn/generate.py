@@ -5,10 +5,10 @@ import numpy
 
 from keras.models import load_model
 
-from tree_search import TreeSearchPredictor
-from serialize import write_record, record_size
-from game import new_board, winner, make_move, print_board, fix_probabilities, sample_move
-from config import GenerateConfig
+from agent1_zero_dnn.tree_search import TreeSearchPredictor
+from agent1_zero_dnn.serialize import write_record, record_size
+from agent1_zero_dnn.game import new_board, winner, make_move, print_board, fix_probabilities, sample_move
+from agent1_zero_dnn.config import GenerateConfig
 
 
 def game_result(config, model, moves):

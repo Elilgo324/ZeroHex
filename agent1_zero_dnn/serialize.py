@@ -2,7 +2,7 @@ import numpy
 
 from struct import Struct
 
-from game import new_board
+from agent1_zero_dnn.game import new_board
 
 short = Struct('H')
 boolean = Struct('?')

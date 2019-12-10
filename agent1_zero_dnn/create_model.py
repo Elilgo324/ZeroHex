@@ -4,7 +4,7 @@ from keras.layers import Conv2D, Dense, BatchNormalization, Activation, Add, Inp
 from keras.models import Model
 from keras.regularizers import l2
 
-from config import ModelConfig
+from agent1_zero_dnn.config import ModelConfig
 
 
 def create_model(config, output_file):

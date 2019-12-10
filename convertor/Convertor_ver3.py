@@ -1,15 +1,15 @@
 # script gets HEX games in letters like: W[aa];B[bb];W[cd];B[dd])
 # prints the board in every step
 import numpy as np
-from Move import *
+from convertor.Move import *
 import copy
-filename = "games/2118.txt"
+# filename = "games/2118.txt"
 board_size = 11
-
-def main():
-    p_moves = convert(filename)
-    for mv in p_moves:
-        print(mv)
+#
+# def main():
+#     p_moves = convert(filename)
+#     for mv in p_moves:
+#         print(mv)
 
 class Turn:
     W = 0

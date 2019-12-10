@@ -153,6 +153,23 @@ def shlomo_move(probabilities):
     pos = numpy.random.choice(board, p=probabilities)
     return pos.x, pos.y
 
+
+def ori_move(probabilities):
+    '''
+    Shlomo move from probability distribution.
+    '''
+    # todo: change set to list
+    # if random chose same index - probably we not need 15 results
+    moves = set()
+    size = probabilities.shape[0]
+    board = [Pos(x, y) for x in range(size) for y in range(size)]
+    probabilities = probabilities.reshape(size**2)
+    while moves.__len__() <= 15:
+        pos = numpy.random.choice(board, p=probabilities)
+        moves.add(pos)
+    return moves
+
+
 def sample_move(probabilities):
     '''
     Sample move from probability distribution.

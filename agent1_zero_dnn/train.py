@@ -7,9 +7,9 @@ from keras.optimizers import SGD
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.utils import Sequence
 
-from serialize import read_record, record_size
-from game import normalize, symmetry, symmetry_probs
-from config import TrainConfig
+from agent1_zero_dnn.serialize import read_record, record_size
+from agent1_zero_dnn.game import normalize, symmetry, symmetry_probs
+from agent1_zero_dnn.config import TrainConfig
 
 
 class GameData(Sequence):

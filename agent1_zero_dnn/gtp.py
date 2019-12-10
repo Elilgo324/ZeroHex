@@ -5,9 +5,9 @@ import numpy
 
 from keras.models import load_model
 
-from config import GtpConfig
-from tree_search import TreeSearchPredictor
-from game import new_board, flip, flip_move, read_move, write_move, make_move, print_board, winner, best_move
+from agent1_zero_dnn.config import GtpConfig
+from agent1_zero_dnn.tree_search import TreeSearchPredictor
+from agent1_zero_dnn.game import new_board, flip, flip_move, read_move, write_move, make_move, print_board, winner, best_move
 
 
 class GtpException(Exception):
