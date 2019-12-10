@@ -128,11 +128,13 @@ def best_move(probabilities):
     max_probability = max(probabilities[x,y] for x in range(size) for y in range(size))
     return random.choice(list((x, y) for x in range(size) for y in range(size) if probabilities[x,y] == max_probability))
 
+
 def top_11(probabilities):
     tops = []
     tops = numpy.argpartition(probabilities,-11)[-11:]
     print(tops)
     return tops
+
 
 class Pos(object):
     def __init__(self, x, y) -> None:
@@ -140,7 +142,7 @@ class Pos(object):
         self.x = x
         self.y = y
 
-    def _repr_(self):
+    def __repr__(self):
         return '({}, {})'.format(self.x, self.y)
 
 def shlomo_move(probabilities):
@@ -164,9 +166,9 @@ def ori_move(probabilities):
     size = probabilities.shape[0]
     board = [Pos(x, y) for x in range(size) for y in range(size)]
     probabilities = probabilities.reshape(size**2)
-    while moves.__len__() <= 15:
+    while moves.__len__() < 15:
         pos = numpy.random.choice(board, p=probabilities)
-        moves.add(pos)
+        moves.add(tuple([pos.x, pos.y]))
     return moves
 
 

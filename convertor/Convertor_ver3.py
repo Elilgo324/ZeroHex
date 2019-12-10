@@ -34,7 +34,7 @@ def convert(filename):
 
     # print name of the player
     name = lines[0]
-    print("Player Name: {}".format(name))
+    # print("Player Name: {}".format(name))
     # remove first line
     lines.remove(lines[0])
 
@@ -72,7 +72,7 @@ def handle_game(line, name, player_moves):
         BorW = "B"
         if W_name in Game_info:
             BorW = "W"
-            print("Player is W (first)")
+            # print("Player is W (first)")
 
         # remove game information
         sp_line.remove(sp_line[0])
@@ -82,17 +82,17 @@ def handle_game(line, name, player_moves):
         board = [Wboard, Bboard]
 
         locations = get_locations(sp_line)
-        print(locations)
+        # print(locations)
 
         turn = Turn.W
         # modify board
         for locat in locations:
             # print("its {} turn:".format(turn))
             if locat[0] == getNumeric("r"):  # when resign
-                print("user {} left the game".format(turn))
+                # print("user {} left the game".format(turn))
                 continue
             elif locat[0] == getNumeric("s"):  # when swap
-                print("user {} swap the game".format(turn))
+                # print("user {} swap the game".format(turn))
                 continue
 
             # create move

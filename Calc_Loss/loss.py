@@ -17,14 +17,16 @@ for mv in moves:
     predictor.run(config.iterations)
     value, probabilities = predictor.predict()
     tprobs = temperature(probabilities, temp)
-
+    next_move = mv.next_mv[0], mv.next_mv[1]
     # now we have the best move according model (not 15)
     model_moves = ori_move(tprobs)
-    if mv.next_mv in model_moves:
-        print("great")
-    else:
-        print("failed")
 
-    next_move = mv.next_mv[0], mv.next_mv[1]
-    print_board(predictor.board, flip_move(next_move), file=sys.stderr)
+    win, lose = 0, 0
+    if next_move in model_moves:
+        win += 1
+    else:
+        lose += 1
+print('wins: %d' % win)
+print('lose: %d' % lose)
+    # print_board(predictor.board, flip_move(next_move), file=sys.stderr)
     # print(value)
