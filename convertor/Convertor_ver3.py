@@ -114,9 +114,11 @@ def handle_game(line, name, player_moves):
                     player_moves.append(m)
             turn = (turn + 1) % 2
 
+
 def set_clr_bord_stt(m, BorW, board):
     m.color = BorW
     m.board_stt = copy.deepcopy(board)
+
 
 if __name__ == "__main__":
     main()

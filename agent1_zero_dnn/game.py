@@ -156,9 +156,9 @@ def shlomo_move(probabilities):
     return pos.x, pos.y
 
 
-def ori_move(probabilities):
+def ori_moves(probabilities, set_len):
     '''
-    Shlomo move from probability distribution.
+    Ori moves from probability distribution. return set of 15 tuples
     '''
     # todo: change set to list
     # if random chose same index - probably we not need 15 results
@@ -166,7 +166,7 @@ def ori_move(probabilities):
     size = probabilities.shape[0]
     board = [Pos(x, y) for x in range(size) for y in range(size)]
     probabilities = probabilities.reshape(size**2)
-    while moves.__len__() < 15:
+    while moves.__len__() < set_len:
         pos = numpy.random.choice(board, p=probabilities)
         moves.add(tuple([pos.x, pos.y]))
     return moves
