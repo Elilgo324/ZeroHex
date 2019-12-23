@@ -1,16 +1,19 @@
 # script gets HEX games in letters like: W[aa];B[bb];W[cd];B[dd])
 # prints the board in every step
 import numpy as np
-from convertor.Move import *
-import copy
-# filename = "games/2118.txt"
-board_size = 11
-#
-# def main():
-#     p_moves = convert(filename)
-#     for mv in p_moves:
-#         print(mv)
 
+from Move import *
+import copy
+filename = "games/2118.txt"
+board_size = 11
+minimal_game_len = 22
+minimal_mv_index = 6
+
+def main():
+    p_moves = convert(filename)
+    #for mv in p_moves:
+    #   print(mv)
+    #print("num of mvs: {}".format(len(p_moves)))
 class Turn:
     W = 0
     B = 1
@@ -34,7 +37,7 @@ def convert(filename):
 
     # print name of the player
     name = lines[0]
-    # print("Player Name: {}".format(name))
+    #print("Player Name: {}".format(name))
     # remove first line
     lines.remove(lines[0])
 
@@ -72,7 +75,7 @@ def handle_game(line, name, player_moves):
         BorW = "B"
         if W_name in Game_info:
             BorW = "W"
-            # print("Player is W (first)")
+            #print("Player is W (first)")
 
         # remove game information
         sp_line.remove(sp_line[0])
@@ -82,43 +85,49 @@ def handle_game(line, name, player_moves):
         board = [Wboard, Bboard]
 
         locations = get_locations(sp_line)
-        # print(locations)
+        #print(locations)
+        # only foe games grater than 22
+        if len(locations) >= minimal_game_len:
+            turn = Turn.W
+            # modify board
+            index_loc = 0
+            for locat in locations:
+                # takes only moves from 6 and up
+                if index_loc < minimal_mv_index:
+                    index_loc += 1
+                    continue
+                #print("this is {}".format(locat))
+                # print("its {} turn:".format(turn))
+                if locat[0] == getNumeric("r"):  # when resign
+                    #print("user {} left the game".format(turn))
+                    continue
+                elif locat[0] == getNumeric("s"):  # when swap
+                    #print("user {} swap the game".format(turn))
+                    continue
 
-        turn = Turn.W
-        # modify board
-        for locat in locations:
-            # print("its {} turn:".format(turn))
-            if locat[0] == getNumeric("r"):  # when resign
-                # print("user {} left the game".format(turn))
-                continue
-            elif locat[0] == getNumeric("s"):  # when swap
-                # print("user {} swap the game".format(turn))
-                continue
-
-            # create move
-            m = Move()
-            # save only our player moves
-            if BorW == "W":  # our player is White
-                if turn == Turn.W:  # and this is white turn
-                    set_clr_bord_stt(m, BorW, board)
-                board[turn][locat[0]][locat[1]] = 1
-                if turn == Turn.W:
-                    m.next_mv = locat
-                    player_moves.append(m)
-            else:  # our player is Black
-                if turn == Turn.B:  # and this is black turn
-                    set_clr_bord_stt(m, BorW, board)
-                board[turn][locat[0]][locat[1]] = 1
-                if turn == Turn.B:
-                    m.next_mv = locat
-                    player_moves.append(m)
-            turn = (turn + 1) % 2
-
+                # create move
+                m = Move()
+                # save only our player moves
+                if BorW == "W":  # our player is White
+                    if turn == Turn.W:  # and this is white turn
+                        set_clr_bord_stt(m, BorW, board)
+                    board[turn][locat[0]][locat[1]] = 1
+                    if turn == Turn.W:
+                        m.next_mv = locat
+                        player_moves.append(m)
+                else:  # our player is Black
+                    if turn == Turn.B:  # and this is black turn
+                        set_clr_bord_stt(m, BorW, board)
+                    board[turn][locat[0]][locat[1]] = 1
+                    if turn == Turn.B:
+                        m.next_mv = locat
+                        player_moves.append(m)
+                turn = (turn + 1) % 2
+                index_loc += 1
 
 def set_clr_bord_stt(m, BorW, board):
     m.color = BorW
     m.board_stt = copy.deepcopy(board)
-
 
 if __name__ == "__main__":
     main()
