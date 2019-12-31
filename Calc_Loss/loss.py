@@ -1,11 +1,13 @@
-from convertor.Convertor_ver3 import convert
+
 from agent1_zero_dnn.compare import *
+from convertor.Convertor_ver3 import convert
 from agent1_zero_dnn.game import ori_moves
+from agent1_zero_dnn.generate import fix_probabilities
 import sys
 import numpy as np
 # file_name = "data_text_games_name_in_first_line/2688.txt"
-file_name = "data_text_games_name_in_first_line/2300.txt"
-model_file1 = "agent1_zero_dnn/model"
+file_name = "../data_text_games_name_in_first_line/2300.txt"
+model_file1 = "../agent1_zero_dnn/model"
 config = CompareConfig()
 moves = convert(file_name)
 model = load_model(model_file1)
@@ -23,6 +25,8 @@ for mv in moves:
     predictor.run(config.iterations)
     # predict
     value, probabilities = predictor.predict()
+    probabilities = fix_probabilities(predictor.board, probabilities)
+    print(probabilities)
     tprobs = temperature(probabilities, temp)
     next_move = mv.next_mv[0], mv.next_mv[1]
     # get 15 different moves from model
@@ -38,3 +42,5 @@ for mv in moves:
 print('wins: %d' % win)
 print('lose: %d' % lose)
 # print_board(predictor.board, flip_move(next_move), file=sys.stderr)
+
+
