@@ -1,12 +1,12 @@
 
 from agent1_zero_dnn.compare import *
 from convertor.Convertor_ver3 import convert
-from agent1_zero_dnn.game import ori_moves
+from agent1_zero_dnn.game import ori_moves, best_11_moves
 from agent1_zero_dnn.generate import fix_probabilities
 import sys
 import numpy as np
 # file_name = "data_text_games_name_in_first_line/2688.txt"
-file_name = "../data_text_games_name_in_first_line/2300.txt"
+file_name = "../data_text_games_name_in_first_line/2508.txt"
 model_file1 = "../agent1_zero_dnn/model"
 config = CompareConfig()
 moves = convert(file_name)
@@ -26,14 +26,16 @@ for mv in moves:
     # predict
     value, probabilities = predictor.predict()
     probabilities = fix_probabilities(predictor.board, probabilities)
-    print(probabilities)
+    # print(probabilities)
     tprobs = temperature(probabilities, temp)
     next_move = mv.next_mv[0], mv.next_mv[1]
+    predictor.make_move(next_move)
     # get 15 different moves from model
     # todo tprobs in ori moves
-    model_moves = ori_moves(probabilities, 15)
-    # print('user {}'.format(next_move))
-    # print('model {}'.format(model_moves))
+    model_moves = best_11_moves(probabilities)
+#    model_moves = ori_moves(probabilities, 15)
+#     print('user {}'.format(next_move))
+#     print('model {}'.format(model_moves))
     # check if user's move in prediction
     if next_move in model_moves:
         win += 1
@@ -41,6 +43,7 @@ for mv in moves:
         lose += 1
 print('wins: %d' % win)
 print('lose: %d' % lose)
+print('ratio: %s' % (win/(win+lose)))
 # print_board(predictor.board, flip_move(next_move), file=sys.stderr)
 
 

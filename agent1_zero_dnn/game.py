@@ -129,6 +129,15 @@ def best_move(probabilities):
     return random.choice(list((x, y) for x in range(size) for y in range(size) if probabilities[x,y] == max_probability))
 
 
+def best_11_moves(probabilities):
+    '''
+    Selects the move with the highest probability. If tied, selects randomly.
+    '''
+    size = probabilities.shape[0]
+    sorted_p = sorted([probabilities[x,y] for x in range(size) for y in range(size)], reverse=True)[:15]
+    # max_probability = max(probabilities[x,y] for x in range(size) for y in range(size))
+    return list((x, y) for x in range(size) for y in range(size) if probabilities[x,y] in sorted_p)
+
 def top_11(probabilities):
     tops = []
     tops = numpy.argpartition(probabilities,-11)[-11:]
