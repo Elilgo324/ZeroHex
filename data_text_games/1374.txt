@@ -1,37 +1,6 @@
+TheDreamTwister
 
 
+(;FF[4]EV[hex.HEX11.mc.2018.dec.1.2]PB[Hearsute]PW[TheDreamTwister]SZ[11]RE[W]GC[ game #2041096]SO[http://www.littlegolem.com];W[aa];B[bb];W[cc];B[dc];W[dd];B[resign])
 
-
-(;FF[4]EV[hex.in.HEX11.67]PB[TheDreamTwister]PW[liuziqi]SZ[11]RE[W]GC[ game #1873508]SO[http://www.littlegolem.com])
-
-(;FF[4]EV[hex.in.HEX11.66]PB[TheDreamTwister]PW[vieuxsac]SZ[11]RE[W]GC[ game #1871844]SO[http://www.littlegolem.com])
-
-(;FF[4]EV[hex.in.HEX11.65]PB[TheDreamTwister]PW[qbingyan]SZ[11]RE[W]GC[ game #1870434]SO[http://www.littlegolem.com])
-
-(;FF[4]EV[hex.in.HEX11.64]PB[galacticfunk]PW[TheDreamTwister]SZ[11]RE[W]GC[ game #1867911]SO[http://www.littlegolem.com])
-
-(;FF[4]EV[hex.in.HEX11.63]PB[TheDreamTwister]PW[piens]SZ[11]RE[W]GC[ game #1866843]SO[http://www.littlegolem.com])
-
-(;FF[4]EV[hex.in.HEX11.62]PB[Gwylim Ashley]PW[TheDreamTwister]SZ[11]RE[B]GC[ game #1865533]SO[http://www.littlegolem.com];W[ag])
-
-(;FF[4]EV[hex.in.HEX11.61]PB[TheDreamTwister]PW[louisdom]SZ[11]RE[W]GC[ game #1864288]SO[http://www.littlegolem.com])
-
-(;FF[4]EV[hex.in.HEX11.60]PB[TheCamer1]PW[TheDreamTwister]SZ[11]RE[B]GC[ game #1863329]SO[http://www.littlegolem.com];W[jj])
-
-(;FF[4]EV[hex.in.HEX11.59]PB[Simon O]PW[TheDreamTwister]SZ[11]RE[W]GC[ game #1862372]SO[http://www.littlegolem.com])
-
-(;FF[4]EV[hex.in.HEX11.58]PB[nytope]PW[TheDreamTwister]SZ[11]RE[B]GC[ game #1860165]SO[http://www.littlegolem.com];W[jj])
-
-(;FF[4]EV[hex.in.HEX11.57]PB[TheDreamTwister]PW[Yorge]SZ[11]RE[W]GC[ game #1857912]SO[http://www.littlegolem.com])
-
-(;FF[4]EV[hex.in.HEX11.56]PB[TheDreamTwister]PW[nick32]SZ[11]RE[W]GC[ game #1856723]SO[http://www.littlegolem.com])
-
-(;FF[4]EV[hex.in.HEX11.55]PB[ferrarifeleches]PW[TheDreamTwister]SZ[11]RE[B]GC[ game #1854596]SO[http://www.littlegolem.com];W[gf])
-
-(;FF[4]EV[hex.in.HEX11.54]PB[ramanujan]PW[TheDreamTwister]SZ[11]RE[W]GC[ game #1852239]SO[http://www.littlegolem.com])
-
-(;FF[4]EV[hex.in.HEX11.53]PB[Martin]PW[TheDreamTwister]SZ[11]RE[W]GC[ game #1849686]SO[http://www.littlegolem.com])
-
-(;FF[4]EV[hex.in.HEX11.52]PB[TheDreamTwister]PW[galacticfunk]SZ[11]RE[W]GC[ game #1848485]SO[http://www.littlegolem.com])
-
-   
+(;FF[4]EV[hex.HEX11.mc.2018.dec.1.2]PB[TheDreamTwister]PW[Hearsute]SZ[11]RE[W]GC[ game #2041096]SO[http://www.littlegolem.com];W[ba];B[ca];W[dc];B[ad];W[ab];B[resign])

@@ -1,15 +1,18 @@
 
 from agent1_zero_dnn.compare import *
 from convertor.Convertor_ver3 import convert
+from convertor.Convertor_ver3 import convert_last_moves
 from agent1_zero_dnn.game import ori_moves, best_11_moves
 from agent1_zero_dnn.generate import fix_probabilities
 import sys
 import numpy as np
 # file_name = "data_text_games_name_in_first_line/2688.txt"
-file_name = "../data_text_games_name_in_first_line/2508.txt"
+# file_name = "../data_text_games_name_in_first_line/2508.txt"
+file_name = "../data_text_games_name_in_first_line/2062.txt"
 model_file1 = "../agent1_zero_dnn/model"
 config = CompareConfig()
-moves = convert(file_name)
+# moves = convert(file_name)
+moves = convert_last_moves(file_name)
 model = load_model(model_file1)
 predictor = TreeSearchPredictor(config.search_config, model, new_board(config.size), True)
 temp = 0.7
