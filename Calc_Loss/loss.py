@@ -8,9 +8,9 @@ import sys
 import numpy as np
 import os
 # file_name = "data_text_games_name_in_first_line/2688.txt"
-# file_name = "../data_text_games_name_in_first_line/2508.txt"
-# file_name = "../data_text_games_name_in_first_line/2062.txt"
-model_file1 = "../agent1_zero_dnn/model"
+# file_name = "data_text_games_name_in_first_line/2508.txt"
+# file_name = "data_text_games_name_in_first_line/2062.txt"
+model_file1 = "agent1_zero_dnn/model"
 config = CompareConfig()
 # moves = convert(file_name)
 
@@ -56,9 +56,9 @@ def calc_file(file_name):
 
 
 if __name__ == '__main__':
-    files = os.listdir('../data_text_games_name_in_first_line')
+    files = os.listdir('data_text_games_name_in_first_line')
     for file in files:
         print(file)
-        calc_file('../data_text_games_name_in_first_line/' + file)
+        calc_file('data_text_games_name_in_first_line/' + file)
 
 
