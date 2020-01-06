@@ -1,7 +1,7 @@
 
 from agent1_zero_dnn.compare import *
-from convertor.Convertor_ver3 import convert
-from convertor.Convertor_ver3 import convert_last_moves
+from convertor.Convertor_ver4 import convert
+from convertor.Convertor_ver4 import convert_last_moves
 from agent1_zero_dnn.game import ori_moves, best_k_moves
 from agent1_zero_dnn.generate import fix_probabilities
 import sys
@@ -23,7 +23,8 @@ def calc_file(file_name):
     predictor.is_first_move = False
     win, lose = 0, 0
     res = str()
-    moves = convert(file_name)
+    moves = convert_last_moves(file_name)
+    # moves = convert(file_name)
     for mv in moves:
         # insert board to predictor
         # predictor.board = np.array(mv.board_stt)
@@ -63,7 +64,7 @@ def calc_file(file_name):
 
 if __name__ == '__main__':
     files = os.listdir('data_text_games_name_in_first_line')
-    files = ['2508.txt']
+    # files = ['2144.txt']
     for file in files:
         print(file)
         calc_file('data_text_games_name_in_first_line/' + file)

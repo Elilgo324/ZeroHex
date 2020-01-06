@@ -1,0 +1,9 @@
+gzero_bot
+
+
+(;FF[4]EV[hex.in.HEX11.131]PB[gzero_bot]PW[olduncle]SZ[11]RE[B]GC[ game #1991118]SO[http://www.littlegolem.com];W[kd];B[ff];W[jf];B[jc];W[dd];B[hd];W[id];B[ic];W[ge];B[hf];W[he];B[fd];W[gd];B[hb];W[gc];B[ig];W[if];B[hg];W[fh];B[gf];W[jg];B[ih];W[jh];B[ij];W[ii];B[resign])
+
+(;FF[4]EV[null]PB[shalev]PW[gzero_bot]SZ[13]RE[W]GC[ game #1983335]SO[http://www.littlegolem.com];W[kb];B[dj];W[ji];B[jj];W[ki];B[kj];W[ij];B[if];W[ei];B[fe];W[de];B[dd];W[ce];B[cd];W[ed];B[ej];W[fi];B[df];W[hf];B[id];W[ge];B[hc];W[jd];B[ie];W[ef];B[gc];W[bf];B[ee];W[fg];B[hg];W[cg];B[dg];W[ch];B[di];W[resign])
+
+(;FF[4]EV[null]PB[lguser]PW[gzero_bot]SZ[11]RE[W]GC[ game #1978800]SO[http://www.littlegolem.com];W[ak];B[swap];W[ed];B[dh];W[gh];B[ee];W[hd];B[he];W[fe];B[hi];W[cf];B[dg];W[eg];B[eh];W[fg];B[fj];W[gi];B[gj];W[fi];B[ej];W[ei];B[dj];W[resign])
+

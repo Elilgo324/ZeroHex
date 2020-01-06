@@ -92,7 +92,8 @@ class Node:
         self.visits = 1
         self.value = value
         self.priors = priors
-        self.edges = None
+        #self.edges = None
+        self.edges = []
 
     async def visit(self, config, predictor, board, is_first_move):
         if self.visits == 1:

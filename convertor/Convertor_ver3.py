@@ -4,16 +4,17 @@
 from convertor.avshalom_move import Move
 import copy
 
-filename = "../data_text_games_name_in_first_line/2062.txt"
+#filename = "../data_text_games_name_in_first_line/2062.txt"
+filename = "NEW1999CHANGED.txt"
 board_size = 11
 minimal_game_len = 22
 minimal_mv_index = 6
 
 def main():
-    p_moves = convert_last_moves(filename)
-    # p_moves = convert(filename)
-    # for mv in p_moves:
-    #   print(mv)
+    # p_moves = convert_last_moves(filename)
+    p_moves = convert(filename)
+    for mv in p_moves:
+        print(mv)
     print("num of mvs: {}".format(len(p_moves)))
 class Turn:
     W = 0
@@ -144,6 +145,9 @@ def convert_last_moves(filename):
     player_moves = []
 
     for line in lines:
+        shit = "B[swap]"
+        if shit in line:
+            continue
         handle_game_last_locations(line, name, player_moves)
 
     return player_moves
