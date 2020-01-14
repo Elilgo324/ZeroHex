@@ -34,6 +34,7 @@ def multi_compare(config, model_file1, model_file2):
 
 def temperature(probs, t):
     probs = np.array(probs)
+
     probs = np.power(probs, 1/t) / np.sum(np.power(probs, 1/t))
     return probs
 

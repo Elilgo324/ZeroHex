@@ -113,6 +113,19 @@ class Node:
             self.priors = None
         self.visits += 1
         visits_sqrt = math.sqrt(self.visits)
+
+        # change here
+        """
+        create 2 list
+        priors = [5,7,1,8,..]
+        edges = [0,1,2,3,..]
+        
+        do softmax on priors and get probs
+        do temp on probs
+        i = argmax on probs
+        return edges[i]
+        """
+
         best_priority, best_edge = -1e9, None
         for edge in self.edges:
             priority = edge.priority(visits_sqrt)
