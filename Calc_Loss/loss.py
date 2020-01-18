@@ -27,21 +27,21 @@ def calc_file(file_name):
     # moves = convert(file_name)
     for mv in moves:
         # insert board to predictor
-        # predictor.board = np.array(mv.board_stt)
-        if mv.color == 'B':
-            predictor.board = np.array(mv.board_stt)
-        elif mv.color == 'W':
-            predictor.board = np.array(flip_move(mv.board_stt))
+        predictor.board = np.array(mv.board_stt)
+        # if mv.color == 'B':
+        #     predictor.board = np.array(mv.board_stt)
+        # elif mv.color == 'W':
+        #     predictor.board = np.array(flip_move(mv.board_stt))
         predictor.run(config.iterations)
         # predict
         value, probabilities = predictor.predict()
         probabilities = fix_probabilities(predictor.board, probabilities)
         # print(probabilities)
-        tprobs = temperature(probabilities, temp)
+        # probabilities = temperature(probabilities, temp)
         next_move = mv.next_mv[0], mv.next_mv[1]
         # get 15 different moves from model
         # todo tprobs in ori moves
-        model_moves = best_k_moves(probabilities, 20)
+        model_moves = best_k_moves(probabilities, 15)
         predictor.make_move(next_move)
     #    model_moves = ori_moves(probabilities, 15)
     #     print('user {}'.format(next_move))

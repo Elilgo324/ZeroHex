@@ -5,7 +5,7 @@ import numpy as np
 from keras.models import load_model
 
 from agent1_zero_dnn.game import print_board, winner, flip, flip_move, best_move, new_board, sample_move, shlomo_move
-from agent1_zero_dnn.tree_search import TreeSearchPredictor
+from agent1_zero_dnn.tree_search import TreeSearchPredictor, temperature
 from agent1_zero_dnn.config import CompareConfig
 
 import matplotlib.pyplot as plt
@@ -30,13 +30,6 @@ def multi_compare(config, model_file1, model_file2):
 
     plt.savefig('temps.png')
     #plt.show()
-
-
-def temperature(probs, t):
-    probs = np.array(probs)
-
-    probs = np.power(probs, 1/t) / np.sum(np.power(probs, 1/t))
-    return probs
 
 
 def compare(config, model_file1, model_file2, temp, num_games):

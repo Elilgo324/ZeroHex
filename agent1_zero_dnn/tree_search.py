@@ -5,6 +5,7 @@ import asyncio
 from agent1_zero_dnn.game import winner, make_move, normalize
 from agent1_zero_dnn.batch_predictor import BatchPredictor
 
+import numpy as np
 
 """
 MCTS algo
@@ -42,6 +43,12 @@ node. During the process, the number of simulation stored in each node
 is incremented. Also, if the new node’s simulation results in a win,
 then the number of wins is also incremented.
 """
+
+
+def temperature(probs, t):
+    probs = np.array(probs)
+    probs = np.power(probs, 1/t) / np.sum(np.power(probs, 1/t))
+    return probs
 
 
 class TreeSearchPredictor:
@@ -125,12 +132,20 @@ class Node:
         i = argmax on probs
         return edges[i]
         """
+        t = 0.7
+        probabilities = [edge.priority(visits_sqrt) for edge in self.edges]
+        # temp_probabilities = temperature(probabilities, t)
+        best_edge_index = np.argmax(probabilities)
+        best_edge = self.edges[best_edge_index]
+        # print(best_edge.prior)
 
-        best_priority, best_edge = -1e9, None
-        for edge in self.edges:
-            priority = edge.priority(visits_sqrt)
-            if priority > best_priority:
-                best_priority, best_edge = priority, edge
+        # best_priority, best_edge = -1e9, None
+        # for edge in self.edges:
+        #     priority = edge.priority(visits_sqrt)
+        #     if priority > best_priority:
+        #         best_priority, best_edge = priority, edge
+        # print(best_edge.prior)
+
         value = await best_edge.visit(config, predictor, board, is_first_move)
         self.value += -value
         return -value
