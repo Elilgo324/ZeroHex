@@ -121,7 +121,6 @@ class Node:
         self.visits += 1
         visits_sqrt = math.sqrt(self.visits)
 
-        # change here
         """
         create 2 list
         priors = [5,7,1,8,..]
@@ -134,17 +133,9 @@ class Node:
         """
         t = 0.7
         probabilities = [edge.priority(visits_sqrt) for edge in self.edges]
-        # temp_probabilities = temperature(probabilities, t)
-        best_edge_index = np.argmax(probabilities)
+        temp_probabilities = temperature(probabilities, t)
+        best_edge_index = np.argmax(temp_probabilities)
         best_edge = self.edges[best_edge_index]
-        # print(best_edge.prior)
-
-        # best_priority, best_edge = -1e9, None
-        # for edge in self.edges:
-        #     priority = edge.priority(visits_sqrt)
-        #     if priority > best_priority:
-        #         best_priority, best_edge = priority, edge
-        # print(best_edge.prior)
 
         value = await best_edge.visit(config, predictor, board, is_first_move)
         self.value += -value
@@ -153,7 +144,7 @@ class Node:
     def result(self, size):
         visits = numpy.zeros((size, size))
         for edge in self.edges:
-            visits[edge.move[0],edge.move[1]] = edge.node.visits if edge.node else 0
+            visits[edge.move[0], edge.move[1]] = edge.node.visits if edge.node else 0
         return self.value / self.visits, visits
 
 
