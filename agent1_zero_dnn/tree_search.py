@@ -2,8 +2,8 @@ import math
 import numpy
 import asyncio
 
-from agent1_zero_dnn.game import winner, make_move, normalize
-from agent1_zero_dnn.batch_predictor import BatchPredictor
+from game import winner, make_move, normalize
+from batch_predictor import BatchPredictor
 
 import numpy as np
 
@@ -44,6 +44,9 @@ is incremented. Also, if the new node’s simulation results in a win,
 then the number of wins is also incremented.
 """
 
+def softmax(x):
+    e_x = np.exp(x - np.max(x))
+    return e_x / e_x.sum()
 
 def temperature(probs, t):
     probs = np.array(probs)
@@ -52,7 +55,9 @@ def temperature(probs, t):
 
 
 class TreeSearchPredictor:
-    def __init__(self, config, model, board, is_first_move):
+    def __init__(self, config, model, board, is_first_move, t=1, T=1):
+        self.t = t
+        self.T = T
         self.config = config
         self.model = model
         self.predictor = BatchPredictor(model)
@@ -71,7 +76,7 @@ class TreeSearchPredictor:
 
     def predict(self):
         value, visits = self.root.result(self.board.shape[1])
-        return value, normalize(visits)
+        return value, temperature(normalize(visits),self.T)
 
     def visits(self):
         return self.root.result(self.board.shape[1])[1]
@@ -123,18 +128,10 @@ class Node:
         visits_sqrt = math.sqrt(self.visits)
 
         """
-        create 2 list
-        priors = [5,7,1,8,..]
-        edges = [0,1,2,3,..]
-        
-        do softmax on priors and get probs
-        do temp on probs
-        i = argmax on probs
-        return edges[i]
+        insert temperature here
         """
-        t = 0.7
-        probabilities = [edge.priority(visits_sqrt) for edge in self.edges]
-        temp_probabilities = temperature(probabilities, t)
+        probabilities = softmax([edge.priority(visits_sqrt) for edge in self.edges])
+        temp_probabilities = temperature(probabilities, self.t)
         best_edge_index = np.argmax(temp_probabilities)
         best_edge = self.edges[best_edge_index]
 

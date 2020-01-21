@@ -1,8 +1,9 @@
 import numpy as np
 from agent1_zero_dnn.compare import *
+from agent1_zero_dnn.tree_search import TreeSearchPredictor
 from convertor.Convertor_ver4 import convert
 from convertor.Convertor_ver4 import convert_last_moves
-from agent1_zero_dnn.game import ori_moves, best_k_moves
+from agent1_zero_dnn.game import ori_moves,best_k_moves,new_board
 from agent1_zero_dnn.generate import fix_probabilities
 import sys
 import numpy as np
@@ -50,6 +51,7 @@ def compute_gradient(x, y):
 def loss(x, y):
     epsilon = 0.00001
     return -math.log(x[y]+epsilon)
+    #return -math.log(x[y]*3+epsilon)
 
 
 def learning():
@@ -90,8 +92,8 @@ def learning():
             y = get_index_from_move(move)
 
             # numeric gradient
-            t_grad = (loss(x,y) + loss(et_x,y)) / e_t
-            T_grad = (loss(x,y) + loss(eT_x,y)) / e_T
+            t_grad = (loss(x,y) - loss(et_x,y)) / e_t
+            T_grad = (loss(x,y) - loss(eT_x,y)) / e_T
 
             t += rate * t_grad
             T += rate * T_grad

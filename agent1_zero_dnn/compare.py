@@ -4,16 +4,18 @@ import numpy as np
 
 from keras.models import load_model
 
-from agent1_zero_dnn.game import print_board, winner, flip, flip_move, best_move, new_board, sample_move, shlomo_move
-from agent1_zero_dnn.tree_search import TreeSearchPredictor, temperature
-from agent1_zero_dnn.config import CompareConfig
+from game import print_board, winner, flip, flip_move, best_move, new_board, sample_move, shlomo_move
+from tree_search import TreeSearchPredictor, temperature
+from config import CompareConfig
 
 import matplotlib.pyplot as plt
 
 
 def multi_compare(config, model_file1, model_file2):
     #temps = [0.7, 0.8, 0.85, 0.9, 0.95, 1]
-    temps = [0.7, 0.9]
+    t = [0.7]
+    T = [1]
+
     num_games = 3
 
     plt.style.use('seaborn-darkgrid')
@@ -24,16 +26,16 @@ def multi_compare(config, model_file1, model_file2):
     plt.legend(bbox_to_anchor=(0.,1.02,1.,.102),loc='lower left',
                ncol=2,mode="expand",borderaxespad=0.)
 
-    for t in temps:
-        ratios = compare(config, model_file1, model_file2, t, num_games)
+    for _t,_T in zip(t,T):
+        ratios = compare(config, model_file1, model_file2, _t, _T, num_games)
         plt.plot(range(num_games), ratios, label=str(t))
 
     plt.savefig('temps.png')
     #plt.show()
 
 
-def compare(config, model_file1, model_file2, temp, num_games):
-    models = [load_model(model_file1), load_model(model_file2)]
+def compare(config, model_file1, model_file2, t, T, num_games):
+    model1, model2 = load_model(model_file1), load_model(model_file2)
     games = 0
     first_player_wins = 0
     win_ratio, uncertainty = None, None
@@ -42,7 +44,8 @@ def compare(config, model_file1, model_file2, temp, num_games):
     # while True:
     for i in range(num_games):
         move_index = 0
-        predictors = [TreeSearchPredictor(config.search_config,model,new_board(config.size),True) for model in models]
+        predictors = [TreeSearchPredictor(config.search_config,model1,new_board(config.size),True, t, T)
+            ,TreeSearchPredictor(config.search_config,model2,new_board(config.size),True)]
 
         # exp uct of model2 is 100
         # predictors = ["avshalom", "shlomo"]
@@ -85,10 +88,9 @@ def compare(config, model_file1, model_file2, temp, num_games):
             #if games & 1 == move_index & 1:
             #   probabilities = np.array(uprobs).reshape(11, -1)
 
-            # exp temperature
-            tprobs = temperature(probabilities, temp)
             if games & 1 == move_index & 1:
-                probabilities = tprobs
+                # exp temperature
+                probabilities = temperature(probabilities,T)
                 #print(probabilities)
 
             if move_index < 3:
