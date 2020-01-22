@@ -12,15 +12,15 @@ import matplotlib.pyplot as plt
 
 
 def multi_compare(config, model_file1, model_file2):
-    #temps = [0.7, 0.8, 0.85, 0.9, 0.95, 1]
-    t = [0.7]
-    T = [1]
+    # flip between t and T
+    t = np.arange(0.8, 0.999, 0.01).tolist()
+    T = [1] * 20
 
-    num_games = 3
+    num_games = 1
 
     plt.style.use('seaborn-darkgrid')
     plt.ylim(0, 1)
-    plt.title("Temperature Modification", loc='left', fontsize=12, fontweight=0, color='orange')
+    plt.title("t Modification", loc='left', fontsize=12, fontweight=0, color='orange')
     plt.xlabel('Games')
     plt.ylabel('Win Ratio')
     plt.legend(bbox_to_anchor=(0.,1.02,1.,.102),loc='lower left',
