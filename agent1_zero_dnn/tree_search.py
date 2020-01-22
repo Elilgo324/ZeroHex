@@ -2,9 +2,10 @@ import math
 import numpy
 import asyncio
 
-from agent1_zero_dnn.game import winner, make_move, normalize
-from agent1_zero_dnn.batch_predictor import BatchPredictor
+from game import winner, make_move, normalize
+from batch_predictor import BatchPredictor
 
+import numpy as np
 
 """
 MCTS algo
@@ -43,9 +44,20 @@ is incremented. Also, if the new node’s simulation results in a win,
 then the number of wins is also incremented.
 """
 
+def softmax(x):
+    e_x = np.exp(x - np.max(x))
+    return e_x / e_x.sum()
+
+def temperature(probs, t):
+    probs = np.array(probs)
+    probs = np.power(probs, 1/t) / np.sum(np.power(probs, 1/t))
+    return probs
+
 
 class TreeSearchPredictor:
-    def __init__(self, config, model, board, is_first_move):
+    def __init__(self, config, model, board, is_first_move, t=1, T=1):
+        self.t = t
+        self.T = T
         self.config = config
         self.model = model
         self.predictor = BatchPredictor(model)
@@ -64,7 +76,7 @@ class TreeSearchPredictor:
 
     def predict(self):
         value, visits = self.root.result(self.board.shape[1])
-        return value, normalize(visits)
+        return value, temperature(normalize(visits),self.T)
 
     def visits(self):
         return self.root.result(self.board.shape[1])[1]
@@ -92,7 +104,9 @@ class Node:
         self.visits = 1
         self.value = value
         self.priors = priors
-        self.edges = None
+        #self.edges = None
+        self.edges = []
+        self.t = 1
 
     async def visit(self, config, predictor, board, is_first_move):
         if self.visits == 1:
@@ -112,11 +126,15 @@ class Node:
             self.priors = None
         self.visits += 1
         visits_sqrt = math.sqrt(self.visits)
-        best_priority, best_edge = -1e9, None
-        for edge in self.edges:
-            priority = edge.priority(visits_sqrt)
-            if priority > best_priority:
-                best_priority, best_edge = priority, edge
+
+        """
+        insert temperature here
+        """
+        probabilities = softmax([edge.priority(visits_sqrt) for edge in self.edges])
+        temp_probabilities = temperature(probabilities, self.t)
+        best_edge_index = np.argmax(temp_probabilities)
+        best_edge = self.edges[best_edge_index]
+
         value = await best_edge.visit(config, predictor, board, is_first_move)
         self.value += -value
         return -value
@@ -124,7 +142,7 @@ class Node:
     def result(self, size):
         visits = numpy.zeros((size, size))
         for edge in self.edges:
-            visits[edge.move[0],edge.move[1]] = edge.node.visits if edge.node else 0
+            visits[edge.move[0], edge.move[1]] = edge.node.visits if edge.node else 0
         return self.value / self.visits, visits
 
 
