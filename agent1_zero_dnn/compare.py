@@ -15,12 +15,12 @@ def multi_compare(config, model_file1, model_file2):
     # flip between t and T
     t = np.arange(0.8, 0.999, 0.01).tolist()
     T = [1] * 20
-    t = [0.8,0.9]
-    T = [1,1]
+    t = [0.82, 0.84, 0.86, 0.88,0.9]
+    T = [0.9,1]
     param = "t"
     plt_param = t
 
-    num_games = 3
+    num_games = 5
 
     plt.style.use('seaborn-darkgrid')
     plt.ylim(0, 1)
@@ -88,21 +88,13 @@ def compare(config, model_file1, model_file2, t, T, num_games):
             predictor.run(config.iterations)
             value, probabilities = predictor.predict()
 
-            # exp uniform probs
-            #uprobs = [0.00826446] * 121
-            #if games & 1 == move_index & 1:
-            #   probabilities = np.array(uprobs).reshape(11, -1)
-
             if games & 1 == move_index & 1:
                 # exp temperature
                 probabilities = temperature(probabilities,T)
-                #print(probabilities)
+                # print(probabilities)
 
-            if move_index < 3:
-                move = shlomo_move(probabilities)
-            else:
-                #move = best_move(probabilities)
-                move = shlomo_move(probabilities)
+            move = shlomo_move(probabilities)
+
             for predictor in predictors:
                 predictor.make_move(move)
             if games & 1 == move_index & 1:
