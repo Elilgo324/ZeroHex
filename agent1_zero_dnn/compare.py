@@ -15,12 +15,12 @@ def multi_compare(config, model_file1, model_file2):
     # flip between t and T
     t = np.arange(0.8, 0.999, 0.01).tolist()
     T = [1] * 20
-    t = [0.82, 0.84, 0.86, 0.88,0.9]
-    T = [0.9,1]
+    t = [0.1,0.5,1]
+    T = [1,1,1]
     param = "t"
     plt_param = t
 
-    num_games = 5
+    num_games = 10
 
     plt.style.use('seaborn-darkgrid')
     plt.ylim(0, 1)
@@ -30,17 +30,21 @@ def multi_compare(config, model_file1, model_file2):
     plt.legend(bbox_to_anchor=(0.,1.02,1.,.102),loc='lower left',
                ncol=2,mode="expand",borderaxespad=0.)
 
+    model1, model2 = load_model(model_file1), load_model(model_file2)
+
     ratios = []
     for _t,_T in zip(t,T):
-        ratios.append(np.mean(compare(config,model_file1,model_file2,_t,_T,num_games)))
+        r = compare(config,model1,model2,_t,_T,num_games)
+        print("t="+str(_t)+",T="+str(_T))
+        print(r[len(r)-1])
+        ratios.append(r[len(r)-1])
 
     plt.plot(plt_param,ratios,marker='o',linestyle='--',color='r',label='Square')
     plt.savefig(param+'.png')
     plt.show()
 
 
-def compare(config, model_file1, model_file2, t, T, num_games):
-    model1, model2 = load_model(model_file1), load_model(model_file2)
+def compare(config, model1, model2, t, T, num_games):
     games = 0
     first_player_wins = 0
     win_ratio, uncertainty = None, None
@@ -50,7 +54,7 @@ def compare(config, model_file1, model_file2, t, T, num_games):
     for i in range(num_games):
         move_index = 0
         predictors = [TreeSearchPredictor(config.search_config,model1,new_board(config.size),True, t, T)
-            ,TreeSearchPredictor(config.search_config,model2,new_board(config.size),True)]
+            ,TreeSearchPredictor(config.search_config,model2,new_board(config.size),True,1, 1)]
 
         # exp uct of model2 is 100
         # predictors = ["avshalom", "shlomo"]

@@ -57,7 +57,7 @@ def temperature(probs, t):
 
 
 class TreeSearchPredictor:
-    def __init__(self, config, model, board, is_first_move, t=1, T=1):
+    def __init__(self, config, model, board, is_first_move, t, T):
         self.t = t
         self.T = T
         self.config = config
@@ -98,17 +98,17 @@ class TreeSearchPredictor:
     def _create_root(self):
         values, probabilities = self.model.predict(numpy.array([self.board]))
         size = self.board.shape[1]
-        self.root = Node(values[0][0], numpy.reshape(probabilities, (size, size)))
+        self.root = Node(values[0][0], numpy.reshape(probabilities, (size, size)),self.t)
 
 
 class Node:
-    def __init__(self, value, priors):
+    def __init__(self, value, priors,t):
         self.visits = 1
         self.value = value
         self.priors = priors
         #self.edges = None
         self.edges = []
-        self.t = 1
+        self.t = t
 
     async def visit(self, config, predictor, board, is_first_move):
         if self.visits == 1:
@@ -124,7 +124,7 @@ class Node:
             for x in range(size):
                 for y in range(size):
                     if board[0,x,y] == 0 and board[1,x,y] == 0:
-                        self.edges.append(Edge(config, self.priors[x,y], (x, y)))
+                        self.edges.append(Edge(config, self.priors[x,y], (x, y),self.t))
             self.priors = None
         self.visits += 1
         visits_sqrt = math.sqrt(self.visits)
@@ -136,10 +136,14 @@ class Node:
         probabilities = softmax(priorities)
         temp_probabilities = temperature(probabilities, self.t)
 
-        shlomo_probs = [(x+(random.randint(0,3)/10000)) for x in temp_probabilities]
+        #shlomo_probs = [(x+(random.randint(0,5)/10000)) for x in temp_probabilities]
 
-        best_edge_index = np.argmax(shlomo_probs)
+        #best_edge_index = np.argmax(shlomo_probs)
+        best_edge_index = numpy.random.choice(range(len(temp_probabilities)), p=temp_probabilities)
         best_edge = self.edges[best_edge_index]
+        #if self.t != 1:
+        #    print("t=",self.t)
+        #    print(temp_probabilities)
 
         value = await best_edge.visit(config, predictor, board, is_first_move)
         self.value += -value
@@ -153,12 +157,13 @@ class Node:
 
 
 class Edge:
-    def __init__(self, config, prior, move):
+    def __init__(self, config, prior, move, t):
         self.prior = prior
         self.move = move
         self.node = None
         self.uct_priority = config.uct_factor * prior
         self.value_priority = 0.0
+        self.t = t
 
     def priority(self, total_visits_sqrt):
         return total_visits_sqrt * self.uct_priority + self.value_priority
@@ -167,7 +172,7 @@ class Edge:
         if self.node is None:
             self.value_priority = -1e6
             value, priors = await predictor.predict(make_move(board, self.move))
-            self.node = Node(value, priors)
+            self.node = Node(value, priors, self.t)
         else:
             # dg of value_priority
             self.value_priority = -(self.node.value + config.virtual_loss) / (self.node.visits + config.virtual_loss)
