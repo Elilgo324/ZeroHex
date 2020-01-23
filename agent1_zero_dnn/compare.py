@@ -35,8 +35,7 @@ def multi_compare(config, model_file1, model_file2):
     ratios = []
     for _t,_T in zip(t,T):
         r = compare(config,model1,model2,_t,_T,num_games)
-        print("t="+str(_t)+",T="+str(_T))
-        print(r[len(r)-1])
+        print("t="+str(_t)+",T="+str(_T)+","+str(r[len(r)-1]))
         ratios.append(r[len(r)-1])
 
     plt.plot(plt_param,ratios,marker='o',linestyle='--',color='r',label='Square')
@@ -101,13 +100,13 @@ def compare(config, model1, model2, t, T, num_games):
 
             for predictor in predictors:
                 predictor.make_move(move)
-            if games & 1 == move_index & 1:
-                print_board(flip(predictors[0].board), move, file=sys.stderr)
-            else:
-                print_board(predictors[0].board, flip_move(move), file=sys.stderr)
-            print('%s model win probability: %.2f' % (['First', 'Second'][((games ^ move_index) & 1)], (value + 1) / 2), file=sys.stderr)
-            if games > 0:
-                print('Win ratio %.2f ± %.2f (%d games)' % (win_ratio, uncertainty, games), file=sys.stderr)
+            #if games & 1 == move_index & 1:
+                #print_board(flip(predictors[0].board), move, file=sys.stderr)
+            #else:
+                #print_board(predictors[0].board, flip_move(move), file=sys.stderr)
+            #print('%s model win probability: %.2f' % (['First', 'Second'][((games ^ move_index) & 1)], (value + 1) / 2), file=sys.stderr)
+            #if games > 0:
+                #print('Win ratio %.2f ± %.2f (%d games)' % (win_ratio, uncertainty, games), file=sys.stderr)
             move_index += 1
         games += 1
         if games & 1 == move_index & 1:

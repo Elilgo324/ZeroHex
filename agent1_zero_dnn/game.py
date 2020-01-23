@@ -79,7 +79,6 @@ def winner(board):
 
 
 def print_board(board, move=(-1, -1), file=sys.stdout):
-    return
     size = board.shape[1]
     for y in range(size):
         file.write(y * " ")
