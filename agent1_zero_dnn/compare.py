@@ -15,8 +15,8 @@ def multi_compare(config, model_file1, model_file2):
     # flip between t and T
     t = np.arange(0.8, 0.999, 0.01).tolist()
     T = [1] * 20
-    t = [0.1,0.5,1]
-    T = [1,1,1]
+    t = [0.01,0.1,0.2,0.3,0.4,0.5]
+    T = [1,1,1,1,1,1]
     param = "t"
     plt_param = t
 
@@ -53,7 +53,7 @@ def compare(config, model1, model2, t, T, num_games):
     for i in range(num_games):
         move_index = 0
         predictors = [TreeSearchPredictor(config.search_config,model1,new_board(config.size),True, t, T)
-            ,TreeSearchPredictor(config.search_config,model2,new_board(config.size),True,1, 1)]
+            ,TreeSearchPredictor(config.search_config,model2,new_board(config.size),True)]
 
         # exp uct of model2 is 100
         # predictors = ["avshalom", "shlomo"]

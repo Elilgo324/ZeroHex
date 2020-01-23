@@ -57,7 +57,7 @@ def temperature(probs, t):
 
 
 class TreeSearchPredictor:
-    def __init__(self, config, model, board, is_first_move, t, T):
+    def __init__(self, config, model, board, is_first_move, t=0.01, T=1):
         self.t = t
         self.T = T
         self.config = config
