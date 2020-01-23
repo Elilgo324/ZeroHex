@@ -20,7 +20,7 @@ def multi_compare(config, model_file1, model_file2):
     param = "t"
     plt_param = t
 
-    num_games = 10
+    num_games = 100
 
     plt.style.use('seaborn-darkgrid')
     plt.ylim(0, 1)
