@@ -1,4 +1,6 @@
 import math
+import random
+
 import numpy
 import asyncio
 
@@ -130,9 +132,13 @@ class Node:
         """
         insert temperature here
         """
-        probabilities = softmax([edge.priority(visits_sqrt) for edge in self.edges])
+        priorities = [edge.priority(visits_sqrt) for edge in self.edges]
+        probabilities = softmax(priorities)
         temp_probabilities = temperature(probabilities, self.t)
-        best_edge_index = np.argmax(temp_probabilities)
+
+        shlomo_probs = [x+(random.randint(3)/10000) for x in temp_probabilities]
+
+        best_edge_index = np.argmax(shlomo_probs)
         best_edge = self.edges[best_edge_index]
 
         value = await best_edge.visit(config, predictor, board, is_first_move)
