@@ -1,6 +1,6 @@
 import numpy as np
 from agent1_zero_dnn.compare import *
-from agent1_zero_dnn.tree_search import TreeSearchPredictor
+from agent1_zero_dnn.tree_search import TreeSearchPredictor,temperature
 from convertor.Convertor_ver4 import convert
 from convertor.Convertor_ver4 import convert_last_moves
 from agent1_zero_dnn.game import ori_moves,best_k_moves,new_board
@@ -17,23 +17,19 @@ model=load_model(model_name)
 predictor = TreeSearchPredictor(config.search_config, model, new_board(config.size), True)
 
 
-def update_temp(loss=1):
+def update_temp(x,y,w,m=0,v=0):
     """
     deriev loss according params
     deraive 1-0 loss according temp
     :param loss:
     :return:
     """
-    num_iterations = 0
-    epsilon = 0
-    beta_1 = 0
-    beta_2 = 0
-    step_size = 0
-    m = 0
-    v = 0
-    w = 0
-    x = 0
-    y = 0
+    num_iterations = 10000
+    epsilon = 1e-08
+    beta_1 = 0.9
+    beta_2 = 0.999
+    step_size = 0.001
+
     for t in range(num_iterations):
         g = compute_gradient(x, y)
         m = beta_1 * m + (1 - beta_1) * g
@@ -48,11 +44,18 @@ def update_temp(loss=1):
 def compute_gradient(x, y):
     return 0
 
-def loss(x, y):
+def log_loss(x, y):
     epsilon = 0.00001
     return -math.log(x[y]+epsilon)
     #return -math.log(x[y]*3+epsilon)
 
+def loss(x,y):
+    N = 15
+    res = sorted(range(len(x)),key=lambda sub: x[sub])[-N:]
+    if y in res:
+        return 0
+    epsilon = 0.00001
+    return -math.log(x[y] + epsilon)
 
 def learning():
     # params
@@ -61,10 +64,10 @@ def learning():
 
     # hyper params
     rate = 0.001
-    e_t = 0.1
-    e_T = 0.1
+    e_t = 1
+    e_T = 0.01
 
-    #players = os.listdir('data_text_games_name_in_first_line')
+    #players = os.listdir('../data_text_games_name_in_first_line')
     players = ["../data_text_games/2300.txt"]
     for player in players:
         moves = convert(player)
@@ -95,8 +98,8 @@ def learning():
             t_grad = (loss(x,y) - loss(et_x,y)) / e_t
             T_grad = (loss(x,y) - loss(eT_x,y)) / e_T
 
-            t += rate * t_grad
-            T += rate * T_grad
+            t -= rate * t_grad
+            T -= rate * T_grad
             print("t: "+str(t)+" ..... T: "+str(T))
     return t,T           
 
