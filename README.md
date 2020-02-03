@@ -3,26 +3,17 @@ Human players prefer training with human opponents over agents as the latter are
 Agents designed for human-agent play are capable of adjusting their level, however their style is not aligned with that of human players.
 In this work, we implement approach for designing such agents.
 
-### Supervision and Original Paper
-TODO
-
 ## Data
 We found lists of ELO ranked players and their games (board size 11X11) at http://www.littlegolem.net/jsp/info/player_list.jsp?gtvar=hex_HEX11&countryid=&filter=&Send=submit.
 
-### Original Representation Example
+### Original Format
 (;FF[4]EV[hex.mc.2010.oct.1.11]PB[Maciej Celuch]PW[pensando]SZ[13]RE[B]GC[ game #1254910]SO[http://www.littlegolem.com];W[mf];B[gg];W[de];B[df];W[ji];B[if];W[ld];B[jg];W[jf];B[ig];W[kg];B[kc];W[mb];B[ma];W[lb];B[la];W[kb];B[ka];W[jb];B[ja];W[hc];B[hb];W[fd];B[fc];W[ib];B[ia];W[gc];B[gb];W[cd];B[da];W[eb];B[dd];W[ce];B[dc];W[cc];B[db];W[bb];B[le];W[kf];B[ke];W[je];B[il];W[jj];B[kk];W[hk];B[resign])
-
-### Our Representation
-TODO
 
 ### More Sources
 http://hex.kosmanor.com/hex-bin/board/.
 
 ## The DNN
-TODO
-
-### Note
-The focus in humanizing the agent was in adjusting the search tree's parameters and not the nn's. 
+Note that the focus in humanizing the agent was in adjusting the search tree's parameters and not the nn's. 
 
 ## Training the DNN
 `hex_zero_model.py` contains the building of the Deep Neural Network used for policy and value prediction.
