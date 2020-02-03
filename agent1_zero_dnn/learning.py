@@ -9,6 +9,7 @@ import sys
 import numpy as np
 import os
 from agent1_zero_dnn.config import CompareConfig
+import math
 
 
 model_name="model"
@@ -17,28 +18,24 @@ model=load_model(model_name)
 predictor = TreeSearchPredictor(config.search_config, model, new_board(config.size), True)
 
 
-def update_temp(x,y,w,m=0,v=0):
-    """
-    deriev loss according params
-    deraive 1-0 loss according temp
-    :param loss:
-    :return:
-    """
-    num_iterations = 10000
-    epsilon = 1e-08
-    beta_1 = 0.9
-    beta_2 = 0.999
-    step_size = 0.001
+def adam(params,grads,lr,vs,sqrs,i):
+    beta1 = 0.9
+    beta2 = 0.999
+    eps_stable = 1e-8
+    ret_params = []
 
-    for t in range(num_iterations):
-        g = compute_gradient(x, y)
-        m = beta_1 * m + (1 - beta_1) * g
-        v = beta_2 * v + (1 - beta_2) * np.power(g, 2)
-        m_hat = m / (1 - np.power(beta_1, t))
-        v_hat = v / (1 - np.power(beta_2, t))
-        w = w - step_size * m_hat / (np.sqrt(v_hat) + epsilon)
+    for param,grad,v,sqr in zip(params,grads,vs,sqrs):
+        g = grad
 
-    return None
+        v = beta1 * v + (1. - beta1) * g
+        sqr = beta2 * sqr + (1. - beta2) * np.square(g)
+
+        v_bias_corr = v / (1. - beta1 ** i)
+        sqr_bias_corr = sqr / (1. - beta2 ** i)
+
+        div = lr * v_bias_corr / (math.sqrt(sqr_bias_corr) + eps_stable)
+        ret_params.append(param - div)
+    return ret_params
 
 
 def compute_gradient(x, y):
@@ -63,10 +60,12 @@ def learning():
     T = 1
 
     # hyper params
-    rate = 0.001
+    lr = 0.001
     e_t = 1
     e_T = 0.01
 
+    i = 0
+    vs,sqrs = [0,0],[0,0]
     #players = os.listdir('../data_text_games_name_in_first_line')
     players = ["../data_text_games/2300.txt"]
     for player in players:
@@ -98,8 +97,11 @@ def learning():
             t_grad = (loss(x,y) - loss(et_x,y)) / e_t
             T_grad = (loss(x,y) - loss(eT_x,y)) / e_T
 
-            t -= rate * t_grad
-            T -= rate * T_grad
+            grads = [t_grad,T_grad]
+            params = [t,T]
+            i += 1
+            t,T = adam(params,grads,lr,vs,sqrs,i)
+
             print("t: "+str(t)+" ..... T: "+str(T))
     return t,T           
 
