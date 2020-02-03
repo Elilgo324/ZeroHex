@@ -44,7 +44,7 @@ def update_temp(x,y,w,m=0,v=0):
 def compute_gradient(x, y):
     return 0
 
-def log_loss(x, y):
+def neglog_loss(x, y):
     epsilon = 0.00001
     return -math.log(x[y]+epsilon)
     #return -math.log(x[y]*3+epsilon)
