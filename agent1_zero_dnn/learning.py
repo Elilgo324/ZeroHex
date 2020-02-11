@@ -61,15 +61,15 @@ def learning():
 
     # hyper params
     lr = 0.001
-    e_t = 1
+    e_t = 0.01
     e_T = 0.01
 
     i = 0
     vs,sqrs = [0,0],[0,0]
-    #players = os.listdir('../data_text_games_name_in_first_line')
-    players = ["../data_text_games/2300.txt"]
+    players = os.listdir('../bert')
+    #players = ["../data_text_games/2300.txt"]
     for player in players:
-        moves = convert(player)
+        moves = convert("../data_text_games/" + str(player))
         for move in moves:
             predictor.board = np.array(move.board_stt)
             predictor.is_first_move = False
