@@ -50,6 +50,9 @@ Creation of mcts consists four stages:
 ## Evaluating against various players
 `Hex.py` contains several functions to play against different players (Self, Random, HexPlayerBryce), where you can specify the number of games and who's player 1, and whether to show the game turn by turn. 
 
+## Rivals
+Find more agents to test against here https://github.com/cgao3/benzene-vanilla-cmake.
+
 ### Command
 `python3 Hex.py`.
 
