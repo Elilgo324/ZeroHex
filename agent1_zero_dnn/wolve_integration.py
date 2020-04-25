@@ -10,7 +10,6 @@ class WolveProcess:
         command = f'play {color} {move}\n'.encode()
         self.proc.stdin.write(command)
         self.proc.stdin.flush()
-
         output = self.proc.stdout.read(4).decode()
         self.proc.stdout.flush()
         return "=" in output
@@ -19,10 +18,11 @@ class WolveProcess:
         command = f'genmove {color}\n'.encode()
         self.proc.stdin.write(command)
         self.proc.stdin.flush()
+        #print(self.proc.stdout.read(6).decode())
         output = self.proc.stdout.read(6).decode()
         self.proc.stdout.flush()
         move = output.split("= ")[-1].strip()
-        print(output)
+        #print(output)
         if move[0] == 'r':
             return "winner"
         else:
@@ -32,7 +32,7 @@ class WolveProcess:
         command = 'showboard\n'.encode()
         self.proc.stdin.write(command)
         self.proc.stdin.flush()
-        output = self.proc.stdout.read(764).decode()
+        output = self.proc.stdout.read(573).decode()
         self.proc.stdout.flush()
         return output
 
@@ -40,7 +40,8 @@ class WolveProcess:
         command = f'boardsize {size}\n'.encode()
         self.proc.stdin.write(command)
         self.proc.stdin.flush()
-        output = self.proc.stdout.read(764).decode()
+        #print(self.proc.stdout.read(4).decode())
+        output = self.proc.stdout.read(4).decode()
         self.proc.stdout.flush()
         return "=" in output
 
@@ -51,12 +52,18 @@ class WolveProcess:
 
 
 if __name__ == '__main__':
+    wolve = WolveProcess('/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve')
+    wolve.boardsize(11)
+    print(wolve.showboard())
+    # lets say alpha generated a1 move - play w a1 to wolve
+    wolve.insert_move('w', 'a1')
+    # wolve turn
+    m1 = wolve.genmove('b')
+    print(wolve.showboard())
+    # alpha turn
+    wolve.insert_move('w', 'c10')
+    # wolve move
+    m2 = wolve.genmove('b')
+    print(wolve.showboard())
 
-    wolve = WolveProcess('/home/shlomo/Documents/Hex/build/src/wolve/wolve')
-    # print(wolve.showboard())
-    for i in range(30):
-        move = wolve.genmove("white")
-        print(move)
 
-    # wolve.insert_move("black", "a6")
-    # print(wolve.showboard())
