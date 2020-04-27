@@ -19,6 +19,22 @@ num_to_letter = {
     8: "i",
     9: "j",
     10: "k",
+    11: "l"
+}
+
+letter_to_num = {
+    "a": 0,
+    "b": 1,
+    "c": 2,
+    "d": 3,
+    "e": 4,
+    "f": 5,
+    "g": 6,
+    "h": 7,
+    "i": 8,
+    "j": 9,
+    "k": 10,
+    "l": 11
 }
 
 def compare(config, num_games):
@@ -40,17 +56,22 @@ def compare(config, num_games):
             # insert move to wolve
             letter, number = move
             alpha_move = str(num_to_letter[letter]) + str(number + 1)
+            print(f'alpha: {alpha_move}')
             wolve.insert_move("white", alpha_move)
             if winner(alpha_agent.board):
                 print("alpha win!!!")
                 break
             # wolve turn
             wolve_move = wolve.genmove("black")
+            if wolve_move == "winner":
+                print("wolve win!!!")
+                break
+            print(f'wolve: {wolve_move}')
+            letter = letter_to_num[wolve_move[0]]
+            number = int(wolve_move[1:]) - 1
+            wolve_move = (letter, number)
+            # print(f'b: {wolve_move}')
             print(wolve.showboard())
-
-            # get wolve response and insert it to alpha_agent.board
-            # check if wolve won
-            # end of loop
 
 
         games += 1

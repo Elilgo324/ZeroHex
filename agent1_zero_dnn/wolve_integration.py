@@ -19,9 +19,14 @@ class WolveProcess:
         command = f'genmove {color}\n'.encode()
         self.proc.stdin.write(command)
         self.proc.stdin.flush()
-        output = self.proc.stdout.read(4).decode()
+        output = self.proc.stdout.read(6).decode()
         self.proc.stdout.flush()
-        return output
+        move = output.split("= ")[-1].strip()
+        print(output)
+        if move[0] == 'r':
+            return "winner"
+        else:
+            return move
 
     def showboard(self):
         command = 'showboard\n'.encode()
@@ -37,9 +42,13 @@ class WolveProcess:
         self.proc.wait(timeout=0.2)
 
 
-# wolve = WolveProcess('build/src/wolve/wolve')
-# print(wolve.showboard())
-# move = wolve.genmove("white")
-# print(move)
-# wolve.insert_move("black", "a6")
-# print(wolve.showboard())
+if __name__ == '__main__':
+
+    wolve = WolveProcess('/home/shlomo/Documents/Hex/build/src/wolve/wolve')
+    # print(wolve.showboard())
+    for i in range(30):
+        move = wolve.genmove("white")
+        print(move)
+
+    # wolve.insert_move("black", "a6")
+    # print(wolve.showboard())
