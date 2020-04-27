@@ -1,7 +1,7 @@
 import sys
 import math
 from keras.models import load_model
-from agent1_zero_dnn.game import print_board, winner, flip, flip_move, best_move, new_board, sample_move, shlomo_move
+from agent1_zero_dnn.game import print_board, winner, flip, flip_move, best_move, new_board, sample_move, shlomo_move, fix_probabilities
 from agent1_zero_dnn.tree_search import TreeSearchPredictor, temperature
 from agent1_zero_dnn.config import CompareConfig
 
@@ -50,11 +50,12 @@ def compare(config, num_games):
             # alpha turn
             alpha_agent.run(config.iterations)
             value, probabilities = alpha_agent.predict()
-            # print(probabilities)
-            move = shlomo_move(probabilities)
-            alpha_agent.make_move(move)
+            probabilities = fix_probabilities(alpha_agent.board, probabilities)
+            print(probabilities)
+            alpha_move = best_move(probabilities)
+            alpha_agent.make_move(alpha_move)
             # insert move to wolve
-            letter, number = move
+            letter, number = alpha_move
             alpha_move = str(num_to_letter[letter]) + str(number + 1)
             print(f'alpha: {alpha_move}')
             wolve.insert_move("white", alpha_move)
@@ -70,7 +71,9 @@ def compare(config, num_games):
             letter = letter_to_num[wolve_move[0]]
             number = int(wolve_move[1:]) - 1
             wolve_move = (letter, number)
+            alpha_agent.make_move(wolve_move)
             # print(f'b: {wolve_move}')
+            # todo insert wolve move to alpha board
             print(wolve.showboard())
 
 
@@ -87,9 +90,11 @@ def compare(config, num_games):
 if __name__ == '__main__':
     # multi_compare(CompareConfig(), sys.argv[1], sys.argv[2])
     t = 0.01
-    T = 1
+    T = 0.01
     model = load_model('/home/shlomo/Documents/zeroHex/agent1_zero_dnn/model')
     wolve = WolveProcess("/home/shlomo/Documents/Hex/build/src/wolve/wolve")
+    res = wolve.boardsize("11")
+    print(res)
     compare(CompareConfig(), num_games=100)
 
 # print_board(flip(predictors[0].board), move, file=sys.stderr)

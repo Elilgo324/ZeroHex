@@ -36,6 +36,14 @@ class WolveProcess:
         self.proc.stdout.flush()
         return output
 
+    def boardsize(self, size):
+        command = f'boardsize {size}\n'.encode()
+        self.proc.stdin.write(command)
+        self.proc.stdin.flush()
+        output = self.proc.stdout.read(764).decode()
+        self.proc.stdout.flush()
+        return "=" in output
+
     def close(self):
         self.proc.stdin.close()
         self.proc.terminate()
