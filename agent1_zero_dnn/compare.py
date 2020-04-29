@@ -4,9 +4,9 @@ import numpy as np
 
 from keras.models import load_model
 
-from game import print_board, winner, flip, flip_move, best_move, new_board, sample_move, shlomo_move
-from tree_search import TreeSearchPredictor, temperature
-from config import CompareConfig
+from agent1_zero_dnn.game import print_board, winner, flip, flip_move, best_move, new_board, sample_move, shlomo_move
+from agent1_zero_dnn.tree_search import TreeSearchPredictor, temperature
+from agent1_zero_dnn.config import CompareConfig
 
 import matplotlib.pyplot as plt
 

@@ -91,8 +91,10 @@ if __name__ == '__main__':
     # multi_compare(CompareConfig(), sys.argv[1], sys.argv[2])
     t = 0.01
     T = 0.01
-    model = load_model('/home/shlomo/Documents/zeroHex/agent1_zero_dnn/model')
-    wolve = WolveProcess("/home/shlomo/Documents/Hex/build/src/wolve/wolve")
+    # /home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn
+    model = load_model('/home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn/model')
+    # /home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve
+    wolve = WolveProcess("/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve")
     res = wolve.boardsize("11")
     print(res)
     compare(CompareConfig(), num_games=100)
