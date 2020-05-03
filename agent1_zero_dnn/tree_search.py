@@ -4,8 +4,8 @@ import random
 import numpy
 import asyncio
 
-from game import winner, make_move, normalize
-from batch_predictor import BatchPredictor
+from agent1_zero_dnn.game import winner, make_move, normalize
+from agent1_zero_dnn.batch_predictor import BatchPredictor
 
 import numpy as np
 

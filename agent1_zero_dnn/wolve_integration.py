@@ -45,6 +45,14 @@ class WolveProcess:
         self.proc.stdout.flush()
         return "=" in output
 
+    def clear_board(self):
+        command = f'clear_board\n'.encode()
+        self.proc.stdin.write(command)
+        self.proc.stdin.flush()
+        output = self.proc.stdout.read(4).decode()
+        self.proc.stdout.flush()
+        return "=" in output
+
     def close(self):
         self.proc.stdin.close()
         self.proc.terminate()
