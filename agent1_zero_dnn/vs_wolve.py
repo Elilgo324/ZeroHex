@@ -45,6 +45,87 @@ def compare(config, num_games):
     # while True:
     for i in range(num_games):
         alpha_agent = TreeSearchPredictor(config.search_config, model, new_board(config.size), True, t, T)
+        # make sure wolve have new clear board
+        wolve.clear_board()
+        # start game
+        print('its game number: ', i)
+        while not winner(alpha_agent.board):
+            # alpha turn
+            alpha_agent.run(config.iterations)
+            value, probabilities = alpha_agent.predict()
+            #print(probabilities)
+            #probabilities = fix_probabilities(alpha_agent.board, probabilities)
+            probabilities = fix_probabilities(alpha_agent.board, probabilities)
+            #print(probabilities)
+            alpha_move = best_move(probabilities)
+            alpha_agent.make_move(alpha_move)
+            # insert move to wolve
+            letter, number = alpha_move
+            alpha_move = str(num_to_letter[letter]) + str(number + 1)
+            print(f'alpha(B): {alpha_move}')
+            wolve.insert_move("black", alpha_move)
+            if winner(alpha_agent.board):
+                print("alpha wins!!!")
+                break
+            # wolve turn
+            wolve_move = wolve.genmove("white")
+            if wolve_move == "winner":
+                print("wolve wins!!!")
+                break
+            print(f'wolve(W): {wolve_move}')
+            letter = letter_to_num[wolve_move[0]]
+            number = int(wolve_move[1:]) - 1
+            #wolve_move = (letter, number)
+            wolve_move = (number, letter)
+            # insert wolve move to alpha
+            alpha_agent.make_move(wolve_move)
+            print('wove board:')
+            print(wolve.showboard())
+            print('alpha board:')
+            ##print_board(flip(alpha_agent.board), wolve_move, file=sys.stderr)
+            #print('wolve move at alpha is:' + str(wolve_move))
+            print_board(alpha_agent.board, (-1, -1), file=sys.stderr)
+            ##print_board(alpha_agent.board, flip_move(wolve_move), file=sys.stderr)
+            ##print_board(flip(alpha_agent.board), flip_move(wolve_move), file=sys.stderr)
+
+
+        games += 1
+        first_player_wins += 1
+        win_ratio = float(first_player_wins) / games
+        uncertainty = win_ratio * math.sqrt(win_ratio * (1 - win_ratio) / games)
+
+        ratios.append(win_ratio)
+
+    return ratios
+
+
+if __name__ == '__main__':
+    # multi_compare(CompareConfig(), sys.argv[1], sys.argv[2])
+    t = 0.01
+    T = 0.01
+    # /home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn
+    model = load_model('/home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn/model')
+    # /home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve
+    wolve = WolveProcess("/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve")
+    res = wolve.boardsize("11")
+    #print(res)
+    compare(CompareConfig(), num_games=3)
+
+# print_board(flip(predictors[0].board), move, file=sys.stderr)
+# print_board(predictors[0].board, flip_move(move), file=sys.stderr)
+# if games > 0:
+# print('Win ratio %.2f ± %.2f (%d games)' % (win_ratio, uncertainty, games), file=sys.stderr)
+
+
+'''
+def compare(config, num_games):
+    games = 0
+    first_player_wins = 0
+    win_ratio, uncertainty = None, None
+    ratios = []
+    # while True:
+    for i in range(num_games):
+        alpha_agent = TreeSearchPredictor(config.search_config, model, new_board(config.size), True, t, T)
 
         while not winner(alpha_agent.board):
             # alpha turn
@@ -96,21 +177,4 @@ def compare(config, num_games):
         ratios.append(win_ratio)
 
     return ratios
-
-
-if __name__ == '__main__':
-    # multi_compare(CompareConfig(), sys.argv[1], sys.argv[2])
-    t = 0.01
-    T = 0.01
-    # /home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn
-    model = load_model('/home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn/model')
-    # /home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve
-    wolve = WolveProcess("/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve")
-    res = wolve.boardsize("11")
-    #print(res)
-    compare(CompareConfig(), num_games=5)
-
-# print_board(flip(predictors[0].board), move, file=sys.stderr)
-# print_board(predictors[0].board, flip_move(move), file=sys.stderr)
-# if games > 0:
-# print('Win ratio %.2f ± %.2f (%d games)' % (win_ratio, uncertainty, games), file=sys.stderr)
+'''
