@@ -67,17 +67,8 @@ class WolveProcess:
 
 
 if __name__ == '__main__':
-    players_arr = [[0.01, 0.01, 'Lisa'], [0.24, 0.08, 'Bart']]
+    #players_arr = [[0.01, 0.01, 'Lisa'], [0.24, 0.08, 'Bart']]
 
-    for player in players_arr:
-        print(player[0], 'is number1')
-        print(player[1], 'is number2')
-        print(player[2], 'is number3')
-
-
-
-
-    '''
     wolve = WolveProcess('/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve')
     wolve.boardsize(11)
 
@@ -101,8 +92,6 @@ if __name__ == '__main__':
     # wolve move
     wolve.genmove('w')
     print(wolve.showboard())
-
-    '''
 
 
     '''

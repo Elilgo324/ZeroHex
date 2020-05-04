@@ -104,7 +104,6 @@ def compare(config, num_games, temp, Temp, name):
 if __name__ == '__main__':
     # multi_compare(CompareConfig(), sys.argv[1], sys.argv[2])
 
-    #
     model = load_model('/home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn/model')
     # /home/avshalom/PycharmProjects/benzene-vanilla-cmake
     wolve = WolveProcess("/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve")
@@ -115,7 +114,6 @@ if __name__ == '__main__':
     wolve.param_wolve('use_cache_book', 0)
     wolve.param_wolve('ply_width', 1)
     wolve.param_wolve('tt_bits', 2)
-
     # competition
     num_games = 10
     players_arr = [[0.01, 0.01, 'Lisa'], [0.24, 0.08, 'Bart'], [0.44, 0.3, 'Maggie'], [0.49, 0.38, 'Homer']]
@@ -123,6 +121,7 @@ if __name__ == '__main__':
     for player in players_arr:
         wolve_vic = compare(CompareConfig(), num_games, player[0], player[1], player[2])
         print(player[2], 'percent is: ', wolve_vic*100, '%')
+
 
 
 '''
