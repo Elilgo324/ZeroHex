@@ -113,6 +113,8 @@ if __name__ == '__main__':
     wolve.param_wolve('use_cache_book', 0)
     wolve.param_wolve('ply_width', 1)
     wolve.param_wolve('tt_bits', 2)
+
+
     # competition
     num_games = 10
     players_arr = [[0.01, 0.01, 'Lisa'], [0.24, 0.08, 'Bart'], [0.44, 0.3, 'Maggie'], [0.49, 0.38, 'Homer']]
