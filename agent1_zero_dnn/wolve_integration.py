@@ -67,6 +67,7 @@ class WolveProcess:
 
 
 if __name__ == '__main__':
+
     #players_arr = [[0.01, 0.01, 'Lisa'], [0.24, 0.08, 'Bart']]
 
     wolve = WolveProcess('/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve')

@@ -103,7 +103,6 @@ def compare(config, num_games, temp, Temp, name):
 
 if __name__ == '__main__':
     # multi_compare(CompareConfig(), sys.argv[1], sys.argv[2])
-
     model = load_model('/home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn/model')
     # /home/avshalom/PycharmProjects/benzene-vanilla-cmake
     wolve = WolveProcess("/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve")
