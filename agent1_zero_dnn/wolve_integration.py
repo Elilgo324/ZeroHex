@@ -67,26 +67,20 @@ class WolveProcess:
 
 
 if __name__ == '__main__':
+    players_arr = [[0.01, 0.01, 'Lisa'], [0.24, 0.08, 'Bart']]
+
+    for player in players_arr:
+        print(player[0], 'is number1')
+        print(player[1], 'is number2')
+        print(player[2], 'is number3')
+
+
+
+
+    '''
     wolve = WolveProcess('/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve')
     wolve.boardsize(11)
-    '''
-    param_wolve
-    = 
-    [bool] backup_ice_info 1
-    [bool] ponder 0
-    [bool] use_cache_book 1
-    [bool] use_guifx 0
-    [bool] search_singleton 0
-    [bool] use_parallel_solver 0
-    [bool] use_time_management 0
-    [bool] use_early_abort 0
-    [string] ply_width 15
-    [string] specific_ply_widths ""
-    [string] max_depth 99
-    [string] max_time 10
-    [string] min_depth 1
-    [string] tt_bits 20
-    '''
+
     wolve.param_wolve('max_time', 0.05)
     wolve.param_wolve('max_depth', 2)
     wolve.param_wolve('use_cache_book', 0)
@@ -108,4 +102,24 @@ if __name__ == '__main__':
     wolve.genmove('w')
     print(wolve.showboard())
 
+    '''
 
+
+    '''
+    param_wolve
+    = 
+    [bool] backup_ice_info 1
+    [bool] ponder 0
+    [bool] use_cache_book 1
+    [bool] use_guifx 0
+    [bool] search_singleton 0
+    [bool] use_parallel_solver 0
+    [bool] use_time_management 0
+    [bool] use_early_abort 0
+    [string] ply_width 15
+    [string] specific_ply_widths ""
+    [string] max_depth 99
+    [string] max_time 10
+    [string] min_depth 1
+    [string] tt_bits 20
+    '''
