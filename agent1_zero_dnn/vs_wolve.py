@@ -37,6 +37,7 @@ letter_to_num = {
     "l": 11
 }
 
+
 def compare(config, num_games):
     games = 0
     first_player_wins = 0
@@ -56,7 +57,7 @@ def compare(config, num_games):
             #print(probabilities)
             #probabilities = fix_probabilities(alpha_agent.board, probabilities)
             probabilities = fix_probabilities(alpha_agent.board, probabilities)
-            #print(probabilities)
+            print(probabilities)
             alpha_move = best_move(probabilities)
             alpha_agent.make_move(alpha_move)
             # insert move to wolve
@@ -66,12 +67,9 @@ def compare(config, num_games):
             wolve.insert_move("black", alpha_move)
             if winner(alpha_agent.board):
                 print("alpha wins!!!")
-                break
+                continue
             # wolve turn
             wolve_move = wolve.genmove("white")
-            if wolve_move == "winner":
-                print("wolve wins!!!")
-                break
             print(f'wolve(W): {wolve_move}')
             letter = letter_to_num[wolve_move[0]]
             number = int(wolve_move[1:]) - 1
@@ -81,12 +79,15 @@ def compare(config, num_games):
             alpha_agent.make_move(wolve_move)
             print('wove board:')
             print(wolve.showboard())
-            print('alpha board:')
-            ##print_board(flip(alpha_agent.board), wolve_move, file=sys.stderr)
-            #print('wolve move at alpha is:' + str(wolve_move))
-            print_board(alpha_agent.board, (-1, -1), file=sys.stderr)
-            ##print_board(alpha_agent.board, flip_move(wolve_move), file=sys.stderr)
-            ##print_board(flip(alpha_agent.board), flip_move(wolve_move), file=sys.stderr)
+            # print('alpha board:')
+            # print_board(flip(alpha_agent.board), wolve_move, file=sys.stderr)
+            if winner(alpha_agent.board):
+                print("wolve wins!!!")
+                continue
+            # print('wolve move at alpha is:' + str(wolve_move))
+            # print_board(alpha_agent.board, (-1, -1), file=sys.stderr)
+            # print_board(alpha_agent.board, flip_move(wolve_move), file=sys.stderr)
+            # print_board(flip(alpha_agent.board), flip_move(wolve_move), file=sys.stderr)
 
 
         games += 1
@@ -103,12 +104,10 @@ if __name__ == '__main__':
     # multi_compare(CompareConfig(), sys.argv[1], sys.argv[2])
     t = 0.01
     T = 0.01
-    # /home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn
-    model = load_model('/home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn/model')
-    # /home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve
-    wolve = WolveProcess("/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve")
+    model = load_model('/home/shlomo/Documents/zeroHex/agent1_zero_dnn/model')
+    wolve = WolveProcess("/home/shlomo/Documents/Hex/build/src/wolve/wolve")
     res = wolve.boardsize("11")
-    #print(res)
+    # print(res)
     compare(CompareConfig(), num_games=3)
 
 # print_board(flip(predictors[0].board), move, file=sys.stderr)
