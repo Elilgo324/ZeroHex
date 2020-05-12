@@ -3,7 +3,7 @@ Human players prefer training with human opponents over agents as the latter are
 Agents designed for human-agent play are capable of adjusting their level, however their style is not aligned with that of human players.
 In this work, we implement approach for designing such agents.
 
-Our agents based on https://github.com/likeaj6/alphazero-hex.
+Our agents based on https://github.com/gwylim/hexnet.
 
 ## Data
 We found lists of ELO ranked players and their games (board size 11X11) at http://www.littlegolem.net/jsp/info/player_list.jsp?gtvar=hex_HEX11&countryid=&filter=&Send=submit.
