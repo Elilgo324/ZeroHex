@@ -5,6 +5,9 @@ In this work, we implement approach for designing such agents.
 
 Our agents (agent1 folder) are based on https://github.com/gwylim/hexnet.
 
+## Doc
+Read doc of significant part of our work here https://docs.google.com/document/d/10GZNeofaPGmkTV7eE-QRveydXXX6NEnmbwWA05Aiho0/edit.
+
 ## Data
 We found lists of ELO ranked players and their games (board size 11X11) at http://www.littlegolem.net/jsp/info/player_list.jsp?gtvar=hex_HEX11&countryid=&filter=&Send=submit.
 
