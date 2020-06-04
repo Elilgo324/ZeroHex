@@ -1,4 +1,4 @@
-import numpy as np
+
 from agent1_zero_dnn.compare import *
 from agent1_zero_dnn.tree_search import TreeSearchPredictor,temperature
 from convertor.Convertor_ver4 import convert
@@ -61,15 +61,15 @@ def learning():
 
     # hyper params
     lr = 0.001
-    e_t = 0.01
+    e_t = 0.001
     e_T = 0.01
 
     i = 0
     vs,sqrs = [0,0],[0,0]
-    players = os.listdir('../bert')
+    players = os.listdir('../data/humanized_agents_data/bert')
     #players = ["../data_text_games/2300.txt"]
     for player in players:
-        moves = convert("../data_text_games/" + str(player))
+        moves = convert("../data/data_text_games/" + str(player))
         for move in moves:
             predictor.board = np.array(move.board_stt)
             predictor.is_first_move = False
@@ -83,7 +83,7 @@ def learning():
             # probs with close t
             predictor.t = t+e_t
             _,e_probs = predictor.predict()
-            et_x = temperature(fix_probabilities(predictor.board,e_probs), T).reshape(121)
+            et_x = temperature(fix_probabilities(predictor.board,e_probs), T + e_t).reshape(121)
 
             # probs with close T
             predictor.t = t
