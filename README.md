@@ -1,6 +1,6 @@
 # zeroHex 
-Human players prefer training with human opponents over agents as the latter are distinctively different in level and style than humans. 
-Agents designed for human-agent play are capable of adjusting their level, however their style is not aligned with that of human players. 
+Human players prefer training with human opponents over agents as the latter are distinctively different in level and style than humans.  
+Agents designed for human-agent play are capable of adjusting their level, however their style is not aligned with that of human players.  
 In this work, we implement approach for designing such agents.
 
 ## Basic Agent
@@ -35,14 +35,14 @@ Clearly, the rank function isn't one to one, and thus there can be multiple play
 ## Work Components
 Our work contains, among the rest, the following components:
 - The code of the modified and the original agents.
-It contains the original files to create and train the original agent.
-The file compare.py can be run by `compare.py model1 model2` to compare the models.
-The file learning.py can be run by `learning.py` to train the agent to fit the rank of a banch of games.
-- Inside the agent folder there are also files that used to run our agents against the agent wolve.
-It can be run by `vs_wolve.py`. Modify the hard coded paths inside.
-Some integration details (commands, parameters and more) can be founded inside `wolve_integration.py`.
+It contains the original files to create and train the original agent.  
+The file compare.py can be run by `compare.py model1 model2` to compare the models.  
+The file learning.py can be run by `learning.py` to train the agent to fit the rank of a banch of games.  
+- Inside the agent folder there are also files that used to run our agents against the agent wolve.  
+It can be run by `vs_wolve.py`. Modify the hard coded paths inside.  
+Some integration details (commands, parameters and more) can be founded inside `wolve_integration.py`.  
 - The convertor contains scripts to handle and arrange the original games records.
-- The evaluation tool can be used to evaluate the accuracy of predicting the next move given a board state. 
+- The evaluation tool can be used to evaluate the accuracy of predicting the next move given a board state.  
 It can be run by `eval.py`. Notice that the paths and games are hard coded inside (and can easily be modified).
 - The gui that can be used by human to play against the agents.
 The original application had some bugs in it, that we fixed in this version.
