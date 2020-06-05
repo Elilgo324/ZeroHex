@@ -3,7 +3,7 @@ from agent1_zero_dnn.compare import *
 from agent1_zero_dnn.tree_search import TreeSearchPredictor,temperature
 from convertor.Convertor_ver4 import convert
 from convertor.Convertor_ver4 import convert_last_moves
-from agent1_zero_dnn.game import ori_moves,best_k_moves,new_board
+from agent1_zero_dnn.game import refined_moves,best_k_moves,new_board
 from agent1_zero_dnn.generate import fix_probabilities
 import sys
 import numpy as np

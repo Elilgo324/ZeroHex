@@ -1,3 +1,18 @@
+
+# run vs wolve
+model = load_model('/home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn/model')
+    # /home/avshalom/PycharmProjects/benzene-vanilla-cmake
+    wolve = WolveProcess("/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve")
+    res
+
+
+# compare models
+/Users/orifogler/PycharmProjects/zeroHex/agent1_zero_dnn/compare.py
+model model
+
+# training
+/Users/orifogler/PycharmProjects/zeroHex/agent1_zero_dnn/learning.py
+
 # zeroHex 
 Human players prefer training with human opponents over agents as the latter are distinctively different in level and style than humans.
 Agents designed for human-agent play are capable of adjusting their level, however their style is not aligned with that of human players.

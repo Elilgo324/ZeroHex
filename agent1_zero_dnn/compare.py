@@ -4,7 +4,7 @@ import numpy as np
 
 from keras.models import load_model
 
-from agent1_zero_dnn.game import print_board, winner, flip, flip_move, best_move, new_board, sample_move, shlomo_move
+from agent1_zero_dnn.game import print_board, winner, flip, flip_move, best_move, new_board, sample_move, refined_move
 from agent1_zero_dnn.tree_search import TreeSearchPredictor, temperature
 from agent1_zero_dnn.config import CompareConfig
 
@@ -96,7 +96,7 @@ def compare(config, model1, model2, t, T, num_games):
                 probabilities = temperature(probabilities,T)
                 # print(probabilities)
 
-            move = shlomo_move(probabilities)
+            move = refined_move(probabilities)
 
             for predictor in predictors:
                 predictor.make_move(move)

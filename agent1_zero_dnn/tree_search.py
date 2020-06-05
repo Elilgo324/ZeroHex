@@ -136,7 +136,7 @@ class Node:
         probabilities = softmax(priorities)
         temp_probabilities = temperature(probabilities, self.t)
 
-        #shlomo_probs = [(x+(random.randint(0,5)/10000)) for x in temp_probabilities]
+        #refined_probs = [(x+(random.randint(0,5)/10000)) for x in temp_probabilities]
 
         #best_edge_index = np.argmax(shlomo_probs)
         best_edge_index = numpy.random.choice(range(len(temp_probabilities)), p=temp_probabilities)

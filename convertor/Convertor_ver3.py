@@ -1,7 +1,7 @@
 # script gets HEX games in letters like: W[aa];B[bb];W[cd];B[dd])
 # prints the board in every step
 
-from convertor.avshalom_move import Move
+from convertor.Move import Move
 import copy
 
 #filename = "../data_text_games_name_in_first_line/2062.txt"

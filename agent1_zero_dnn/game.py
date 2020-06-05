@@ -154,7 +154,7 @@ class Pos(object):
     def __repr__(self):
         return '({}, {})'.format(self.x, self.y)
 
-def shlomo_move(probabilities):
+def refined_move(probabilities):
     '''
     Shlomo move from probability distribution.
     '''
@@ -165,7 +165,7 @@ def shlomo_move(probabilities):
     return pos.x, pos.y
 
 
-def ori_moves(probabilities, set_len):
+def refined_moves(probabilities, set_len):
     '''
     Ori moves from probability distribution. return set of 15 tuples
     '''
