@@ -24,17 +24,25 @@ Check the also the site http://hex.kosmanor.com/hex-bin/board/.
 There is a potential to mine from it more games. 
 
 ### Our Datasets
-We produced, among the resy, the following datasets:
-- files of all the players according their rank (for instance, the file 1234.txt belongs to a player with rank 1234)
+We produced, among the rest, the following datasets:
+- Files of all the players according their rank (for instance, the file 1234.txt belongs to a player with rank 1234)
 Clearly, the rank function isn't one to one, and thus there can be multiple players with the same rank.
-- files of all the players according their rank, when the name of the player is at the first line.
-- the files used to train the humanized agents, separated.
-- the original bunch from littlegolem.
-- the records of the games between our agent and wolve.
+- Files of all the players according their rank, when the name of the player is at the first line.
+- The files used to train the humanized agents, separated.
+- The original bunch from littlegolem.
+- The records of the games between our agent and wolve.
 
-## Rivals
+## Work Components
 Our work contains, among the rest, the following components:
--
+- The code of the modified and the original agents.
+It contains the original files to create and train the original agent.
+The file compare.py can be run by 'compare.py model1 model2' to compare the models.
+The file learning.py can be run by 'learning.py' to train the agent to fit the rank of a banch of games.
+- The convertor contains scripts to handle and arrange the original games records.
+- The evaluation tool can be used to evaluate the accuracy of predicting the next move given a board state. 
+It can be run by 'eval.py'. Notice that the paths and games are hard coded inside (and can easily be modified).
+- The gui that can be used by human to play against the agents.
+The original application had some bugs in it, that we fixed in this version.
 
 ## Rivals
 Find more agents to test against here https://github.com/cgao3/benzene-vanilla-cmake.
@@ -46,7 +54,7 @@ Playing against the agent can be done by using https://github.com/DebuggerOR/hex
 The work done by Avshalom , Ori and Shlomo as undergraduates' final project at Bar Ilan University.
 
 ## Some Theory
-At the beginning of the work, some of theoretic material was needed to caught up.
+At the beginning of the work, some of theoretic material was needed to be caught up.
 
 ### The DNN
 Note that the focus in humanizing the agent was in adjusting the search tree's parameters and not the nn's. 
@@ -79,4 +87,3 @@ http://u.cs.biu.ac.il/~sarit/advai2018/MCTS.pdf.
 https://medium.com/oracledevs/lessons-from-implementing-alphazero-7e36e9054191 and more at medium.com.
 
 https://notes.jasonljin.com/projects/2018/05/20/Training-AlphaZero-To-Play-Hex.html.
-
