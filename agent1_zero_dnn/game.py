@@ -154,10 +154,8 @@ class Pos(object):
     def __repr__(self):
         return '({}, {})'.format(self.x, self.y)
 
+
 def refined_move(probabilities):
-    '''
-    Shlomo move from probability distribution.
-    '''
     size = probabilities.shape[0]
     board = [Pos(x, y) for x in range(size) for y in range(size)]
     probabilities = probabilities.reshape(size**2)
@@ -166,10 +164,6 @@ def refined_move(probabilities):
 
 
 def refined_moves(probabilities, set_len):
-    '''
-    Ori moves from probability distribution. return set of 15 tuples
-    '''
-    # todo: change set to list
     # if random chose same index - probably we not need 15 results
     moves = set()
     size = probabilities.shape[0]
@@ -182,9 +176,11 @@ def refined_moves(probabilities, set_len):
 
 
 def sample_move(probabilities):
-    '''
+    """
     Sample move from probability distribution.
-    '''
+    :param probabilities:
+    :return:
+    """
     size = probabilities.shape[0]
     r = random.random()
     for x in range(size):
@@ -201,4 +197,5 @@ def write_move(move):
 
 
 def read_move(move):
-    return (ord(move[0]) - ord('a'), int(move[1:]) - 1)
+    return ord(move[0]) - ord('a'), int(move[1:]) - 1
+

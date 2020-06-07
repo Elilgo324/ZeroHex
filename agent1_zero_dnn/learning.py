@@ -111,5 +111,6 @@ def get_index_from_move(move):
     index = 11 * yy + yx
     return index
 
+
 if __name__ == '__main__':
     learning()

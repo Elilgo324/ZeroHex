@@ -136,14 +136,8 @@ class Node:
         probabilities = softmax(priorities)
         temp_probabilities = temperature(probabilities, self.t)
 
-        #refined_probs = [(x+(random.randint(0,5)/10000)) for x in temp_probabilities]
-
-        #best_edge_index = np.argmax(shlomo_probs)
         best_edge_index = numpy.random.choice(range(len(temp_probabilities)), p=temp_probabilities)
         best_edge = self.edges[best_edge_index]
-        #if self.t != 1:
-        #    print("t=",self.t)
-        #    print(temp_probabilities)
 
         value = await best_edge.visit(config, predictor, board, is_first_move)
         self.value += -value

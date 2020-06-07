@@ -49,39 +49,10 @@ def compare(config, model1, model2, t, T, num_games):
     win_ratio, uncertainty = None, None
 
     ratios = []
-    # while True:
     for i in range(num_games):
         move_index = 0
         predictors = [TreeSearchPredictor(config.search_config,model1,new_board(config.size),True, t, T)
             ,TreeSearchPredictor(config.search_config,model2,new_board(config.size),True)]
-
-        # exp uct of model2 is 100
-        # predictors = ["avshalom", "shlomo"]
-        # config.search_config.uct_factor = 5.0
-        # predictors[0] = TreeSearchPredictor(config.search_config, models[0], new_board(config.size), True)
-        # config.search_config.uct_factor = 100.0
-        # predictors[1] = TreeSearchPredictor(config.search_config, models[1], new_board(config.size), True)
-
-        # exp uct of model2 is 100
-        # predictors = ["avshalom", "shlomo"]
-        # config.search_config.uct_factor = 5.0
-        # predictors[0] = TreeSearchPredictor(config.search_config, models[0], new_board(config.size), True)
-        # config.search_config.uct_factor = 100.0
-        # predictors[1] = TreeSearchPredictor(config.search_config, models[1], new_board(config.size), True)
-
-        # exp virtual loss of model2 is 100
-        # predictors = ["avshalom", "shlomo"]
-        # config.search_config.virtual_loss = 3.0
-        # predictors[0] = TreeSearchPredictor(config.search_config, models[0], new_board(config.size), True)
-        # config.search_config.virtual_loss = 100.0
-        # predictors[1] = TreeSearchPredictor(config.search_config, models[1], new_board(config.size), True)
-
-        # exp virtual loss of model2 is 0
-        # predictors = ["avshalom", "shlomo"]
-        # config.search_config.virtual_loss = 3.0
-        # predictors[0] = TreeSearchPredictor(config.search_config, models[0], new_board(config.size), True)
-        # config.search_config.virtual_loss = 0
-        # predictors[1] = TreeSearchPredictor(config.search_config, models[1], new_board(config.size), True)
 
         while not winner(predictors[0].board):
             if move_index == 0:
@@ -92,21 +63,13 @@ def compare(config, model1, model2, t, T, num_games):
             value, probabilities = predictor.predict()
 
             if games & 1 == move_index & 1:
-                # exp temperature
                 probabilities = temperature(probabilities,T)
-                # print(probabilities)
 
             move = refined_move(probabilities)
 
             for predictor in predictors:
                 predictor.make_move(move)
-            #if games & 1 == move_index & 1:
-                #print_board(flip(predictors[0].board), move, file=sys.stderr)
-            #else:
-                #print_board(predictors[0].board, flip_move(move), file=sys.stderr)
-            #print('%s model win probability: %.2f' % (['First', 'Second'][((games ^ move_index) & 1)], (value + 1) / 2), file=sys.stderr)
-            #if games > 0:
-                #print('Win ratio %.2f ± %.2f (%d games)' % (win_ratio, uncertainty, games), file=sys.stderr)
+
             move_index += 1
         games += 1
         if games & 1 == move_index & 1:
@@ -115,11 +78,10 @@ def compare(config, model1, model2, t, T, num_games):
         uncertainty = win_ratio * math.sqrt(win_ratio * (1 - win_ratio) / games)
 
         ratios.append(win_ratio)
-
     return ratios
 
 
 if __name__ == '__main__':
     multi_compare(CompareConfig(), sys.argv[1], sys.argv[2])
-    #compare(CompareConfig(), sys.argv[1], sys.argv[2])
+
 

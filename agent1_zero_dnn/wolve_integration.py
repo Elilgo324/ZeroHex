@@ -18,7 +18,6 @@ class WolveProcess:
         command = f'genmove {color}\n'.encode()
         self.proc.stdin.write(command)
         self.proc.stdin.flush()
-        #output = self.proc.stdout.read(6).decode()
         output = self.proc.stdout.readline().decode()
         output2 = self.proc.stdout.readline().decode()
         self.proc.stdout.flush()
