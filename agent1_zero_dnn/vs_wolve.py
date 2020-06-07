@@ -1,6 +1,8 @@
+import sys
+import math
 from keras.models import load_model
-from agent1_zero_dnn.game import print_board, winner, best_move, new_board, fix_probabilities
-from agent1_zero_dnn.tree_search import TreeSearchPredictor
+from agent1_zero_dnn.game import print_board, winner, flip, flip_move, best_move, new_board, sample_move, shlomo_move, fix_probabilities
+from agent1_zero_dnn.tree_search import TreeSearchPredictor, temperature
 from agent1_zero_dnn.config import CompareConfig
 
 from agent1_zero_dnn.wolve_integration import WolveProcess
@@ -41,7 +43,9 @@ def compare(config, num_games, temp, Temp, name):
     alpha_wins = 0
     wolve_wins = 0
 
+    # while True:
     for i in range(num_games):
+        # alpha_agent = TreeSearchPredictor(config.search_config, model, new_board(config.size), True, t, T)
         alpha_agent = TreeSearchPredictor(config.search_config, model, new_board(config.size), True, temp, Temp)
 
         # make sure wolve have new clear board
@@ -54,12 +58,17 @@ def compare(config, num_games, temp, Temp, name):
             # alpha turn
             alpha_agent.run(config.iterations)
             value, probabilities = alpha_agent.predict()
+            #print(probabilities)
+            #probabilities = fix_probabilities(alpha_agent.board, probabilities)
             probabilities = fix_probabilities(alpha_agent.board, probabilities)
+            #print(probabilities)
             alpha_move = best_move(probabilities)
+            #print('alphaaaaa: ', alpha_move)
             alpha_agent.make_move(alpha_move)
             # insert move to wolve
             letter, number = alpha_move
             alpha_move = str(num_to_letter[letter]) + str(number + 1)
+            #print(f'alpha(B): {alpha_move}')
             wolve.insert_move("black", alpha_move)
             if winner(alpha_agent.board):
                 print("alpha wins!!!")
@@ -67,11 +76,17 @@ def compare(config, num_games, temp, Temp, name):
                 continue
             # wolve turn
             wolve_move = wolve.genmove("white")
+            #print(f'wolve(W): {wolve_move}')
             letter = letter_to_num[wolve_move[0]]
             number = int(wolve_move[1:]) - 1
+            #wolve_move = (letter, number)
             wolve_move = (number, letter)
             # insert wolve move to alpha
             alpha_agent.make_move(wolve_move)
+            #print('wove board:')
+            #print(wolve.showboard())
+            # print('alpha board:')
+            # print_board(flip(alpha_agent.board), wolve_move, file=sys.stderr)
             if winner(alpha_agent.board):
                 print("wolve wins!!!")
                 wolve_wins += 1
@@ -87,7 +102,9 @@ def compare(config, num_games, temp, Temp, name):
 
 
 if __name__ == '__main__':
+    # multi_compare(CompareConfig(), sys.argv[1], sys.argv[2])
     model = load_model('/home/avshalom/PycharmProjects/zeroHex/agent1_zero_dnn/model')
+    # /home/avshalom/PycharmProjects/benzene-vanilla-cmake
     wolve = WolveProcess("/home/avshalom/PycharmProjects/benzene-vanilla-cmake/build/src/wolve/wolve")
     res = wolve.boardsize("11")
     # limit wolves thinking
@@ -97,6 +114,7 @@ if __name__ == '__main__':
     wolve.param_wolve('ply_width', 1)
     wolve.param_wolve('tt_bits', 2)
 
+
     # competition
     num_games = 10
     players_arr = [[0.01, 0.01, 'Lisa'], [0.24, 0.08, 'Bart'], [0.44, 0.3, 'Maggie'], [0.49, 0.38, 'Homer']]
@@ -104,6 +122,7 @@ if __name__ == '__main__':
     for player in players_arr:
         wolve_vic = compare(CompareConfig(), num_games, player[0], player[1], player[2])
         print(player[2], 'percent is: ', wolve_vic*100, '%')
+
 
 
 '''
